@@ -1,0 +1,11 @@
+name "Babylon 5 - Part 1"
+about "Babylon 5 conversion - Part 1: ships, equipment, factions, and sandbox testing."
+version "0.8.6"
+authors
+	"Fan project"
+tags
+	"Babylon 5"
+	"Ships"
+	"Equipment"
+dependencies
+	"game version" "0.11.2"

@@ -1,0 +1,20 @@
+# Babylon 5 Part 1 test start.
+# Select "Testbed" from the New Pilot starting-scenario list.
+
+# Babylon 5 sandbox start scenario.
+start "b5 testbed"
+	name "Testbed"
+	description "Babylon 5 sandbox start. Begin aboard Babylon 5 at Epsilon with extensive credits and access to all currently implemented Babylon 5 ships and equipment."
+	date 1 1 3017
+	system "Epsilon"
+	planet "Babylon 5"
+	set "b5 testbed start"
+	account
+		credits 10000000000
+		salaries 0
+		maintenance 0
+		score 800
+	conversation
+		scene "scene/babylon5_testbed"
+		`Welcome to Babylon 5. This Testbed start is intended for sandbox testing of ships, equipment, factions, and map content.`
+		name

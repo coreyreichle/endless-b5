@@ -1,0 +1,20 @@
+# Main Babylon 5 storyline start. Testbed start remains available separately.
+start "babylon 5 story"
+	name "Babylon 5"
+	description "Begin the Babylon 5 storyline in Earth year 2257, aboard Babylon 5."
+	date 1 1 2257
+	system "Epsilon"
+	planet "Babylon 5"
+	set "b5 story start"
+	account
+		credits 10000000
+		salaries 0
+		maintenance 0
+		score 0
+	conversation
+		`I was there at the dawn of the third age of mankind.`
+		`It began in the Earth year 2257, with the founding of the last of the Babylon stations, located deep in neutral space. It was a port of call for refugees, smugglers, businessmen, diplomats . . . and travelers from a hundred worlds. Could be a dangerous place – but we accepted the risk, because Babylon 5 was our last, best hope for peace.`
+		`Under the leadership of its final commander, Babylon 5 was a dream given form: a dream of a galaxy without war, when species from different worlds could live side by side in mutual respect. A dream that was in danger as never before, by the arrival of one man on a mission of destruction.`
+		`Babylon 5 was the last of the Babylon stations. This is its story....`
+		name
+		`You are an Earth Alliance officer newly assigned to Babylon 5. Purchase your transport ship, then enter the spaceport to receive your orders for your next mission.`

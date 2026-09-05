@@ -1,0 +1,19 @@
+# Epsilon system planets.
+# Epsilon III is intentionally inaccessible at the current story stage.
+
+planet "Epsilon I"
+	government "Earth Alliance"
+	attributes "uninhabited"
+	description "The scorched inner world of the Epsilon system."
+
+planet "Epsilon II"
+	government "Earth Alliance"
+	attributes "uninhabited"
+	description "A barren world orbiting between Epsilon I and Epsilon III."
+
+planet "Epsilon III"
+	government "Earth Alliance"
+	attributes "uninhabited"
+	to land
+		never
+	description "Epsilon III lies near Babylon 5, but surface access is not currently permitted."

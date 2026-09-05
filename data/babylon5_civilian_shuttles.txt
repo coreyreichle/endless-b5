@@ -1,0 +1,198 @@
+# Civilian transport shuttles, v0.6.9.
+
+ship "Earth Alliance Courier Shuttle"
+	sprite "ship/ea_courier_shuttle"
+	thumbnail "thumbnail/ea_courier_shuttle"
+	attributes
+		category "Transport"
+		cost 620000
+		mass 145
+		drag 3.2
+		"heat dissipation" 0.78
+		"fuel capacity" 500
+		"cargo space" 200
+		"outfit space" 190
+		"engine capacity" 70
+		"weapon capacity" 20
+		"required crew" 1
+		bunks 19
+		hull 280
+		shields 120
+	outfits
+		"B5 Maneuver Drive"
+		"B5 Fusion Reactor"
+		"B5 Jump Drive"
+		"B5 Light Pulse Cannon"
+	engine -12 48
+	engine 12 48
+	gun 0 -48
+	description "A compact Earth Alliance courier used to move personnel, diplomatic packets, and light cargo between stations and colonies."
+
+ship "Drazi Prowl Shuttle"
+	sprite "ship/drazi_prowl_shuttle"
+	thumbnail "thumbnail/drazi_prowl_shuttle"
+	attributes
+		category "Transport"
+		cost 610000
+		mass 145
+		drag 3.2
+		"heat dissipation" 0.78
+		"fuel capacity" 500
+		"cargo space" 80
+		"outfit space" 190
+		"engine capacity" 70
+		"weapon capacity" 20
+		"required crew" 1
+		bunks 19
+		hull 300
+		shields 130
+	outfits
+		"B5 Drazi Drive"
+		"B5 Fusion Reactor"
+		"B5 Jump Drive"
+		"Drazi Particle Blaster"
+	engine -12 48
+	engine 12 48
+	gun 0 -48
+	description "A fast Drazi civilian transport built for personnel and light cargo movement rather than combat."
+
+ship "Brakiri Breeze Shuttle"
+	sprite "ship/brakiri_breeze_shuttle"
+	thumbnail "thumbnail/brakiri_breeze_shuttle"
+	attributes
+		category "Transport"
+		cost 660000
+		mass 145
+		drag 3.2
+		"heat dissipation" 0.78
+		"fuel capacity" 500
+		"cargo space" 80
+		"outfit space" 190
+		"engine capacity" 70
+		"weapon capacity" 20
+		"required crew" 1
+		bunks 19
+		hull 280
+		shields 120
+	outfits
+		"B5 Brakiri Drive"
+		"B5 Fusion Reactor"
+		"B5 Jump Drive"
+		"Brakiri Graviton Pulsar"
+	engine -12 48
+	engine 12 48
+	gun 0 -48
+	description "A Brakiri civilian shuttle emphasizing efficient transport and commercial reliability."
+
+ship "Vree Lumen Shuttle"
+	sprite "ship/vree_lumen_shuttle"
+	thumbnail "thumbnail/vree_lumen_shuttle"
+	attributes
+		category "Transport"
+		cost 700000
+		mass 145
+		drag 3.2
+		"heat dissipation" 0.78
+		"fuel capacity" 500
+		"cargo space" 80
+		"outfit space" 190
+		"engine capacity" 70
+		"weapon capacity" 20
+		"required crew" 1
+		bunks 19
+		hull 290
+		shields 130
+	outfits
+		"B5 Vree Drive"
+		"B5 Fusion Reactor"
+		"B5 Jump Drive"
+		"Vree Antimatter Cannon"
+	engine -12 48
+	engine 12 48
+	gun 0 -48
+	description "A nimble Vree transport intended for civilian travel, courier work, and small freight."
+
+ship "Pak'ma'ra Nesh Shuttle"
+	sprite "ship/pakmara_nesh_shuttle"
+	thumbnail "thumbnail/pakmara_nesh_shuttle"
+	attributes
+		category "Transport"
+		cost 580000
+		mass 145
+		drag 3.2
+		"heat dissipation" 0.78
+		"fuel capacity" 500
+		"cargo space" 80
+		"outfit space" 190
+		"engine capacity" 70
+		"weapon capacity" 20
+		"required crew" 1
+		bunks 19
+		hull 310
+		shields 140
+	outfits
+		"B5 Pak'ma'ra Drive"
+		"B5 Fusion Reactor"
+		"B5 Jump Drive"
+		"Pak'ma'ra Plasma Cannon"
+	engine -12 48
+	engine 12 48
+	gun 0 -48
+	description "A rugged Pak'ma'ra civilian shuttle used for personnel, trade goods, and routine diplomatic travel."
+
+ship "Narn G'Quon Shuttle"
+	sprite "ship/narn_gquon_shuttle"
+	thumbnail "thumbnail/narn_gquon_shuttle"
+	attributes
+		category "Transport"
+		cost 600000
+		mass 145
+		drag 3.2
+		"heat dissipation" 0.78
+		"fuel capacity" 500
+		"cargo space" 80
+		"outfit space" 190
+		"engine capacity" 70
+		"weapon capacity" 20
+		"required crew" 1
+		bunks 19
+		hull 320
+		shields 130
+	outfits
+		"B5 Narn Drive"
+		"B5 Fusion Reactor"
+		"B5 Jump Drive"
+		"B5 Light Pulse Cannon"
+	engine -12 48
+	engine 12 48
+	gun 0 -48
+	description "A sturdy Narn personnel and cargo shuttle built for reliability rather than battlefield use."
+
+ship "Centauri Court Shuttle"
+	sprite "ship/centauri_court_shuttle"
+	thumbnail "thumbnail/centauri_court_shuttle"
+	attributes
+		category "Transport"
+		cost 720000
+		mass 145
+		drag 3.2
+		"heat dissipation" 0.78
+		"fuel capacity" 500
+		"cargo space" 80
+		"outfit space" 190
+		"engine capacity" 70
+		"weapon capacity" 20
+		"required crew" 1
+		bunks 19
+		hull 300
+		shields 130
+	outfits
+		"B5 Centauri Drive"
+		"B5 Fusion Reactor"
+		"B5 Jump Drive"
+		"B5 Light Pulse Cannon"
+	engine -12 48
+	engine 12 48
+	gun 0 -48
+	description "A refined Centauri civilian shuttle commonly used for diplomatic, commercial, and court travel."
+

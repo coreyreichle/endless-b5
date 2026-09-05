@@ -1,0 +1,175 @@
+# Minor-race technology, v0.6.0.
+outfit "B5 Drazi Drive"
+	category "Engines"
+	cost 420000
+	mass 22
+	"outfit space" -22
+	"engine capacity" -22
+	thrust 31
+	"thrusting energy" 0.42
+	"thrusting heat" 0.28
+	turn 285
+	"turning energy" 0.25
+	"turning heat" 0.18
+	"reverse thrust" 22
+	"reverse thrusting energy" 0.38
+	"reverse thrusting heat" 0.24
+outfit "B5 Brakiri Drive"
+	category "Engines"
+	cost 720000
+	mass 40
+	"outfit space" -40
+	"engine capacity" -40
+	thrust 29
+	"thrusting energy" 0.48
+	"thrusting heat" 0.30
+	turn 210
+	"turning energy" 0.28
+	"turning heat" 0.20
+	"reverse thrust" 20
+	"reverse thrusting energy" 0.42
+	"reverse thrusting heat" 0.26
+outfit "B5 Vree Drive"
+	category "Engines"
+	cost 800000
+	mass 26
+	"outfit space" -26
+	"engine capacity" -26
+	thrust 38
+	"thrusting energy" 0.50
+	"thrusting heat" 0.24
+	turn 340
+	"turning energy" 0.30
+	"turning heat" 0.16
+	"reverse thrust" 30
+	"reverse thrusting energy" 0.45
+	"reverse thrusting heat" 0.22
+outfit "B5 Pak'ma'ra Drive"
+	category "Engines"
+	cost 360000
+	mass 30
+	"outfit space" -30
+	"engine capacity" -30
+	thrust 25
+	"thrusting energy" 0.38
+	"thrusting heat" 0.25
+	turn 190
+	"turning energy" 0.22
+	"turning heat" 0.17
+	"reverse thrust" 18
+	"reverse thrusting energy" 0.34
+	"reverse thrusting heat" 0.22
+outfit "Drazi Particle Cutter"
+	thumbnail "outfit/b5_heavy_pulse_cannon"
+	category "Guns"
+	cost 620000
+	mass 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"gun ports" -1
+	energy 32
+	heat 24
+	weapon
+		sprite "projectile/pulse"
+		"hull damage" 70
+		"shield damage" 55
+		velocity 21
+		lifetime 38
+		reload 40
+	description "A heavy Drazi particle weapon optimized for direct, aggressive attacks."
+
+outfit "Drazi Particle Blaster"
+	thumbnail "outfit/b5_light_pulse_cannon"
+	category "Guns"
+	cost 320000
+	mass 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	energy 12
+	heat 10
+	weapon
+		sprite "projectile/pulse"
+		"hull damage" 28
+		"shield damage" 24
+		velocity 22
+		lifetime 34
+		reload 18
+	description "A rapid-fire Drazi particle blaster used on light and medium warships."
+
+outfit "Brakiri Graviton Beam"
+	thumbnail "outfit/b5_heavy_pulse_cannon"
+	category "Guns"
+	cost 1100000
+	mass 28
+	"outfit space" -28
+	"weapon capacity" -28
+	"gun ports" -1
+	energy 58
+	heat 34
+	weapon
+		sprite "projectile/pulse"
+		"hull damage" 82
+		"shield damage" 95
+		velocity 24
+		lifetime 42
+		reload 55
+	description "A powerful Brakiri graviton weapon with strong shield-breaking performance."
+
+outfit "Brakiri Graviton Pulsar"
+	thumbnail "outfit/b5_light_pulse_cannon"
+	category "Guns"
+	cost 540000
+	mass 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	energy 18
+	heat 14
+	weapon
+		sprite "projectile/pulse"
+		"hull damage" 30
+		"shield damage" 34
+		velocity 22
+		lifetime 36
+		reload 22
+	description "A compact Brakiri graviton pulsar for sustained medium-range fire."
+
+outfit "Vree Antimatter Cannon"
+	thumbnail "outfit/b5_heavy_pulse_cannon"
+	category "Guns"
+	cost 900000
+	mass 16
+	"outfit space" -16
+	"weapon capacity" -16
+	"gun ports" -1
+	energy 38
+	heat 22
+	weapon
+		sprite "projectile/pulse"
+		"hull damage" 68
+		"shield damage" 62
+		velocity 25
+		lifetime 38
+		reload 30
+	description "A compact Vree antimatter weapon combining high energy density with excellent accuracy."
+
+outfit "Pak'ma'ra Plasma Cannon"
+	thumbnail "outfit/b5_light_pulse_cannon"
+	category "Guns"
+	cost 410000
+	mass 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	energy 20
+	heat 18
+	weapon
+		sprite "projectile/pulse"
+		"hull damage" 45
+		"shield damage" 35
+		velocity 19
+		lifetime 40
+		reload 28
+	description "A robust Pak'ma'ra plasma cannon suited to convoy defense and general-purpose combat."
+

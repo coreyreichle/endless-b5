@@ -1,0 +1,19 @@
+# Babylon 5 main storyline - Mission 1.
+# Offered in the Babylon 5 spaceport after the player has purchased a ship.
+
+mission "b5 mission 1 electronics run"
+	name "Mission 1: Electronics Delivery"
+	description "Deliver 10 tons of Earth Alliance electronics from Babylon 5 to Earth in the Sol system."
+	source "Babylon 5"
+	destination "Earth Alliance Headquarters"
+	cargo "Earth Alliance electronics" 10
+	to offer
+		has "b5 story start"
+	blocked "Your ship needs <capacity> before the Earth Alliance electronics can be loaded."
+	on offer
+		dialog "Your orders are to transport 10 tons of Earth Alliance electronics from Babylon 5 to Earth in the Sol system. The cargo will be loaded aboard your ship immediately."
+	on accept
+		log "Babylon 5" "Earth Alliance Orders" "Mission 1: Deliver 10 tons of Earth Alliance electronics from Babylon 5 to Earth in the Sol system."
+	on complete
+		dialog "You have arrived at Earth. The Earth Alliance electronics have been delivered. Report to the Earth spaceport for your next assignment."
+		set "b5 mission 1 complete"

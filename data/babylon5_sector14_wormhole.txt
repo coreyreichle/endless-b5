@@ -1,0 +1,11 @@
+# Sector 14 temporary wormhole connection, v0.6.11.
+
+planet "Sector 14 Rift"
+	attributes "uninhabited"
+	description "A spatial distortion hangs in the system, its destination fixed for current testing."
+	wormhole "Sector 14 - Sigma 957"
+
+wormhole "Sector 14 - Sigma 957"
+	mappable
+	link "Sector 14" "Sigma 957"
+	link "Sigma 957" "Sector 14"

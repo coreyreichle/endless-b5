@@ -1,0 +1,649 @@
+# Babylon 5 Part 1 v0.3.1
+# Mongoose RPG / Galactic Guide-inspired 2257 hyperspace-route map.
+# Positions are schematic hyperspace-network positions, not literal stellar coordinates.
+# Major race territories and named systems are taken from / aligned to the RPG-era setting.
+
+system "Sol"
+	pos 4848 4721
+	government "Earth Alliance"
+	trade "Food" 500
+	trade "Clothing" 280
+	trade "Metal" 450
+	trade "Plastic" 390
+	trade "Equipment" 560
+	trade "Medical" 610
+	trade "Industrial" 650
+	trade "Electronics" 650
+	trade "Heavy Metals" 1050
+	trade "Luxury Goods" 1180
+	habitable 1000
+	belt 1400
+	link "Proxima"
+	link "Vega"
+	link "Orion"
+	fleet "B5 Earth Patrol" 1700
+
+system "Proxima"
+	pos 4896 4726
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "Sol"
+	link "Vega"
+	link "Epsilon"
+	link "Jericho"
+	fleet "B5 Earth Patrol" 1700
+
+system "Vega"
+	pos 4893 4685
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "Sol"
+	link "Proxima"
+	link "Cyrus"
+	link "Grissom"
+	fleet "B5 Earth Patrol" 1700
+
+system "Orion"
+	pos 4848 4762
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "Sol"
+	link "Beta 7"
+	link "Jericho"
+	fleet "B5 Earth Patrol" 1700
+
+system "Beta 7"
+	pos 4900 4781
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "Orion"
+	link "Jericho"
+	link "Koulani"
+	fleet "B5 Earth Patrol" 1700
+
+system "Cyrus"
+	pos 4938 4660
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "Vega"
+	link "Grissom"
+	link "Deneb"
+	fleet "B5 Earth Patrol" 1700
+
+system "Grissom"
+	pos 4968 4685
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "Vega"
+	link "Cyrus"
+	link "Jericho"
+	fleet "B5 Earth Patrol" 1700
+
+system "Jericho"
+	pos 4971 4737
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "Proxima"
+	link "Orion"
+	link "Beta 7"
+	link "Grissom"
+	link "Epsilon"
+	link "Drazi"
+	link "Markab"
+	fleet "B5 Earth Patrol" 1700
+
+system "Deneb"
+	pos 4990 4641
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "Cyrus"
+	link "Minbari Protectorate"
+	fleet "B5 Earth Patrol" 1700
+
+system "Drazi"
+	pos 4992 5053
+	government "Drazi Freehold"
+	trade "Food" 360
+	trade "Clothing" 350
+	trade "Metal" 280
+	trade "Plastic" 450
+	trade "Equipment" 650
+	trade "Medical" 820
+	trade "Industrial" 620
+	trade "Electronics" 790
+	trade "Heavy Metals" 790
+	trade "Luxury Goods" 1390
+	habitable 1000
+	belt 1400
+	link "Jericho"
+	link "Epsilon"
+	link "Brakiri"
+	link "Markab"
+	link "Gaim"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+
+system "Brakiri"
+	pos 5068 5077
+	government "Brakiri Syndicracy"
+	trade "Food" 300
+	trade "Clothing" 250
+	trade "Metal" 430
+	trade "Plastic" 300
+	trade "Equipment" 500
+	trade "Medical" 650
+	trade "Industrial" 560
+	trade "Electronics" 640
+	trade "Heavy Metals" 990
+	trade "Luxury Goods" 1040
+	habitable 1000
+	belt 1400
+	link "Drazi"
+	link "Markab"
+	link "Pak'ma'ra"
+	link "Gaim"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+
+system "Markab"
+	pos 5054 5011
+	government "Markab Theocracy"
+	trade "Food" 270
+	trade "Clothing" 300
+	trade "Metal" 470
+	trade "Plastic" 420
+	trade "Equipment" 620
+	trade "Medical" 540
+	trade "Industrial" 690
+	trade "Electronics" 760
+	trade "Heavy Metals" 1080
+	trade "Luxury Goods" 1260
+	habitable 1000
+	belt 1400
+	link "Jericho"
+	link "Epsilon"
+	link "Drazi"
+	link "Brakiri"
+	link "Vree"
+	link "Centauri Prime"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+
+system "Gaim"
+	pos 5087 5134
+	government "Gaim Intelligence"
+	trade "Food" 230
+	trade "Clothing" 370
+	trade "Metal" 380
+	trade "Plastic" 350
+	trade "Equipment" 670
+	trade "Medical" 760
+	trade "Industrial" 720
+	trade "Electronics" 700
+	trade "Heavy Metals" 1120
+	trade "Luxury Goods" 1370
+	habitable 1000
+	belt 1400
+	link "Drazi"
+	link "Brakiri"
+	link "Abbai"
+	link "Yolu"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+
+system "Abbai"
+	pos 5159 5139
+	government "Abbai Matriarchate"
+	trade "Food" 250
+	trade "Clothing" 240
+	trade "Metal" 520
+	trade "Plastic" 360
+	trade "Equipment" 540
+	trade "Medical" 500
+	trade "Industrial" 640
+	trade "Electronics" 720
+	trade "Heavy Metals" 1180
+	trade "Luxury Goods" 1100
+	habitable 1000
+	belt 1400
+	link "Gaim"
+	link "Yolu"
+	link "Pak'ma'ra"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+
+system "Yolu"
+	pos 5201 5096
+	government "Yolu Confederacy"
+	trade "Food" 340
+	trade "Clothing" 220
+	trade "Metal" 500
+	trade "Plastic" 330
+	trade "Equipment" 480
+	trade "Medical" 560
+	trade "Industrial" 610
+	trade "Electronics" 610
+	trade "Heavy Metals" 1150
+	trade "Luxury Goods" 980
+	habitable 1000
+	belt 1400
+	link "Gaim"
+	link "Abbai"
+	link "Pak'ma'ra"
+	link "Vree"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+
+system "Pak'ma'ra"
+	pos 5140 5049
+	government "Pak'ma'ra"
+	trade "Food" 180
+	trade "Clothing" 400
+	trade "Metal" 350
+	trade "Plastic" 460
+	trade "Equipment" 690
+	trade "Medical" 850
+	trade "Industrial" 760
+	trade "Electronics" 820
+	trade "Heavy Metals" 930
+	trade "Luxury Goods" 1450
+	habitable 1000
+	belt 1400
+	link "Brakiri"
+	link "Abbai"
+	link "Yolu"
+	link "Vree"
+	link "Centauri Prime"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+
+system "Vree"
+	pos 5178 5001
+	government "Vree Conglomerate"
+	trade "Food" 430
+	trade "Clothing" 320
+	trade "Metal" 410
+	trade "Plastic" 290
+	trade "Equipment" 430
+	trade "Medical" 690
+	trade "Industrial" 570
+	trade "Electronics" 600
+	trade "Heavy Metals" 1040
+	trade "Luxury Goods" 1280
+	habitable 1000
+	belt 1400
+	link "Markab"
+	link "Yolu"
+	link "Pak'ma'ra"
+	link "Centauri Prime"
+	link "Quadrant 14"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+
+system "Narn"
+	pos 5306 4868
+	government "Narn Regime"
+	trade "Food" 390
+	trade "Clothing" 380
+	trade "Metal" 240
+	trade "Plastic" 500
+	trade "Equipment" 680
+	trade "Medical" 860
+	trade "Industrial" 590
+	trade "Electronics" 830
+	trade "Heavy Metals" 760
+	trade "Luxury Goods" 1460
+	habitable 1000
+	belt 1400
+	link "Quadrant 14"
+	link "Sorith"
+	link "Sigma 957"
+	link "Raghesh"
+	fleet "B5 Narn Patrol" 1800
+
+system "Quadrant 14"
+	pos 5280 4920
+	government "Narn Regime"
+	habitable 1000
+	belt 1400
+	link "Epsilon"
+	link "Vree"
+	link "Narn"
+	link "Raghesh"
+	link "Centauri Prime"
+	fleet "B5 Narn Patrol" 1800
+
+system "Sorith"
+	pos 5349 4852
+	government "Narn Regime"
+	habitable 1000
+	belt 1400
+	link "Narn"
+	link "T'il"
+	link "Sigma 957"
+	fleet "B5 Narn Patrol" 1800
+
+system "T'il"
+	pos 5388 4852
+	government "Narn Regime"
+	habitable 1000
+	belt 1400
+	link "Sorith"
+	link "Hilak"
+	fleet "B5 Narn Patrol" 1800
+
+system "Hilak"
+	pos 5423 4872
+	government "Narn Regime"
+	habitable 1000
+	belt 1400
+	link "T'il"
+	link "Shambah"
+	fleet "B5 Narn Patrol" 1800
+
+system "Shambah"
+	pos 5453 4844
+	government "Narn Regime"
+	habitable 1000
+	belt 1400
+	link "Hilak"
+	link "Melat"
+	fleet "B5 Narn Patrol" 1800
+
+system "Melat"
+	pos 5492 4868
+	government "Narn Regime"
+	habitable 1000
+	belt 1400
+	link "Shambah"
+	fleet "B5 Narn Patrol" 1800
+
+system "Sigma 957"
+	pos 5349 4800
+	government "Narn Regime"
+	habitable 1000
+	belt 1400
+	link "Narn"
+	link "Sorith"
+	link "Z'ha'dum"
+	fleet "B5 Narn Patrol" 1800
+	object "Sector 14 Rift"
+		sprite "planet/wormhole"
+		distance 900
+		period 24
+
+
+system "Centauri Prime"
+	pos 5022 4838
+	government "Centauri Republic"
+	trade "Food" 440
+	trade "Clothing" 190
+	trade "Metal" 520
+	trade "Plastic" 370
+	trade "Equipment" 520
+	trade "Medical" 680
+	trade "Industrial" 660
+	trade "Electronics" 700
+	trade "Heavy Metals" 1170
+	trade "Luxury Goods" 940
+	habitable 1000
+	belt 1400
+	link "Epsilon"
+	link "Markab"
+	link "Pak'ma'ra"
+	link "Vree"
+	link "Quadrant 14"
+	link "Quadrant 37"
+	link "Raghesh"
+	link "Beta 2"
+	fleet "B5 Centauri Patrol" 1800
+
+system "Quadrant 37"
+	pos 5064 4872
+	government "Centauri Republic"
+	habitable 1000
+	belt 1400
+	link "Centauri Prime"
+	link "Beta 2"
+	link "Beta 3"
+	fleet "B5 Centauri Patrol" 1800
+
+system "Raghesh"
+	pos 5058 4795
+	government "Centauri Republic"
+	habitable 1000
+	belt 1400
+	link "Centauri Prime"
+	link "Quadrant 14"
+	link "Narn"
+	link "Beta 3"
+	fleet "B5 Centauri Patrol" 1800
+
+system "Beta 2"
+	pos 5100 4880
+	government "Centauri Republic"
+	habitable 1000
+	belt 1400
+	link "Centauri Prime"
+	link "Quadrant 37"
+	link "Beta 3"
+	link "Beta 4"
+	fleet "B5 Centauri Patrol" 1800
+
+system "Beta 3"
+	pos 5113 4829
+	government "Centauri Republic"
+	habitable 1000
+	belt 1400
+	link "Quadrant 37"
+	link "Raghesh"
+	link "Beta 2"
+	link "Beta 4"
+	fleet "B5 Centauri Patrol" 1800
+
+system "Beta 4"
+	pos 5152 4868
+	government "Centauri Republic"
+	habitable 1000
+	belt 1400
+	link "Beta 2"
+	link "Beta 3"
+	link "Immolan"
+	fleet "B5 Centauri Patrol" 1800
+
+system "Immolan"
+	pos 5191 4868
+	government "Centauri Republic"
+	habitable 1000
+	belt 1400
+	link "Beta 4"
+	fleet "B5 Centauri Patrol" 1800
+
+system "Minbar"
+	pos 5171 4755
+	government "Minbari Federation"
+	trade "Food" 320
+	trade "Clothing" 210
+	trade "Metal" 550
+	trade "Plastic" 340
+	trade "Equipment" 460
+	trade "Medical" 520
+	trade "Industrial" 600
+	trade "Electronics" 620
+	trade "Heavy Metals" 1200
+	trade "Luxury Goods" 1010
+	habitable 1000
+	belt 1400
+	link "Epsilon"
+	link "Eshar"
+	link "Tarellen"
+	link "Minbari Protectorate"
+	link "Valusha"
+	fleet "B5 Minbari Patrol" 1800
+
+system "Eshar"
+	pos 5212 4711
+	government "Minbari Federation"
+	habitable 1000
+	belt 1400
+	link "Minbar"
+	link "Tarellen"
+	link "Tavalan"
+	fleet "B5 Minbari Patrol" 1800
+
+system "Tarellen"
+	pos 5160 4695
+	government "Minbari Federation"
+	habitable 1000
+	belt 1400
+	link "Minbar"
+	link "Eshar"
+	link "Valusha"
+	fleet "B5 Minbari Patrol" 1800
+
+system "Tavalan"
+	pos 5261 4691
+	government "Minbari Federation"
+	habitable 1000
+	belt 1400
+	link "Eshar"
+	link "Minbari Protectorate"
+	fleet "B5 Minbari Patrol" 1800
+
+system "Valusha"
+	pos 5115 4703
+	government "Minbari Federation"
+	habitable 1000
+	belt 1400
+	link "Minbar"
+	link "Tarellen"
+	link "Deneb"
+	fleet "B5 Minbari Patrol" 1800
+
+system "Minbari Protectorate"
+	pos 5220 4763
+	government "Minbari Federation"
+	habitable 1000
+	belt 1400
+	link "Minbar"
+	link "Tavalan"
+	link "Deneb"
+	link "Vorlon Border"
+	fleet "B5 Minbari Patrol" 1800
+
+system "Vorlon Border"
+	pos 5235 5290
+	government "Vorlon Empire"
+	trade "Food" 520
+	trade "Clothing" 420
+	trade "Metal" 570
+	trade "Plastic" 520
+	trade "Equipment" 710
+	trade "Medical" 900
+	trade "Industrial" 890
+	trade "Electronics" 870
+	trade "Heavy Metals" 1280
+	trade "Luxury Goods" 1490
+	habitable 1000
+	belt 1400
+	link "Minbari Protectorate"
+	link "Vorlon Homeworld"
+	fleet "B5 Vorlon Patrol" 4500
+
+system "Vorlon Homeworld"
+	hidden
+	pos 5350 5360
+	government "Vorlon Empire"
+	trade "Food" 560
+	trade "Clothing" 430
+	trade "Metal" 580
+	trade "Plastic" 530
+	trade "Equipment" 720
+	trade "Medical" 920
+	trade "Industrial" 910
+	trade "Electronics" 880
+	trade "Heavy Metals" 1300
+	trade "Luxury Goods" 1510
+	habitable 1000
+	belt 1400
+	link "Vorlon Border"
+
+system "Z'ha'dum"
+	hidden
+	pos 4550 5290
+	government "Shadows"
+	trade "Food" 590
+	trade "Clothing" 440
+	trade "Metal" 560
+	trade "Plastic" 540
+	trade "Equipment" 730
+	trade "Medical" 930
+	trade "Industrial" 920
+	trade "Electronics" 890
+	trade "Heavy Metals" 1310
+	trade "Luxury Goods" 1520
+	habitable 1000
+	belt 1400
+	link "Sigma 957"
+	fleet "B5 Shadow Patrol" 5000
+
+system "Koulani"
+	pos 4949 4801
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "Beta 7"
+	link "Jericho"
+	fleet "B5 Earth Patrol" 1700
+
+
+
+system "Sector 83 by 9 by 12"
+	pos 4740 5035
+	government "Independent"
+	habitable 500
+	belt 900
+	belt 1100
+	belt 1300
+	belt 1500
+	asteroids "small rock" 40 2
+	asteroids "medium rock" 30 2
+	asteroids "large rock" 20 2
+	asteroids "small metal" 18 2
+	asteroids "medium metal" 12 2
+	asteroids "large metal" 8 2
+
+
+system "Sector 14"
+	pos 5270 4935
+	government "Independent"
+	habitable 500
+	belt 1200
+	object "Sector 14 Rift"
+		sprite "planet/wormhole"
+		distance 700
+		period 20

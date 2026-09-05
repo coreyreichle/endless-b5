@@ -1,0 +1,25 @@
+# Always-on Vorlon Homeworld defense.
+#
+# This mission is intentionally independent of both the Story and Testbed start.
+# It offers invisibly on landing, cannot complete, and creates one persistent
+# Vorlon defense fleet in the Vorlon Homeworld system.
+#
+# Endless Sky mission NPCs spawn after mission activation when the player next
+# departs a planet. With `staying`, the defense force never leaves its home system.
+
+mission "b5 vorlon homeworld permanent defense"
+	name "Vorlon Homeworld Permanent Defense"
+	landing
+	invisible
+	non-blocking
+	to complete
+		never
+	npc
+		government "Vorlon Homeworld Defense"
+		personality
+			heroic
+			hunting
+			staying
+			uninterested
+		system "Vorlon Homeworld"
+		fleet "B5 Vorlon Homeworld Defense"

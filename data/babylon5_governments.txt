@@ -1,0 +1,283 @@
+# Babylon 5 Part 1 - faction governments.
+# Sandbox relationship values are intentionally conservative for testing.
+
+government "B5 Independent"
+	"display name" "Independent"
+	color 0.55 0.55 0.62
+	"player reputation" 10
+	"crew attack" 1
+	"crew defense" 1
+	"attitude toward"
+		"Earth Alliance" 0
+		"Minbari Federation" 0
+		"Narn Regime" 0
+		"Centauri Republic" 0
+		"Vorlon Empire" 0
+		"Shadows" 0
+
+government "Earth Alliance"
+	color 0.25 0.45 0.85
+	"player reputation" 0
+	"crew attack" 1
+	"crew defense" 1
+	"attitude toward"
+		"B5 Independent" 0
+		"Minbari Federation" 0
+		"Narn Regime" 0
+		"Centauri Republic" 0
+		"Vorlon Empire" 0
+		"Shadows" 0
+
+government "Minbari Federation"
+	color 0.45 0.75 1
+	"player reputation" 0
+	"crew attack" 1.15
+	"crew defense" 1.2
+	"attitude toward"
+		"B5 Independent" 0
+		"Earth Alliance" 0
+		"Narn Regime" 0
+		"Centauri Republic" 0
+		"Vorlon Empire" 0
+		"Shadows" 0
+
+government "Narn Regime"
+	color 0.75 0.22 0.18
+	"player reputation" 0
+	"crew attack" 1.1
+	"crew defense" 1.15
+	"attitude toward"
+		"B5 Independent" 0
+		"Earth Alliance" 0
+		"Minbari Federation" 0
+		"Centauri Republic" 0
+		"Vorlon Empire" 0
+		"Shadows" 0
+
+government "Centauri Republic"
+	color 0.65 0.35 0.78
+	"player reputation" 0
+	"crew attack" 1.05
+	"crew defense" 1
+	"attitude toward"
+		"B5 Independent" 0
+		"Earth Alliance" 0
+		"Minbari Federation" 0
+		"Narn Regime" 0
+		"Vorlon Empire" 0
+		"Shadows" 0
+
+government "Vorlon Empire"
+	"display name" "Vorlon Empire"
+	color 0.9 0.75 0.2
+	"player reputation" 0
+	"crew attack" 1.5
+	"crew defense" 1.6
+	"attitude toward"
+		"B5 Independent" 0
+		"Earth Alliance" 0
+		"Minbari Federation" 0
+		"Narn Regime" 0
+		"Centauri Republic" 0
+		"Shadows" 0
+
+government "Shadows"
+	color 0.18 0.12 0.25
+	"player reputation" -1
+	"crew attack" 1.6
+	"crew defense" 1.5
+	"attitude toward"
+		"B5 Independent" 0
+		"Earth Alliance" 0
+		"Minbari Federation" 0
+		"Narn Regime" 0
+		"Centauri Republic" 0
+		"Vorlon Empire" 0
+
+# League of Non-Aligned Worlds / minor powers.
+government "Drazi Freehold"
+	"display name" "Drazi"
+	color 0.55 0.75 0.35
+	"player reputation" 0
+	"crew attack" 1
+	"crew defense" 1
+	"attitude toward"
+		"Earth Alliance" 0
+		"Minbari Federation" 0
+		"Narn Regime" 0
+		"Centauri Republic" 0
+		"B5 Independent" 0
+		"Vorlon Empire" 0
+		"Shadows" 0
+		"Brakiri Syndicracy" 0
+		"Markab Theocracy" 0
+		"Gaim Intelligence" 0
+		"Abbai Matriarchate" 0
+		"Yolu Confederacy" 0
+		"Pak'ma'ra" 0
+		"Vree Conglomerate" 0
+
+government "Brakiri Syndicracy"
+	"display name" "Brakiri"
+	color 0.60 0.55 0.80
+	"player reputation" 0
+	"crew attack" 1
+	"crew defense" 1
+	"attitude toward"
+		"Earth Alliance" 0
+		"Minbari Federation" 0
+		"Narn Regime" 0
+		"Centauri Republic" 0
+		"B5 Independent" 0
+		"Vorlon Empire" 0
+		"Shadows" 0
+		"Drazi Freehold" 0
+		"Markab Theocracy" 0
+		"Gaim Intelligence" 0
+		"Abbai Matriarchate" 0
+		"Yolu Confederacy" 0
+		"Pak'ma'ra" 0
+		"Vree Conglomerate" 0
+
+government "Markab Theocracy"
+	"display name" "Markab"
+	color 0.70 0.65 0.45
+	"player reputation" 0
+	"crew attack" 1
+	"crew defense" 1
+	"attitude toward"
+		"Earth Alliance" 0
+		"Minbari Federation" 0
+		"Narn Regime" 0
+		"Centauri Republic" 0
+		"B5 Independent" 0
+		"Vorlon Empire" 0
+		"Shadows" 0
+		"Drazi Freehold" 0
+		"Brakiri Syndicracy" 0
+		"Gaim Intelligence" 0
+		"Abbai Matriarchate" 0
+		"Yolu Confederacy" 0
+		"Pak'ma'ra" 0
+		"Vree Conglomerate" 0
+
+government "Gaim Intelligence"
+	"display name" "Gaim"
+	color 0.50 0.70 0.55
+	"player reputation" 0
+	"crew attack" 1
+	"crew defense" 1
+	"attitude toward"
+		"Earth Alliance" 0
+		"Minbari Federation" 0
+		"Narn Regime" 0
+		"Centauri Republic" 0
+		"B5 Independent" 0
+		"Vorlon Empire" 0
+		"Shadows" 0
+		"Drazi Freehold" 0
+		"Brakiri Syndicracy" 0
+		"Markab Theocracy" 0
+		"Abbai Matriarchate" 0
+		"Yolu Confederacy" 0
+		"Pak'ma'ra" 0
+		"Vree Conglomerate" 0
+
+government "Abbai Matriarchate"
+	"display name" "Abbai"
+	color 0.35 0.65 0.85
+	"player reputation" 0
+	"crew attack" 1
+	"crew defense" 1
+	"attitude toward"
+		"Earth Alliance" 0
+		"Minbari Federation" 0
+		"Narn Regime" 0
+		"Centauri Republic" 0
+		"B5 Independent" 0
+		"Vorlon Empire" 0
+		"Shadows" 0
+		"Drazi Freehold" 0
+		"Brakiri Syndicracy" 0
+		"Markab Theocracy" 0
+		"Gaim Intelligence" 0
+		"Yolu Confederacy" 0
+		"Pak'ma'ra" 0
+		"Vree Conglomerate" 0
+
+government "Yolu Confederacy"
+	"display name" "Yolu"
+	color 0.75 0.70 0.45
+	"player reputation" 0
+	"crew attack" 1
+	"crew defense" 1
+	"attitude toward"
+		"Earth Alliance" 0
+		"Minbari Federation" 0
+		"Narn Regime" 0
+		"Centauri Republic" 0
+		"B5 Independent" 0
+		"Vorlon Empire" 0
+		"Shadows" 0
+		"Drazi Freehold" 0
+		"Brakiri Syndicracy" 0
+		"Markab Theocracy" 0
+		"Gaim Intelligence" 0
+		"Abbai Matriarchate" 0
+		"Pak'ma'ra" 0
+		"Vree Conglomerate" 0
+
+government "Pak'ma'ra"
+	"display name" "Pak'ma'ra"
+	color 0.50 0.75 0.50
+	"player reputation" 0
+	"crew attack" 1
+	"crew defense" 1
+	"attitude toward"
+		"Earth Alliance" 0
+		"Minbari Federation" 0
+		"Narn Regime" 0
+		"Centauri Republic" 0
+		"B5 Independent" 0
+		"Vorlon Empire" 0
+		"Shadows" 0
+		"Drazi Freehold" 0
+		"Brakiri Syndicracy" 0
+		"Markab Theocracy" 0
+		"Gaim Intelligence" 0
+		"Abbai Matriarchate" 0
+		"Yolu Confederacy" 0
+		"Vree Conglomerate" 0
+
+government "Vree Conglomerate"
+	"display name" "Vree"
+	color 0.55 0.80 0.85
+	"player reputation" 0
+	"crew attack" 1
+	"crew defense" 1
+	"attitude toward"
+		"Earth Alliance" 0
+		"Minbari Federation" 0
+		"Narn Regime" 0
+		"Centauri Republic" 0
+		"B5 Independent" 0
+		"Vorlon Empire" 0
+		"Shadows" 0
+		"Drazi Freehold" 0
+		"Brakiri Syndicracy" 0
+		"Markab Theocracy" 0
+		"Gaim Intelligence" 0
+		"Abbai Matriarchate" 0
+		"Yolu Confederacy" 0
+		"Pak'ma'ra" 0
+
+
+government "Vorlon Homeworld Defense"
+	"display name" "Vorlon Empire"
+	color 0.9 0.75 0.2
+	"player reputation" 0
+	"crew attack" 1.5
+	"crew defense" 1.6
+	"default attitude" -0.01
+	"attitude toward"
+		"Vorlon Empire" 1

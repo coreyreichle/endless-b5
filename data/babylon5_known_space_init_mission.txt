@@ -1,0 +1,15 @@
+# Invisible Testbed initialization mission.
+mission "b5 testbed known space initializer"
+	name "B5 Testbed Known Space Initializer"
+	landing
+	invisible
+	non-blocking
+	repeat
+	to offer
+		has "b5 testbed start"
+		not "b5 testbed known space initialized"
+	source "Babylon 5"
+	on offer
+		event "b5 testbed known space" 0
+		set "b5 testbed known space initialized"
+		fail

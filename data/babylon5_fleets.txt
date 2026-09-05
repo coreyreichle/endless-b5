@@ -1,0 +1,74 @@
+# Babylon 5 Part 1 - test fleets.
+
+fleet "B5 Earth Patrol"
+	government "Earth Alliance"
+	personality
+		heroic
+	variant 6
+		"Hyperion"
+		"Aurora Starfury" 6
+	variant 3
+		"Omega"
+		"Thunderbolt" 24
+	variant 1
+		"Warlock"
+		"Thunderbolt" 24
+
+fleet "B5 Minbari Patrol"
+	government "Minbari Federation"
+	personality
+		heroic
+	variant 6
+		"Tinashi"
+		"Nial" 2
+	variant 3
+		"Sharlin"
+		"Nial" 24
+
+fleet "B5 Narn Patrol"
+	government "Narn Regime"
+	personality
+		heroic
+	variant 6
+		"G'Quan"
+		"Frazi" 12
+	variant 3
+		"G'Vrahn"
+		"Frazi" 2
+
+fleet "B5 Centauri Patrol"
+	government "Centauri Republic"
+	personality
+		heroic
+	variant 6
+		"Vorchan" 2
+		"Sentri" 2
+	variant 3
+		"Primus"
+		"Sentri" 12
+
+fleet "B5 Vorlon Patrol"
+	government "Vorlon Empire"
+	personality
+		heroic
+	variant 4
+		"Vorlon Cruiser"
+		"Vorlon Fighter" 6
+
+fleet "B5 Shadow Patrol"
+	government "Shadows"
+	personality pacifist
+		heroic
+	variant 4
+		"Shadow Battlecrab"
+		"Shadow Fighter" 8
+
+fleet "B5 Vorlon Homeworld Defense"
+	government "Vorlon Homeworld Defense"
+	personality
+		heroic
+		hunting
+		staying
+	variant 4
+		"Vorlon Cruiser"
+		"Vorlon Fighter" 6

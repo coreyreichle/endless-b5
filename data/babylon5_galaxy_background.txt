@@ -1,0 +1,9 @@
+# Babylon 5 regional galaxy-map background.
+# The complete B5 map is positioned far away from the stock Endless Sky map.
+# Galaxy sprites are map background images; this centers the approved art under
+# the shifted B5 region.
+
+galaxy "Babylon 5 Region"
+	pos 5000 5000
+	sprite "galaxy/babylon5_region"
+		scale 1

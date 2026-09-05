@@ -1,0 +1,590 @@
+outfit "B5 Fusion Reactor"
+	thumbnail "outfit/b5_fusion_reactor"
+	category "Power"
+	cost 500000
+	mass 30
+	"outfit space" -35
+	"energy generation" 25
+	"energy capacity" 300
+	"heat generation" 2
+	description "Earth Alliance fusion reactor sized for Babylon 5-era vessels."
+
+outfit "B5 Minbari Reactor"
+	thumbnail "outfit/b5_minbari_reactor"
+	category "Power"
+	cost 1200000
+	mass 25
+	"outfit space" -32
+	"energy generation" 38
+	"energy capacity" 360
+	"heat generation" 1
+	description "Highly efficient Minbari power system."
+
+outfit "B5 Narn Reactor"
+	thumbnail "outfit/b5_narn_reactor"
+	category "Power"
+	cost 650000
+	mass 38
+	"outfit space" -42
+	"energy generation" 28
+	"energy capacity" 320
+	"heat generation" 3
+	description "Rugged Narn reactor system."
+
+outfit "B5 Centauri Reactor"
+	thumbnail "outfit/b5_centauri_reactor"
+	category "Power"
+	cost 800000
+	mass 28
+	"outfit space" -34
+	"energy generation" 32
+	"energy capacity" 340
+	"heat generation" 2
+	description "Centauri reactor system."
+
+outfit "Vorlon Reactor"
+	thumbnail "outfit/vorlon_reactor"
+	category "Power"
+	cost 8000000
+	mass 20
+	"outfit space" -45
+	"energy generation" 70
+	"energy capacity" 600
+	"heat generation" 0
+	description "Advanced Vorlon power system."
+
+outfit "Shadow Reactor"
+	thumbnail "outfit/shadow_reactor"
+	category "Power"
+	cost 9000000
+	mass 18
+	"outfit space" -45
+	"energy generation" 75
+	"energy capacity" 650
+	"heat generation" 0
+	description "Advanced Shadow power system."
+
+outfit "B5 Maneuver Drive"
+	thumbnail "outfit/b5_maneuver_drive"
+	category "Engines"
+	cost 700000
+	mass 20
+	"outfit space" -25
+	"engine capacity" -25
+	thrust 30
+	"thrusting energy" 0.7
+	"thrusting heat" 0.8
+	"reverse thrust" 20
+	"reverse thrusting energy" 0.45
+	"reverse thrusting heat" 0.45
+	turn 180
+	"turning energy" 0.5
+	"turning heat" 0.5
+	description "Earth Alliance maneuver drive."
+
+outfit "B5 Minbari Drive"
+	thumbnail "outfit/b5_minbari_drive"
+	category "Engines"
+	cost 1500000
+	mass 16
+	"outfit space" -28
+	"engine capacity" -28
+	thrust 42
+	"thrusting energy" 0.7
+	"thrusting heat" 0.8
+	"reverse thrust" 30
+	"reverse thrusting energy" 0.45
+	"reverse thrusting heat" 0.45
+	turn 240
+	"turning energy" 0.5
+	"turning heat" 0.5
+	description "Highly efficient Minbari maneuver drive."
+
+outfit "B5 Narn Drive"
+	thumbnail "outfit/b5_narn_drive"
+	category "Engines"
+	cost 850000
+	mass 25
+	"outfit space" -30
+	"engine capacity" -30
+	thrust 34
+	"thrusting energy" 0.7
+	"thrusting heat" 0.8
+	"reverse thrust" 22
+	"reverse thrusting energy" 0.45
+	"reverse thrusting heat" 0.45
+	turn 150
+	"turning energy" 0.5
+	"turning heat" 0.5
+	description "Narn maneuver drive."
+
+outfit "B5 Centauri Drive"
+	thumbnail "outfit/b5_centauri_drive"
+	category "Engines"
+	cost 950000
+	mass 18
+	"outfit space" -27
+	"engine capacity" -27
+	thrust 38
+	"thrusting energy" 0.7
+	"thrusting heat" 0.8
+	"reverse thrust" 26
+	"reverse thrusting energy" 0.45
+	"reverse thrusting heat" 0.45
+	turn 210
+	"turning energy" 0.5
+	"turning heat" 0.5
+	description "Fast Centauri maneuver drive."
+
+outfit "Vorlon Drive"
+	thumbnail "outfit/vorlon_drive"
+	category "Engines"
+	cost 10000000
+	mass 12
+	"outfit space" -35
+	"engine capacity" -35
+	thrust 65
+	"thrusting energy" 0.7
+	"thrusting heat" 0.8
+	"reverse thrust" 48
+	"reverse thrusting energy" 0.45
+	"reverse thrusting heat" 0.45
+	turn 280
+	"turning energy" 0.5
+	"turning heat" 0.5
+	description "Vorlon advanced propulsion."
+
+outfit "Shadow Drive"
+	thumbnail "outfit/shadow_drive"
+	category "Engines"
+	cost 11000000
+	mass 10
+	"outfit space" -35
+	"engine capacity" -35
+	thrust 70
+	"thrusting energy" 0.7
+	"thrusting heat" 0.8
+	"reverse thrust" 52
+	"reverse thrusting energy" 0.45
+	"reverse thrusting heat" 0.45
+	turn 300
+	"turning energy" 0.5
+	"turning heat" 0.5
+	description "Shadow advanced propulsion."
+
+outfit "B5 Jump Drive"
+	thumbnail "outfit/b5_jump_drive"
+	category "Systems"
+	cost 5000000
+	mass 60
+	"outfit space" -80
+	hyperdrive 1
+	"scram drive" 0.5
+	"jump drive" 1
+	"jump speed" 10
+	"jump fuel" 100
+	"jump range" 250
+	description "Temporary sandbox implementation of Babylon 5 jump-point technology. Supports normal linked-system travel and free jumps within 250 map units. A relaxed jump-speed threshold and scram allowance keep large B5 capital ships from hanging in the aligned jump state during Part 1 testing."
+
+outfit "B5 Light Pulse Cannon"
+	thumbnail "outfit/b5_light_pulse_cannon"
+	category "Guns"
+	cost 350000
+	mass 8
+	"outfit space" -10
+	"weapon capacity" -1
+	"gun ports" -1
+	energy 8
+	heat 2
+	weapon
+		sprite "projectile/pulse"
+		"hull damage" 40
+		"shield damage" 35
+		velocity 20
+		lifetime 35
+		reload 20
+	description "Light Babylon 5-style pulse cannon."
+
+outfit "B5 Heavy Pulse Cannon"
+	thumbnail "outfit/b5_heavy_pulse_cannon"
+	category "Guns"
+	cost 900000
+	mass 20
+	"outfit space" -24
+	"weapon capacity" -1
+	"gun ports" -1
+	energy 18
+	heat 5
+	weapon
+		sprite "projectile/pulse"
+		"hull damage" 100
+		"shield damage" 90
+		velocity 19
+		lifetime 45
+		reload 30
+	description "Heavy Babylon 5-style pulse cannon."
+
+outfit "B5 Pulse Turret"
+	thumbnail "outfit/b5_pulse_turret"
+	category "Turrets"
+	cost 1200000
+	mass 24
+	"outfit space" -30
+	"weapon capacity" -1
+	"turret mounts" -1
+	energy 20
+	heat 5
+	weapon
+		"turret turn" 4
+		sprite "projectile/pulse"
+		"hull damage" 90
+		"shield damage" 80
+		velocity 18
+		lifetime 45
+		reload 32
+	description "Babylon 5-style rotating pulse turret."
+
+outfit "Vorlon Weapon"
+	thumbnail "outfit/vorlon_weapon"
+	category "Guns"
+	cost 12000000
+	mass 12
+	"outfit space" -28
+	"weapon capacity" -1
+	"gun ports" -1
+	energy 35
+	heat 2
+	weapon
+		sprite "projectile/ion bolt"
+		"hull damage" 220
+		"shield damage" 240
+		velocity 28
+		lifetime 60
+		reload 28
+	description "Vorlon energy weapon."
+
+outfit "Vorlon Weapon Turret"
+	thumbnail "outfit/vorlon_weapon_turret"
+	category "Turrets"
+	cost 15000000
+	mass 15
+	"outfit space" -35
+	"weapon capacity" -1
+	"turret mounts" -1
+	energy 38
+	heat 2
+	weapon
+		"turret turn" 5
+		sprite "projectile/ion bolt"
+		"hull damage" 200
+		"shield damage" 220
+		velocity 26
+		lifetime 60
+		reload 30
+	description "Vorlon rotating energy weapon."
+
+outfit "Shadow Weapon"
+	thumbnail "outfit/shadow_weapon"
+	category "Guns"
+	cost 14000000
+	mass 10
+	"outfit space" -30
+	"weapon capacity" -1
+	"gun ports" -1
+	energy 40
+	heat 1
+	weapon
+		sprite "projectile/ion bolt"
+		"hull damage" 250
+		"shield damage" 230
+		velocity 30
+		lifetime 65
+		reload 26
+	description "Shadow advanced weapon."
+
+outfit "Shadow Weapon Turret"
+	thumbnail "outfit/shadow_weapon_turret"
+	category "Turrets"
+	cost 17000000
+	mass 14
+	"outfit space" -36
+	"weapon capacity" -1
+	"turret mounts" -1
+	energy 42
+	heat 1
+	weapon
+		"turret turn" 5
+		sprite "projectile/ion bolt"
+		"hull damage" 230
+		"shield damage" 215
+		velocity 28
+		lifetime 65
+		reload 28
+	description "Shadow rotating advanced weapon."
+
+outfit "Hyperion Retro Thrusters"
+	plural "Hyperion Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 160
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in Hyperion-class braking thrusters. Provides strong retro-thrust for the stop-ship command."
+
+outfit "Aurora Starfury Retro Thrusters"
+	plural "Aurora Starfury Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 2
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in braking thrusters calibrated for reliable stop-ship control."
+
+outfit "Thunderbolt Retro Thrusters"
+	plural "Thunderbolt Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 11
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in braking thrusters calibrated for reliable stop-ship control."
+
+outfit "Nova Retro Thrusters"
+	plural "Nova Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 440
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in braking thrusters calibrated for reliable stop-ship control."
+
+outfit "Omega Retro Thrusters"
+	plural "Omega Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 1187
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in braking thrusters calibrated for reliable stop-ship control."
+
+outfit "Warlock Retro Thrusters"
+	plural "Warlock Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 1094
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in braking thrusters calibrated for reliable stop-ship control."
+
+outfit "Tinashi Retro Thrusters"
+	plural "Tinashi Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 160
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in braking thrusters calibrated for reliable stop-ship control."
+
+outfit "Sharlin Retro Thrusters"
+	plural "Sharlin Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 847
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in braking thrusters calibrated for reliable stop-ship control."
+
+outfit "Frazi Retro Thrusters"
+	plural "Frazi Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 10
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in braking thrusters calibrated for reliable stop-ship control."
+
+outfit "G'Quan Retro Thrusters"
+	plural "G'Quan Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 562
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in braking thrusters calibrated for reliable stop-ship control."
+
+outfit "G'Vrahn Retro Thrusters"
+	plural "G'Vrahn Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 1034
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in braking thrusters calibrated for reliable stop-ship control."
+
+outfit "Sentri Retro Thrusters"
+	plural "Sentri Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 1
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in braking thrusters calibrated for reliable stop-ship control."
+
+outfit "Vorchan Retro Thrusters"
+	plural "Vorchan Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 123
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in braking thrusters calibrated for reliable stop-ship control."
+
+outfit "Primus Retro Thrusters"
+	plural "Primus Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 485
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in braking thrusters calibrated for reliable stop-ship control."
+
+outfit "Vorlon Cruiser Retro Thrusters"
+	plural "Vorlon Cruiser Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 576
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in braking thrusters calibrated for reliable stop-ship control."
+
+outfit "Shadow Battlecrab Retro Thrusters"
+	plural "Shadow Battlecrab Retro Thrusters"
+	category "Engines"
+	cost 0
+	mass 0
+	"outfit space" 0
+	"reverse thrust" 624
+	"reverse thrusting energy" 0.8
+	"reverse thrusting heat" 1.0
+	description "Built-in braking thrusters calibrated for reliable stop-ship control."
+
+
+
+outfit "EA Heavy Laser Cannon"
+	thumbnail "outfit/b5_heavy_pulse_cannon"
+	category "Guns"
+	cost 1800000
+	mass 24
+	"outfit space" -30
+	"weapon capacity" -1
+	"gun ports" -1
+	energy 34
+	heat 10
+	weapon
+		sprite "projectile/heavy laser"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "heavy laser impact"
+		velocity 400
+		lifetime 1
+		"hull damage" 8
+		"shield damage" 7
+		reload 1
+	description "EarthForce heavy forward laser cannon. A fixed axial beam weapon intended for capital-ship attacks."
+
+outfit "Minbari Neutron Laser"
+	thumbnail "outfit/b5_heavy_pulse_cannon"
+	category "Guns"
+	cost 5000000
+	mass 20
+	"outfit space" -30
+	"weapon capacity" -1
+	"gun ports" -1
+	energy 46
+	heat 5
+	weapon
+		sprite "projectile/heavy laser"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "heavy laser impact"
+		velocity 400
+		lifetime 1
+		"hull damage" 11
+		"shield damage" 12
+		reload 1
+	description "A Minbari neutron laser, producing the characteristic sustained green beam of their capital ships."
+
+outfit "Vorlon Lightning Beam"
+	thumbnail "outfit/vorlon_weapon"
+	category "Guns"
+	cost 18000000
+	mass 12
+	"outfit space" -28
+	"weapon capacity" -1
+	"gun ports" -1
+	energy 62
+	heat 2
+	weapon
+		sprite "projectile/heavy laser"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "heavy laser impact"
+		velocity 400
+		lifetime 1
+		"hull damage" 17
+		"shield damage" 19
+		reload 1
+	description "A sustained Vorlon lightning beam capable of cutting through younger-race warships."
+
+outfit "Shadow Molecular Slicer Beam"
+	thumbnail "outfit/shadow_weapon"
+	category "Guns"
+	cost 21000000
+	mass 10
+	"outfit space" -30
+	"weapon capacity" -1
+	"gun ports" -1
+	energy 68
+	heat 1
+	weapon
+		sprite "projectile/heavy laser"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "heavy laser impact"
+		velocity 400
+		lifetime 1
+		"hull damage" 20
+		"shield damage" 17
+		reload 1
+	description "The primary cutting weapon of a Shadow capital ship, a sustained molecular slicer beam."
+

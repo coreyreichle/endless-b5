@@ -1,0 +1,358 @@
+# Babylon 5 stellar-object foundation pass.
+# Loaded late so every habitable system has a visible star while preserving
+# the plugin's named planets, stations, and wormholes.
+
+system "Sol"
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+	object "Earth Alliance Headquarters"
+		sprite "planet/b5_earth"
+		distance 700
+		period 365
+
+system "Proxima"
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+
+system "Vega"
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+
+system "Orion"
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+
+system "Beta 7"
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+
+system "Cyrus"
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+
+system "Grissom"
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+
+system "Jericho"
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+
+system "Deneb"
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+
+system "Drazi"
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+	object "Drazi Homeworld"
+		sprite "planet/b5_drazi"
+		distance 700
+		period 360
+
+system "Brakiri"
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+	object "Brakiri Homeworld"
+		sprite "planet/b5_brakiri"
+		distance 700
+		period 360
+
+system "Markab"
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+	object "Markab Homeworld"
+		sprite "planet/b5_markab"
+		distance 700
+		period 360
+
+system "Gaim"
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+	object "Gaim Homeworld"
+		sprite "planet/b5_gaim"
+		distance 700
+		period 360
+
+system "Abbai"
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+	object "Abbai Homeworld"
+		sprite "planet/b5_abbai"
+		distance 700
+		period 360
+
+system "Yolu"
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+	object "Yolu Homeworld"
+		sprite "planet/b5_yolu"
+		distance 700
+		period 360
+
+system "Pak'ma'ra"
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+	object "Pak'ma'ra Homeworld"
+		sprite "planet/b5_pakmara"
+		distance 700
+		period 360
+
+system "Vree"
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+	object "Vree Homeworld"
+		sprite "planet/b5_vree"
+		distance 700
+		period 360
+
+system "Narn"
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+	object "Narn Homeworld"
+		sprite "planet/b5_narn"
+		distance 700
+		period 350
+
+system "Quadrant 14"
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+
+system "Sorith"
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+
+system "T'il"
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+
+system "Hilak"
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+
+system "Shambah"
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+
+system "Melat"
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+
+system "Sigma 957"
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+	object "Sector 14 Rift"
+		sprite "planet/wormhole"
+		distance 900
+		period 24
+
+system "Centauri Prime"
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+	object "Centauri Prime"
+		sprite "planet/b5_centauri_prime"
+		distance 700
+		period 370
+
+system "Quadrant 37"
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+
+system "Raghesh"
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+
+system "Beta 2"
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+
+system "Beta 3"
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+
+system "Beta 4"
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+
+system "Immolan"
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+
+system "Minbar"
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+	object "Minbar"
+		sprite "planet/b5_minbar"
+		distance 700
+		period 360
+
+system "Eshar"
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+
+system "Tarellen"
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+
+system "Tavalan"
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+
+system "Valusha"
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+
+system "Minbari Protectorate"
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+
+system "Vorlon Border"
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+	object "Vorlon Border World"
+		sprite "planet/b5_vorlon_border"
+		distance 700
+		period 500
+
+system "Vorlon Homeworld"
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+	object "Vorlon Homeworld"
+		sprite "planet/b5_vorlon_homeworld"
+		distance 700
+		period 500
+
+system "Z'ha'dum"
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+	object "Z'ha'dum"
+		sprite "planet/babylon5"
+		distance 700
+		period 600
+
+system "Koulani"
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+
+system "Sector 83 by 9 by 12"
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+
+system "Sector 14"
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+	object "Sector 14 Rift"
+		sprite "planet/wormhole"
+		distance 700
+		period 20
+
+system "Epsilon"
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+	object "Epsilon I"
+		sprite "planet/b5_markab"
+		distance 350
+		period 120
+	object "Epsilon II"
+		sprite "planet/b5_vree"
+		distance 540
+		period 220
+	object "Epsilon III"
+		sprite "planet/b5_abbai"
+		distance 760
+		period 360
+	object "Babylon 5"
+		sprite "planet/babylon5"
+		distance 830
+		period 380
+

@@ -1,0 +1,53 @@
+# Minor-race shops, v0.6.0.
+
+shipyard "B5 Drazi Shipyard"
+	stock
+		"Drazi Sunhawk"
+		"Drazi Warbird"
+
+		"Drazi Prowl Shuttle"
+outfitter "B5 Drazi Outfitter"
+	stock
+		"B5 Drazi Drive"
+		"Drazi Particle Cutter"
+		"Drazi Particle Blaster"
+		"B5 Fusion Reactor"
+		"B5 Jump Drive"
+
+shipyard "B5 Brakiri Shipyard"
+	stock
+		"Brakiri Avioki"
+
+		"Brakiri Breeze Shuttle"
+outfitter "B5 Brakiri Outfitter"
+	stock
+		"B5 Brakiri Drive"
+		"Brakiri Graviton Beam"
+		"Brakiri Graviton Pulsar"
+		"B5 Fusion Reactor"
+		"B5 Jump Drive"
+
+shipyard "B5 Vree Shipyard"
+	stock
+		"Vree Xill"
+		"Vree Xorr"
+
+		"Vree Lumen Shuttle"
+outfitter "B5 Vree Outfitter"
+	stock
+		"B5 Vree Drive"
+		"Vree Antimatter Cannon"
+		"B5 Fusion Reactor"
+		"B5 Jump Drive"
+
+shipyard "B5 Pak'ma'ra Shipyard"
+	stock
+		"Pak'ma'ra Sim'sall'e"
+
+		"Pak'ma'ra Nesh Shuttle"
+outfitter "B5 Pak'ma'ra Outfitter"
+	stock
+		"B5 Pak'ma'ra Drive"
+		"Pak'ma'ra Plasma Cannon"
+		"B5 Fusion Reactor"
+		"B5 Jump Drive"

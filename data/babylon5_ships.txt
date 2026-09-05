@@ -1,0 +1,836 @@
+ship "Aurora Starfury"
+	sprite "ship/aurora_starfury"
+	thumbnail "thumbnail/aurora_starfury"
+	attributes
+		category "Fighter"
+		cost 220000
+		mass 80
+		drag 2.73
+		"heat dissipation" 0.92
+		hull 140
+		shields 60
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 70
+		"engine capacity" 30
+		"weapon capacity" 12
+		"required crew" 0
+		automaton 1
+	outfits
+		"B5 Fusion Reactor"
+		"B5 Maneuver Drive"
+		"Aurora Starfury Retro Thrusters"
+		"B5 Light Pulse Cannon"
+	engine -16.2 43.2
+	engine 16.2 43.2
+	gun -10.8 -43.2
+	gun 10.8 -43.2
+	description "Earth Alliance Aurora Starfury. Extremely maneuverable, fast, and lightly armored."
+
+ship "Thunderbolt"
+	sprite "ship/thunderbolt"
+	thumbnail "thumbnail/thunderbolt"
+	attributes
+		category "Fighter"
+		cost 350000
+		mass 115
+		drag 3.16
+		"heat dissipation" 0.9
+		hull 220
+		shields 100
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 80
+		"engine capacity" 40
+		"weapon capacity" 18
+		"required crew" 0
+		automaton 1
+	outfits
+		"B5 Fusion Reactor"
+		"B5 Maneuver Drive"
+		"Thunderbolt Retro Thrusters"
+		"B5 Light Pulse Cannon" 2
+	engine -19.8 49.5
+	engine 19.8 49.5
+	gun -12.6 -50.4
+	gun 12.6 -50.4
+	description "Earth Alliance Thunderbolt heavy fighter. Tougher and more heavily armed than the Starfury."
+
+ship "Hyperion"
+	sprite "ship/hyperion"
+	thumbnail "thumbnail/hyperion"
+	attributes
+		category "Medium Warship"
+		cost 18000000
+		mass 900
+		drag 21.82
+		"heat dissipation" 0.72
+		hull 2600
+		shields 1500
+		"fuel capacity" 500
+		"cargo space" 80
+		"outfit space" 440
+		"engine capacity" 260
+		"weapon capacity" 100
+		"required crew" 80
+		bunks 100
+	outfits
+		"B5 Maneuver Drive" 4
+		"Hyperion Retro Thrusters"
+		"B5 Fusion Reactor" 2
+		"B5 Jump Drive"
+		"EA Heavy Laser Cannon" 2
+		"B5 Heavy Pulse Cannon" 2
+		"B5 Pulse Turret" 2
+	engine -70.2 237.6
+	engine 70.2 237.6
+	gun -48.6 -224.1
+	gun 48.6 -224.1
+	gun -32.4 -194.4
+	gun 32.4 -194.4
+	turret -75.6 40.5
+	turret 75.6 40.5
+	description "Earth Alliance Hyperion cruiser. A balanced medium warship suitable for general fleet operations."
+	bay "Fighter" -45 -45
+	bay "Fighter" -27 -45
+	bay "Fighter" -9 -45
+	bay "Fighter" 9 -45
+	bay "Fighter" 27 -45
+	bay "Fighter" 45 -45
+
+ship "Nova"
+	sprite "ship/nova"
+	thumbnail "thumbnail/nova"
+	attributes
+		category "Heavy Warship"
+		cost 42000000
+		mass 2100
+		drag 42.86
+		"heat dissipation" 0.6
+		hull 6000
+		shields 2800
+		"fuel capacity" 700
+		"cargo space" 120
+		"outfit space" 623
+		"engine capacity" 400
+		"weapon capacity" 220
+		"required crew" 220
+		bunks 260
+	outfits
+		"B5 Maneuver Drive" 6
+		"Nova Retro Thrusters"
+		"B5 Fusion Reactor" 3
+		"B5 Jump Drive"
+		"EA Heavy Laser Cannon" 4
+		"B5 Heavy Pulse Cannon" 2
+		"B5 Pulse Turret" 4
+	engine -91.8 337.5
+	engine 91.8 337.5
+	gun -59.4 -324
+	gun 59.4 -324
+	gun -32.4 -302.4
+	gun 32.4 -302.4
+	gun -81 -243
+	gun 81 -243
+	turret -121.5 48.6
+	turret 121.5 48.6
+	turret -129.6 148.5
+	turret 129.6 148.5
+	description "Earth Alliance Nova dreadnought. Massive forward firepower and armor at the cost of maneuverability."
+	bay "Fighter" -45 -45
+	bay "Fighter" -27 -45
+	bay "Fighter" -9 -45
+	bay "Fighter" 9 -45
+	bay "Fighter" 27 -45
+	bay "Fighter" 45 -45
+	bay "Fighter" -45 -63
+	bay "Fighter" -27 -63
+	bay "Fighter" -9 -63
+	bay "Fighter" 9 -63
+	bay "Fighter" 27 -63
+	bay "Fighter" 45 -63
+	bay "Fighter" -45 -81
+	bay "Fighter" -27 -81
+	bay "Fighter" -9 -81
+	bay "Fighter" 9 -81
+	bay "Fighter" 27 -81
+	bay "Fighter" 45 -81
+	bay "Fighter" -45 -99
+	bay "Fighter" -27 -99
+	bay "Fighter" -9 -99
+	bay "Fighter" 9 -99
+	bay "Fighter" 27 -99
+	bay "Fighter" 45 -99
+
+ship "Omega"
+	sprite "ship/omega"
+	thumbnail "thumbnail/omega"
+	attributes
+		category "Superheavy"
+		cost 85000000
+		mass 5200
+		drag 78.95
+		"heat dissipation" 0.48
+		hull 12500
+		shields 6200
+		"fuel capacity" 1200
+		"cargo space" 250
+		"outfit space" 1500
+		"engine capacity" 850
+		"weapon capacity" 520
+		"required crew" 500
+		bunks 600
+	outfits
+		"B5 Maneuver Drive" 10
+		"Omega Retro Thrusters"
+		"B5 Fusion Reactor" 5
+		"B5 Jump Drive"
+		"EA Heavy Laser Cannon" 4
+		"B5 Heavy Pulse Cannon" 4
+		"B5 Pulse Turret" 6
+	engine -135 513
+	engine 135 513
+	gun -81 -486
+	gun 81 -486
+	gun -48.6 -445.5
+	gun 48.6 -445.5
+	gun -108 -364.5
+	gun 108 -364.5
+	gun -40.5 -337.5
+	gun 40.5 -337.5
+	turret -162 -27
+	turret 162 -27
+	turret -194.4 135
+	turret 194.4 135
+	turret -175.5 256.5
+	turret 175.5 256.5
+	description "Earth Alliance Omega destroyer. A huge capital ship with heavy armor, extensive weapons, and fighter capacity."
+	bay "Fighter" -45 -45
+	bay "Fighter" -27 -45
+	bay "Fighter" -9 -45
+	bay "Fighter" 9 -45
+	bay "Fighter" 27 -45
+	bay "Fighter" 45 -45
+	bay "Fighter" -45 -63
+	bay "Fighter" -27 -63
+	bay "Fighter" -9 -63
+	bay "Fighter" 9 -63
+	bay "Fighter" 27 -63
+	bay "Fighter" 45 -63
+	bay "Fighter" -45 -81
+	bay "Fighter" -27 -81
+	bay "Fighter" -9 -81
+	bay "Fighter" 9 -81
+	bay "Fighter" 27 -81
+	bay "Fighter" 45 -81
+	bay "Fighter" -45 -99
+	bay "Fighter" -27 -99
+	bay "Fighter" -9 -99
+	bay "Fighter" 9 -99
+	bay "Fighter" 27 -99
+	bay "Fighter" 45 -99
+
+ship "Warlock"
+	sprite "ship/warlock"
+	thumbnail "thumbnail/warlock"
+	attributes
+		category "Superheavy"
+		cost 120000000
+		mass 5000
+		drag 81.82
+		"heat dissipation" 0.54
+		hull 11500
+		shields 7600
+		"fuel capacity" 1400
+		"cargo space" 220
+		"outfit space" 1700
+		"engine capacity" 950
+		"weapon capacity" 600
+		"required crew" 420
+		bunks 500
+	outfits
+		"B5 Maneuver Drive" 12
+		"Warlock Retro Thrusters"
+		"B5 Fusion Reactor" 5
+		"B5 Jump Drive"
+		"EA Heavy Laser Cannon" 4
+		"B5 Heavy Pulse Cannon" 4
+		"B5 Pulse Turret" 6
+	engine -140.4 499.5
+	engine 140.4 499.5
+	gun -86.4 -472.5
+	gun 86.4 -472.5
+	gun -54 -432
+	gun 54 -432
+	gun -113.4 -356.4
+	gun 113.4 -356.4
+	gun -43.2 -324
+	gun 43.2 -324
+	turret -167.4 -21.6
+	turret 167.4 -21.6
+	turret -199.8 129.6
+	turret 199.8 129.6
+	turret -183.6 248.4
+	turret 183.6 248.4
+	description "Earth Alliance Warlock advanced destroyer. An endgame EA warship with powerful shields and heavy armament."
+	bay "Fighter" -45 -45
+	bay "Fighter" -27 -45
+	bay "Fighter" -9 -45
+	bay "Fighter" 9 -45
+	bay "Fighter" 27 -45
+	bay "Fighter" 45 -45
+	bay "Fighter" -45 -63
+	bay "Fighter" -27 -63
+	bay "Fighter" -9 -63
+	bay "Fighter" 9 -63
+	bay "Fighter" 27 -63
+	bay "Fighter" 45 -63
+	bay "Fighter" -45 -81
+	bay "Fighter" -27 -81
+	bay "Fighter" -9 -81
+	bay "Fighter" 9 -81
+	bay "Fighter" 27 -81
+	bay "Fighter" 45 -81
+	bay "Fighter" -45 -99
+	bay "Fighter" -27 -99
+	bay "Fighter" -9 -99
+	bay "Fighter" 9 -99
+	bay "Fighter" 27 -99
+	bay "Fighter" 45 -99
+
+ship "Nial"
+	sprite "ship/nial"
+	thumbnail "thumbnail/nial"
+	attributes
+		category "Fighter"
+		cost 500000
+		mass 95
+		drag 3.36
+		"heat dissipation" 0.94
+		hull 170
+		shields 140
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 90
+		"engine capacity" 48
+		"weapon capacity" 20
+		"required crew" 0
+		automaton 1
+	outfits
+		"B5 Fusion Reactor"
+		"B5 Minbari Drive"
+		"B5 Heavy Pulse Cannon"
+	engine -18 46.8
+	engine 18 46.8
+	gun -11.7 -46.8
+	gun 11.7 -46.8
+	description "Minbari Nial fighter. Fast, highly maneuverable, and protected by advanced shields."
+
+ship "Tinashi"
+	sprite "ship/tinashi"
+	thumbnail "thumbnail/tinashi"
+	attributes
+		category "Medium Warship"
+		cost 30000000
+		mass 1050
+		drag 28.00
+		"heat dissipation" 0.78
+		hull 2800
+		shields 2400
+		"fuel capacity" 650
+		"cargo space" 90
+		"outfit space" 480
+		"engine capacity" 330
+		"weapon capacity" 150
+		"required crew" 100
+		bunks 120
+	outfits
+		"B5 Minbari Drive" 4
+		"Tinashi Retro Thrusters"
+		"B5 Minbari Reactor" 2
+		"B5 Jump Drive"
+		"B5 Heavy Pulse Cannon" 4
+		"B5 Pulse Turret" 3
+	engine -81 256.5
+	engine 81 256.5
+	gun -54 -237.6
+	gun 54 -237.6
+	gun -32.4 -202.5
+	gun 32.4 -202.5
+	turret -91.8 40.5
+	turret 91.8 40.5
+	turret 0 121.5
+	description "Minbari Tinashi warship. Excellent shields, efficient drives, and strong firepower."
+
+ship "Sharlin"
+	sprite "ship/sharlin"
+	thumbnail "thumbnail/sharlin"
+	attributes
+		category "Superheavy"
+		cost 100000000
+		mass 4300
+		drag 84.00
+		"heat dissipation" 0.62
+		hull 9500
+		shields 9000
+		"fuel capacity" 1200
+		"cargo space" 160
+		"outfit space" 1550
+		"engine capacity" 900
+		"weapon capacity" 520
+		"required crew" 300
+		bunks 360
+	outfits
+		"B5 Minbari Drive" 10
+		"Sharlin Retro Thrusters"
+		"B5 Minbari Reactor" 4
+		"B5 Jump Drive"
+		"Minbari Neutron Laser" 6
+		"B5 Heavy Pulse Cannon" 2
+		"B5 Pulse Turret" 6
+	engine -129.6 472.5
+	engine 129.6 472.5
+	gun -81 -453.6
+	gun 81 -453.6
+	gun -48.6 -405
+	gun 48.6 -405
+	gun -108 -337.5
+	gun 108 -337.5
+	gun -37.8 -297
+	gun 37.8 -297
+	turret -162 -13.5
+	turret 162 -13.5
+	turret -189 129.6
+	turret 189 129.6
+	turret -167.4 243
+	turret 167.4 243
+	description "Minbari Sharlin warcruiser. One of the most capable conventional warships in the setting."
+	bay "Fighter" -45 -45
+	bay "Fighter" -27 -45
+	bay "Fighter" -9 -45
+	bay "Fighter" 9 -45
+	bay "Fighter" 27 -45
+	bay "Fighter" 45 -45
+	bay "Fighter" -45 -63
+	bay "Fighter" -27 -63
+	bay "Fighter" -9 -63
+	bay "Fighter" 9 -63
+	bay "Fighter" 27 -63
+	bay "Fighter" 45 -63
+	bay "Fighter" -45 -81
+	bay "Fighter" -27 -81
+	bay "Fighter" -9 -81
+	bay "Fighter" 9 -81
+	bay "Fighter" 27 -81
+	bay "Fighter" 45 -81
+	bay "Fighter" -45 -99
+	bay "Fighter" -27 -99
+	bay "Fighter" -9 -99
+	bay "Fighter" 9 -99
+	bay "Fighter" 27 -99
+	bay "Fighter" 45 -99
+
+ship "Frazi"
+	sprite "ship/frazi"
+	thumbnail "thumbnail/frazi"
+	attributes
+		category "Fighter"
+		cost 260000
+		mass 120
+		drag 3.78
+		"heat dissipation" 0.88
+		hull 240
+		shields 70
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 96
+		"engine capacity" 38
+		"weapon capacity" 18
+		"required crew" 0
+		automaton 1
+	outfits
+		"B5 Narn Reactor"
+		"B5 Narn Drive"
+		"Frazi Retro Thrusters"
+		"B5 Heavy Pulse Cannon"
+	engine -19.8 45
+	engine 19.8 45
+	gun -12.6 -45
+	gun 12.6 -45
+	description "Narn Frazi fighter. Rugged and heavily armed, with less sophisticated shields."
+
+ship "G'Quan"
+	sprite "ship/g_quan"
+	thumbnail "thumbnail/g_quan"
+	attributes
+		category "Heavy Warship"
+		cost 48000000
+		mass 2600
+		drag 51.00
+		"heat dissipation" 0.58
+		hull 7500
+		shields 2500
+		"fuel capacity" 750
+		"cargo space" 140
+		"outfit space" 680
+		"engine capacity" 440
+		"weapon capacity" 250
+		"required crew" 250
+		bunks 300
+	outfits
+		"B5 Narn Drive" 6
+		"G'Quan Retro Thrusters"
+		"B5 Narn Reactor" 3
+		"B5 Jump Drive"
+		"B5 Heavy Pulse Cannon" 6
+		"B5 Pulse Turret" 4
+	engine -97.2 351
+	engine 97.2 351
+	gun -64.8 -337.5
+	gun 64.8 -337.5
+	gun -37.8 -302.4
+	gun 37.8 -302.4
+	gun -86.4 -248.4
+	gun 86.4 -248.4
+	gun -32.4 -210.6
+	gun 32.4 -210.6
+	turret -129.6 40.5
+	turret 129.6 40.5
+	turret -135 156.6
+	turret 135 156.6
+	description "Narn G'Quan heavy cruiser. Durable armor and strong conventional firepower."
+	bay "Fighter" -45 -45
+	bay "Fighter" -27 -45
+	bay "Fighter" -9 -45
+	bay "Fighter" 9 -45
+	bay "Fighter" 27 -45
+	bay "Fighter" 45 -45
+	bay "Fighter" -45 -63
+	bay "Fighter" -27 -63
+	bay "Fighter" -9 -63
+	bay "Fighter" 9 -63
+	bay "Fighter" 27 -63
+	bay "Fighter" 45 -63
+
+ship "G'Vrahn"
+	sprite "ship/g_vrahn"
+	thumbnail "thumbnail/g_vrahn"
+	attributes
+		category "Superheavy"
+		cost 85000000
+		mass 4700
+		drag 79.07
+		"heat dissipation" 0.5
+		hull 12000
+		shields 4200
+		"fuel capacity" 1100
+		"cargo space" 200
+		"outfit space" 1400
+		"engine capacity" 760
+		"weapon capacity" 500
+		"required crew" 450
+		bunks 540
+	outfits
+		"B5 Narn Drive" 10
+		"G'Vrahn Retro Thrusters"
+		"B5 Narn Reactor" 5
+		"B5 Jump Drive"
+		"B5 Heavy Pulse Cannon" 8
+		"B5 Pulse Turret" 6
+	engine -135 486
+	engine 135 486
+	gun -86.4 -472.5
+	gun 86.4 -472.5
+	gun -54 -426.6
+	gun 54 -426.6
+	gun -113.4 -351
+	gun 113.4 -351
+	gun -43.2 -310.5
+	gun 43.2 -310.5
+	turret -167.4 -21.6
+	turret 167.4 -21.6
+	turret -199.8 121.5
+	turret 199.8 121.5
+	turret -178.2 243
+	turret 178.2 243
+	description "Narn G'Vrahn warship. Massive, rugged, and designed around overwhelming conventional firepower."
+
+ship "Sentri"
+	sprite "ship/sentri"
+	thumbnail "thumbnail/sentri"
+	attributes
+		category "Fighter"
+		cost 300000
+		mass 100
+		drag 3.30
+		"heat dissipation" 0.91
+		hull 190
+		shields 90
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 71
+		"engine capacity" 42
+		"weapon capacity" 18
+		"required crew" 0
+		automaton 1
+	outfits
+		"B5 Centauri Reactor"
+		"B5 Centauri Drive"
+		"Sentri Retro Thrusters"
+		"B5 Light Pulse Cannon"
+	engine -18 45
+	engine 18 45
+	gun -11.7 -45
+	gun 11.7 -45
+	description "Centauri Sentri fighter. Fast and well armed for its size."
+
+ship "Vorchan"
+	sprite "ship/vorchan"
+	thumbnail "thumbnail/vorchan"
+	attributes
+		category "Medium Warship"
+		cost 24000000
+		mass 850
+		drag 23.38
+		"heat dissipation" 0.76
+		hull 2100
+		shields 1300
+		"fuel capacity" 600
+		"cargo space" 70
+		"outfit space" 450
+		"engine capacity" 320
+		"weapon capacity" 145
+		"required crew" 70
+		bunks 90
+	outfits
+		"B5 Centauri Drive" 4
+		"Vorchan Retro Thrusters"
+		"B5 Centauri Reactor" 2
+		"B5 Jump Drive"
+		"B5 Heavy Pulse Cannon" 4
+		"B5 Pulse Turret" 2
+	engine -72.9 243
+	engine 72.9 243
+	gun -51.3 -221.4
+	gun 51.3 -221.4
+	gun -29.7 -189
+	gun 29.7 -189
+	turret -81 40.5
+	turret 81 40.5
+	description "Centauri Vorchan warship. Fast, heavily armed, and somewhat less durable than its peers."
+
+ship "Primus"
+	"plural" "Primus"
+	sprite "ship/primus"
+	thumbnail "thumbnail/primus"
+	attributes
+		category "Heavy Warship"
+		cost 50000000
+		mass 2500
+		drag 51.15
+		"heat dissipation" 0.6
+		hull 6200
+		shields 3200
+		"fuel capacity" 800
+		"cargo space" 130
+		"outfit space" 720
+		"engine capacity" 500
+		"weapon capacity" 260
+		"required crew" 240
+		bunks 300
+	outfits
+		"B5 Centauri Drive" 7
+		"Primus Retro Thrusters"
+		"B5 Centauri Reactor" 3
+		"B5 Jump Drive"
+		"B5 Heavy Pulse Cannon" 6
+		"B5 Pulse Turret" 5
+	engine -102.6 345.6
+	engine 102.6 345.6
+	gun -64.8 -332.1
+	gun 64.8 -332.1
+	gun -37.8 -297
+	gun 37.8 -297
+	gun -86.4 -243
+	gun 86.4 -243
+	gun -32.4 -205.2
+	gun 32.4 -205.2
+	turret -129.6 32.4
+	turret 129.6 32.4
+	turret -135 148.5
+	turret 135 148.5
+	turret 0 175.5
+	description "Centauri Primus battlecruiser. Fast for its size and heavily armed."
+	bay "Fighter" -45 -45
+	bay "Fighter" -27 -45
+	bay "Fighter" -9 -45
+	bay "Fighter" 9 -45
+	bay "Fighter" 27 -45
+	bay "Fighter" 45 -45
+	bay "Fighter" -45 -63
+	bay "Fighter" -27 -63
+	bay "Fighter" -9 -63
+	bay "Fighter" 9 -63
+	bay "Fighter" 27 -63
+	bay "Fighter" 45 -63
+
+ship "Vorlon Fighter"
+	sprite "ship/vorlon_fighter"
+	thumbnail "thumbnail/vorlon_fighter"
+	attributes
+		category "Fighter"
+		cost 2000000
+		mass 140
+		drag 4.81
+		"heat dissipation" 0.98
+		hull 260
+		shields 400
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 108
+		"engine capacity" 55
+		"weapon capacity" 25
+		"required crew" 0
+		automaton 1
+	outfits
+		"Vorlon Reactor"
+		"Vorlon Drive"
+		"Vorlon Weapon"
+	engine -19.8 49.5
+	engine 19.8 49.5
+	gun -12.6 -49.5
+	gun 12.6 -49.5
+	description "Vorlon fighter. An endgame craft with extraordinary protection and performance."
+
+ship "Vorlon Cruiser"
+	sprite "ship/vorlon_cruiser"
+	thumbnail "thumbnail/vorlon_cruiser"
+	attributes
+		category "Superheavy"
+		cost 250000000
+		mass 3600
+		drag 86.67
+		"heat dissipation" 0.78
+		hull 9000
+		shields 18000
+		"fuel capacity" 1600
+		"cargo space" 100
+		"outfit space" 1900
+		"engine capacity" 1200
+		"weapon capacity" 650
+		"required crew" 100
+		bunks 120
+	outfits
+		"Vorlon Drive" 8
+		"Vorlon Cruiser Retro Thrusters"
+		"Vorlon Reactor" 4
+		"B5 Jump Drive"
+		"Vorlon Lightning Beam" 14
+
+	engine -121.5 459
+	engine 121.5 459
+	gun -75.6 -445.5
+	gun 75.6 -445.5
+	gun -43.2 -405
+	gun 43.2 -405
+	gun -102.6 -337.5
+	gun 102.6 -337.5
+	gun -32.4 -291.6
+	gun 32.4 -291.6
+	gun -148.5 -13.5
+	gun 148.5 -13.5
+	gun -183.6 121.5
+	gun 183.6 121.5
+	gun -162 243
+	gun 162 243
+	description "Vorlon cruiser. Extremely powerful and intended as an endgame rarity."
+	bay "Fighter" -45 -45
+	bay "Fighter" -27 -45
+	bay "Fighter" -9 -45
+	bay "Fighter" 9 -45
+	bay "Fighter" 27 -45
+	bay "Fighter" 45 -45
+
+ship "Shadow Fighter"
+	sprite "ship/shadow_fighter"
+	thumbnail "thumbnail/shadow_fighter"
+	attributes
+		category "Fighter"
+		cost 2500000
+		mass 100
+		drag 5.00
+		"heat dissipation" 0.99
+		hull 300
+		shields 500
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 110
+		"engine capacity" 70
+		"weapon capacity" 30
+		"required crew" 0
+		automaton 1
+		cloak 1
+		"cloak hull threshold" 0.15
+	outfits
+		"Shadow Reactor"
+		"Shadow Drive"
+		"Shadow Weapon"
+	engine -18 46.8
+	engine 18 46.8
+	gun -11.7 -46.8
+	gun 11.7 -46.8
+	description "Shadow fighter. Extremely fast and dangerous, with advanced protection."
+
+ship "Shadow Battlecrab"
+	sprite "ship/shadow_battlecrab"
+	thumbnail "thumbnail/shadow_battlecrab"
+	attributes
+		category "Superheavy"
+		cost 300000000
+		mass 3900
+		drag 88.89
+		"heat dissipation" 0.82
+		hull 15000
+		shields 16000
+		"fuel capacity" 1800
+		"cargo space" 100
+		"outfit space" 2000
+		"engine capacity" 1300
+		"weapon capacity" 700
+		"required crew" 120
+		bunks 150
+		cloak 1
+		"cloak hull threshold" 0.15
+	outfits
+		"Shadow Drive" 8
+		"Shadow Battlecrab Retro Thrusters"
+		"Shadow Reactor" 4
+		"B5 Jump Drive"
+		"Shadow Molecular Slicer Beam" 14
+
+	engine -129.6 472.5
+	engine 129.6 472.5
+	gun -81 -459
+	gun 81 -459
+	gun -48.6 -410.4
+	gun 48.6 -410.4
+	gun -108 -345.6
+	gun 108 -345.6
+	gun -37.8 -297
+	gun 37.8 -297
+	gun -156.6 -13.5
+	gun 156.6 -13.5
+	gun -189 121.5
+	gun 189 121.5
+	gun -167.4 248.4
+	gun 167.4 248.4
+	description "Shadow Battlecrab. An endgame vessel with extreme survivability and firepower."
+	bay "Fighter" -45 -45
+	bay "Fighter" -27 -45
+	bay "Fighter" -9 -45
+	bay "Fighter" 9 -45
+	bay "Fighter" 27 -45
+	bay "Fighter" 45 -45
+	bay "Fighter" -45 -63
+	bay "Fighter" -27 -63
+

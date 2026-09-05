@@ -1,0 +1,41 @@
+# Babylon 5 Part 1: Babylon 5 at Epsilon Leonis, preserving the established project anchor.
+# This file is the single authoritative definition of the Epsilon Leonis system.
+
+system "Epsilon"
+	pos 4940 5030
+	government "Earth Alliance"
+	trade "Food" 410
+	trade "Clothing" 310
+	trade "Metal" 430
+	trade "Plastic" 410
+	trade "Equipment" 610
+	trade "Medical" 700
+	trade "Industrial" 710
+	trade "Electronics" 700
+	trade "Heavy Metals" 1030
+	trade "Luxury Goods" 1240
+	link "Proxima"
+	link "Jericho"
+	link "Drazi"
+	link "Markab"
+	link "Quadrant 14"
+	link "Centauri Prime"
+	link "Minbar"
+	fleet "B5 Earth Patrol" 1800
+	fleet "B5 Minbari Patrol" 2600
+	fleet "B5 Narn Patrol" 2300
+	fleet "B5 Centauri Patrol" 2300
+	fleet "B5 Vorlon Patrol" 9000
+	fleet "B5 Shadow Patrol" 12000
+	object "Babylon 5"
+		sprite "planet/babylon5"
+		distance 0
+		period 1
+
+planet "Babylon 5"
+	"display name" "Babylon 5"
+	government "Earth Alliance"
+	spaceport "Babylon 5 station. Part 1 sandbox testing facility."
+	shipyard "Babylon 5 Test Shipyard"
+	outfitter "Babylon 5 Test Outfitter"
+	description "Babylon 5 station. Part 1 sandbox testing facility for the Babylon 5 conversion. All Part 1 ships and equipment are available here for testing."
