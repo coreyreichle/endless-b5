@@ -9,7 +9,7 @@ ship "Aurora Starfury"
 		"heat dissipation" 0.92
 		hull 140
 		shields 60
-		"fuel capacity" 0
+		"fuel capacity" 100
 		"cargo space" 0
 		"outfit space" 70
 		"engine capacity" 30
@@ -17,6 +17,7 @@ ship "Aurora Starfury"
 		"required crew" 0
 		automaton 1
 	outfits
+		"B5 Fighter Hyperspace Drive"
 		"B5 Fusion Reactor"
 		"B5 Maneuver Drive"
 		"Aurora Starfury Retro Thrusters"
@@ -38,7 +39,7 @@ ship "Thunderbolt"
 		"heat dissipation" 0.9
 		hull 220
 		shields 100
-		"fuel capacity" 0
+		"fuel capacity" 100
 		"cargo space" 0
 		"outfit space" 80
 		"engine capacity" 40
@@ -46,6 +47,7 @@ ship "Thunderbolt"
 		"required crew" 0
 		automaton 1
 	outfits
+		"B5 Fighter Hyperspace Drive"
 		"B5 Fusion Reactor"
 		"B5 Maneuver Drive"
 		"Thunderbolt Retro Thrusters"
@@ -78,7 +80,7 @@ ship "Hyperion"
 		"B5 Maneuver Drive" 4
 		"Hyperion Retro Thrusters"
 		"B5 Fusion Reactor" 2
-		"B5 Jump Drive"
+		"B5 Hyperspace Drive"
 		"EA Heavy Laser Cannon" 2
 		"B5 Heavy Pulse Cannon" 2
 		"B5 Pulse Turret" 2
@@ -309,7 +311,7 @@ ship "Nial"
 		"heat dissipation" 0.94
 		hull 170
 		shields 140
-		"fuel capacity" 0
+		"fuel capacity" 100
 		"cargo space" 0
 		"outfit space" 90
 		"engine capacity" 48
@@ -317,6 +319,7 @@ ship "Nial"
 		"required crew" 0
 		automaton 1
 	outfits
+		"B5 Fighter Hyperspace Drive"
 		"B5 Fusion Reactor"
 		"B5 Minbari Drive"
 		"B5 Heavy Pulse Cannon"
@@ -348,7 +351,7 @@ ship "Tinashi"
 		"B5 Minbari Drive" 4
 		"Tinashi Retro Thrusters"
 		"B5 Minbari Reactor" 2
-		"B5 Jump Drive"
+		"B5 Hyperspace Drive"
 		"B5 Heavy Pulse Cannon" 4
 		"B5 Pulse Turret" 3
 	engine -81 256.5
@@ -441,7 +444,7 @@ ship "Frazi"
 		"heat dissipation" 0.88
 		hull 240
 		shields 70
-		"fuel capacity" 0
+		"fuel capacity" 100
 		"cargo space" 0
 		"outfit space" 96
 		"engine capacity" 38
@@ -449,6 +452,7 @@ ship "Frazi"
 		"required crew" 0
 		automaton 1
 	outfits
+		"B5 Fighter Hyperspace Drive"
 		"B5 Narn Reactor"
 		"B5 Narn Drive"
 		"Frazi Retro Thrusters"
@@ -566,7 +570,7 @@ ship "Sentri"
 		"heat dissipation" 0.91
 		hull 190
 		shields 90
-		"fuel capacity" 0
+		"fuel capacity" 100
 		"cargo space" 0
 		"outfit space" 71
 		"engine capacity" 42
@@ -574,6 +578,7 @@ ship "Sentri"
 		"required crew" 0
 		automaton 1
 	outfits
+		"B5 Fighter Hyperspace Drive"
 		"B5 Centauri Reactor"
 		"B5 Centauri Drive"
 		"Sentri Retro Thrusters"
@@ -606,7 +611,7 @@ ship "Vorchan"
 		"B5 Centauri Drive" 4
 		"Vorchan Retro Thrusters"
 		"B5 Centauri Reactor" 2
-		"B5 Jump Drive"
+		"B5 Hyperspace Drive"
 		"B5 Heavy Pulse Cannon" 4
 		"B5 Pulse Turret" 2
 	engine -72.9 243
@@ -685,7 +690,7 @@ ship "Vorlon Fighter"
 		"heat dissipation" 0.98
 		hull 260
 		shields 400
-		"fuel capacity" 0
+		"fuel capacity" 100
 		"cargo space" 0
 		"outfit space" 108
 		"engine capacity" 55
@@ -693,6 +698,7 @@ ship "Vorlon Fighter"
 		"required crew" 0
 		automaton 1
 	outfits
+		"B5 Fighter Hyperspace Drive"
 		"Vorlon Reactor"
 		"Vorlon Drive"
 		"Vorlon Weapon"
@@ -762,7 +768,7 @@ ship "Shadow Fighter"
 		"heat dissipation" 0.99
 		hull 300
 		shields 500
-		"fuel capacity" 0
+		"fuel capacity" 100
 		"cargo space" 0
 		"outfit space" 110
 		"engine capacity" 70
@@ -772,6 +778,7 @@ ship "Shadow Fighter"
 		cloak 1
 		"cloak hull threshold" 0.15
 	outfits
+		"B5 Fighter Hyperspace Drive"
 		"Shadow Reactor"
 		"Shadow Drive"
 		"Shadow Weapon"
@@ -834,3 +841,33 @@ ship "Shadow Battlecrab"
 	bay "Fighter" -45 -63
 	bay "Fighter" -27 -63
 
+
+ship "Raider Fighter"
+	sprite "ship/raider_fighter"
+	thumbnail "thumbnail/raider_fighter"
+	attributes
+		category "Fighter"
+		cost 180000
+		mass 80
+		drag 2.73
+		"heat dissipation" 0.92
+		hull 140
+		shields 60
+		"fuel capacity" 100
+		"cargo space" 0
+		"outfit space" 70
+		"engine capacity" 30
+		"weapon capacity" 12
+		"required crew" 0
+		automaton 1
+	outfits
+		"B5 Fighter Hyperspace Drive"
+		"B5 Fusion Reactor"
+		"B5 Maneuver Drive"
+		"Aurora Starfury Retro Thrusters"
+		"B5 Light Pulse Cannon"
+	engine -16.2 43.2
+	engine 16.2 43.2
+	gun -10.8 -43.2
+	gun 10.8 -43.2
+	description "A fast, lightly protected Raider fighter based on a compact four-engine interceptor layout. It is cheap, agile, and dangerous in numbers."

@@ -1,6 +1,6 @@
 name "Babylon 5 - Part 1"
 about "Babylon 5 conversion - Part 1: ships, equipment, factions, and sandbox testing."
-version "0.8.6"
+version "0.9.3"
 authors
 	"Fan project"
 tags

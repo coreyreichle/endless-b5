@@ -1,0 +1,12 @@
+# Raiders faction foundation.
+# These fleets are available for missions but are not placed into random traffic.
+
+fleet "B5 Raider Fighter Pair"
+	government "Raiders"
+	variant 1
+		"Raider Fighter" 2
+
+fleet "B5 Raider Fighter Wing"
+	government "Raiders"
+	variant 1
+		"Raider Fighter" 4

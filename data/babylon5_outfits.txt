@@ -172,6 +172,27 @@ outfit "Shadow Drive"
 	"turning heat" 0.5
 	description "Shadow advanced propulsion."
 
+outfit "B5 Hyperspace Drive"
+	thumbnail "outfit/b5_jump_drive"
+	category "Systems"
+	cost 750000
+	mass 18
+	"outfit space" -18
+	hyperdrive 1
+	"jump speed" 10
+	"jump fuel" 100
+	description "Conventional hyperspace drive for vessels that cannot form their own jump point. It can travel along established hyperspace links but cannot make free jump-drive transitions."
+
+outfit "B5 Fighter Hyperspace Drive"
+	thumbnail "outfit/b5_jump_drive"
+	category "Systems"
+	cost 250000
+	mass 0
+	hyperdrive 1
+	"jump speed" 10
+	"jump fuel" 100
+	description "Compact hyperspace system for major-race fighters. Its carrier-scale fuel reserve is deliberately limited to roughly two linked-system jumps before refueling."
+
 outfit "B5 Jump Drive"
 	thumbnail "outfit/b5_jump_drive"
 	category "Systems"

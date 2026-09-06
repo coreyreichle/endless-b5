@@ -1,0 +1,34 @@
+# Babylon 5 main storyline - Mission 3.
+# Offered at the Babylon 5 spaceport after Mission 2.
+#
+# The three Narn transports are mission NPCs. `save accompany` means all three
+# must survive and be present with the player in the Narn system for completion.
+
+mission "b5 mission 3 narn escort"
+	name "Mission 3: Narn Convoy Escort"
+	description "Escort three Narn transports from Babylon 5 to the Narn homeworld."
+	source "Babylon 5"
+	destination "Narn Homeworld"
+	to offer
+		has "b5 story start"
+		has "b5 mission 2 complete"
+		not "b5 mission 3 complete"
+	on offer
+		dialog "Earth Alliance liaison has a new assignment for you. Three Narn transports are preparing to depart Babylon 5 for the Narn homeworld. You are to escort the convoy through hyperspace and see all three ships safely to Narn."
+	on accept
+		set "b5 mission 3 convoy underway"
+		log "Babylon 5" "Earth Alliance Orders" "Mission 3: Escort three Narn transports from Babylon 5 to the Narn homeworld. All three transports must survive and arrive with you."
+	npc save accompany
+		government "Narn Regime"
+		personality
+			escort
+		ship "Narn G'Quon Shuttle" "Narn Transport One"
+		ship "Narn G'Quon Shuttle" "Narn Transport Two"
+		ship "Narn G'Quon Shuttle" "Narn Transport Three"
+	on complete
+		dialog "All three Narn transports have arrived safely at the Narn homeworld. The convoy crews acknowledge your escort, and your assignment is complete."
+		clear "b5 mission 3 convoy underway"
+		set "b5 mission 3 complete"
+	on fail
+		clear "b5 mission 3 convoy underway"
+		dialog "One of the Narn transports has been lost. The escort assignment has failed."

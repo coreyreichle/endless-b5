@@ -21,7 +21,7 @@ ship "Drazi Sunhawk"
 	outfits
 		"B5 Drazi Drive"
 		"B5 Fusion Reactor"
-		"B5 Jump Drive"
+		"B5 Hyperspace Drive"
 		"Drazi Particle Cutter"
 		"Drazi Particle Blaster"
 	engine -18 60
@@ -52,7 +52,7 @@ ship "Drazi Warbird"
 	outfits
 		"B5 Drazi Drive"
 		"B5 Fusion Reactor"
-		"B5 Jump Drive"
+		"B5 Hyperspace Drive"
 		"Drazi Particle Cutter"
 		"Drazi Particle Blaster" 2
 	engine -18 60
@@ -114,7 +114,7 @@ ship "Vree Xill"
 	outfits
 		"B5 Vree Drive"
 		"B5 Fusion Reactor"
-		"B5 Jump Drive"
+		"B5 Hyperspace Drive"
 		"Vree Antimatter Cannon" 2
 	engine -18 60
 	engine 18 60
@@ -144,7 +144,7 @@ ship "Vree Xorr"
 	outfits
 		"B5 Vree Drive"
 		"B5 Fusion Reactor"
-		"B5 Jump Drive"
+		"B5 Hyperspace Drive"
 		"Vree Antimatter Cannon"
 	engine -18 60
 	engine 18 60
@@ -174,7 +174,7 @@ ship "Pak'ma'ra Sim'sall'e"
 	outfits
 		"B5 Pak'ma'ra Drive"
 		"B5 Fusion Reactor"
-		"B5 Jump Drive"
+		"B5 Hyperspace Drive"
 		"Pak'ma'ra Plasma Cannon"
 	engine -18 60
 	engine 18 60

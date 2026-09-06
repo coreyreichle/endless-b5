@@ -13,6 +13,8 @@ outfitter "B5 Drazi Outfitter"
 		"Drazi Particle Blaster"
 		"B5 Fusion Reactor"
 		"B5 Jump Drive"
+		"B5 Hyperspace Drive"
+		"B5 Fighter Hyperspace Drive"
 
 shipyard "B5 Brakiri Shipyard"
 	stock
@@ -26,6 +28,8 @@ outfitter "B5 Brakiri Outfitter"
 		"Brakiri Graviton Pulsar"
 		"B5 Fusion Reactor"
 		"B5 Jump Drive"
+		"B5 Hyperspace Drive"
+		"B5 Fighter Hyperspace Drive"
 
 shipyard "B5 Vree Shipyard"
 	stock
@@ -39,6 +43,8 @@ outfitter "B5 Vree Outfitter"
 		"Vree Antimatter Cannon"
 		"B5 Fusion Reactor"
 		"B5 Jump Drive"
+		"B5 Hyperspace Drive"
+		"B5 Fighter Hyperspace Drive"
 
 shipyard "B5 Pak'ma'ra Shipyard"
 	stock
@@ -51,3 +57,5 @@ outfitter "B5 Pak'ma'ra Outfitter"
 		"Pak'ma'ra Plasma Cannon"
 		"B5 Fusion Reactor"
 		"B5 Jump Drive"
+		"B5 Hyperspace Drive"
+		"B5 Fighter Hyperspace Drive"

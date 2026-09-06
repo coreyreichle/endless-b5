@@ -8,6 +8,7 @@ government "B5 Independent"
 	"crew attack" 1
 	"crew defense" 1
 	"attitude toward"
+		"Raiders" 0
 		"Earth Alliance" 0
 		"Minbari Federation" 0
 		"Narn Regime" 0
@@ -21,6 +22,7 @@ government "Earth Alliance"
 	"crew attack" 1
 	"crew defense" 1
 	"attitude toward"
+		"Raiders" 0
 		"B5 Independent" 0
 		"Minbari Federation" 0
 		"Narn Regime" 0
@@ -34,6 +36,7 @@ government "Minbari Federation"
 	"crew attack" 1.15
 	"crew defense" 1.2
 	"attitude toward"
+		"Raiders" 0
 		"B5 Independent" 0
 		"Earth Alliance" 0
 		"Narn Regime" 0
@@ -47,6 +50,7 @@ government "Narn Regime"
 	"crew attack" 1.1
 	"crew defense" 1.15
 	"attitude toward"
+		"Raiders" 0
 		"B5 Independent" 0
 		"Earth Alliance" 0
 		"Minbari Federation" 0
@@ -60,6 +64,7 @@ government "Centauri Republic"
 	"crew attack" 1.05
 	"crew defense" 1
 	"attitude toward"
+		"Raiders" 0
 		"B5 Independent" 0
 		"Earth Alliance" 0
 		"Minbari Federation" 0
@@ -74,6 +79,7 @@ government "Vorlon Empire"
 	"crew attack" 1.5
 	"crew defense" 1.6
 	"attitude toward"
+		"Raiders" 0
 		"B5 Independent" 0
 		"Earth Alliance" 0
 		"Minbari Federation" 0
@@ -87,6 +93,7 @@ government "Shadows"
 	"crew attack" 1.6
 	"crew defense" 1.5
 	"attitude toward"
+		"Raiders" 0
 		"B5 Independent" 0
 		"Earth Alliance" 0
 		"Minbari Federation" 0
@@ -102,6 +109,7 @@ government "Drazi Freehold"
 	"crew attack" 1
 	"crew defense" 1
 	"attitude toward"
+		"Raiders" 0
 		"Earth Alliance" 0
 		"Minbari Federation" 0
 		"Narn Regime" 0
@@ -124,6 +132,7 @@ government "Brakiri Syndicracy"
 	"crew attack" 1
 	"crew defense" 1
 	"attitude toward"
+		"Raiders" 0
 		"Earth Alliance" 0
 		"Minbari Federation" 0
 		"Narn Regime" 0
@@ -146,6 +155,7 @@ government "Markab Theocracy"
 	"crew attack" 1
 	"crew defense" 1
 	"attitude toward"
+		"Raiders" 0
 		"Earth Alliance" 0
 		"Minbari Federation" 0
 		"Narn Regime" 0
@@ -168,6 +178,7 @@ government "Gaim Intelligence"
 	"crew attack" 1
 	"crew defense" 1
 	"attitude toward"
+		"Raiders" 0
 		"Earth Alliance" 0
 		"Minbari Federation" 0
 		"Narn Regime" 0
@@ -190,6 +201,7 @@ government "Abbai Matriarchate"
 	"crew attack" 1
 	"crew defense" 1
 	"attitude toward"
+		"Raiders" 0
 		"Earth Alliance" 0
 		"Minbari Federation" 0
 		"Narn Regime" 0
@@ -212,6 +224,7 @@ government "Yolu Confederacy"
 	"crew attack" 1
 	"crew defense" 1
 	"attitude toward"
+		"Raiders" 0
 		"Earth Alliance" 0
 		"Minbari Federation" 0
 		"Narn Regime" 0
@@ -234,6 +247,7 @@ government "Pak'ma'ra"
 	"crew attack" 1
 	"crew defense" 1
 	"attitude toward"
+		"Raiders" 0
 		"Earth Alliance" 0
 		"Minbari Federation" 0
 		"Narn Regime" 0
@@ -256,6 +270,7 @@ government "Vree Conglomerate"
 	"crew attack" 1
 	"crew defense" 1
 	"attitude toward"
+		"Raiders" 0
 		"Earth Alliance" 0
 		"Minbari Federation" 0
 		"Narn Regime" 0
@@ -275,9 +290,19 @@ government "Vree Conglomerate"
 government "Vorlon Homeworld Defense"
 	"display name" "Vorlon Empire"
 	color 0.9 0.75 0.2
-	"player reputation" 0
+	"player reputation" -100
 	"crew attack" 1.5
 	"crew defense" 1.6
 	"default attitude" -0.01
 	"attitude toward"
+		"Raiders" 0
 		"Vorlon Empire" 1
+
+
+government "Raiders"
+	"display name" "Raiders"
+	color 0.55 0.18 0.10
+	"player reputation" -100
+	"crew attack" 1.0
+	"crew defense" 1.0
+	"default attitude" -0.01
