@@ -26,9 +26,10 @@ mission "b5 mission 3 narn escort"
 		ship "Narn G'Quon Shuttle" "Narn Transport Two"
 		ship "Narn G'Quon Shuttle" "Narn Transport Three"
 	on complete
-		dialog "All three Narn transports have arrived safely at the Narn homeworld. The convoy crews acknowledge your escort, and your assignment is complete."
+		dialog "All three Narn transports have arrived safely at the Narn homeworld. The convoy crews acknowledge your escort. Return to Babylon 5 and report the Raider interception to Commander Ivanova."
 		clear "b5 mission 3 convoy underway"
 		set "b5 mission 3 complete"
+		log "Babylon 5" "Earth Alliance Orders" "The Narn convoy arrived safely. Return to Babylon 5 and report the Raider interception to Commander Ivanova."
 	on fail
 		clear "b5 mission 3 convoy underway"
 		dialog "One of the Narn transports has been lost. The escort assignment has failed."

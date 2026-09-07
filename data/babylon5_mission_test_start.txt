@@ -1,0 +1,61 @@
+# Babylon 5 mission-development start.
+# Advance the completed mission conditions in this file as development moves forward.
+# Currently configured to begin immediately after Mission 4, ready for Mission 5 development.
+
+start "b5 mission test"
+	name "Mission Test"
+	description "Development start: begin aboard Babylon 5 with a ready Earth Alliance courier and storyline progress set through Mission 4, ready for Mission 5 development."
+	date 1 1 2257
+	system "Epsilon"
+	planet "Babylon 5"
+
+	# Normal storyline state.
+	set "b5 story start"
+	set "b5 story known space initialized"
+
+	# Completed storyline prerequisites for the mission currently under test.
+	set "b5 mission 1 complete"
+	set "b5 mission 2 centauri stop complete"
+	set "b5 mission 2 complete"
+	set "b5 mission 3 raider ambush triggered"
+	set "b5 mission 3 complete"
+	set "b5 mission 4 complete"
+
+	account
+		credits 10000000
+		salaries 0
+		maintenance 0
+		score 0
+
+	# A complete starting ship definition is required inside a start node.
+	ship "Earth Alliance Courier Shuttle"
+		sprite "ship/ea_courier_shuttle"
+		thumbnail "thumbnail/ea_courier_shuttle"
+		attributes
+			category "Transport"
+			cost 620000
+			mass 145
+			drag 3.2
+			"heat dissipation" 0.78
+			"fuel capacity" 500
+			"cargo space" 200
+			"outfit space" 190
+			"engine capacity" 70
+			"weapon capacity" 20
+			"required crew" 1
+			bunks 19
+			hull 280
+			shields 120
+		outfits
+			"B5 Maneuver Drive"
+			"B5 Fusion Reactor"
+			"B5 Hyperspace Drive"
+			"B5 Light Pulse Cannon"
+		engine -12 48
+		engine 12 48
+		gun 0 -48
+		description "A compact Earth Alliance courier used to move personnel, diplomatic packets, and light cargo between stations and colonies."
+
+	conversation
+		`Mission Test start loaded. Storyline conditions are set through Mission 4. This start is ready for Mission 5 development and testing.`
+		name

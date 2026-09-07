@@ -341,18 +341,18 @@ system "Epsilon"
 		period 10
 	object "Epsilon I"
 		sprite "planet/b5_markab"
-		distance 350
-		period 120
+		distance 900
+		period 220
 	object "Epsilon II"
 		sprite "planet/b5_vree"
-		distance 540
-		period 220
+		distance 1700
+		period 410
 	object "Epsilon III"
 		sprite "planet/b5_abbai"
-		distance 760
-		period 360
+		distance 2600
+		period 650
 	object "Babylon 5"
 		sprite "planet/babylon5"
-		distance 830
-		period 380
+		distance 3400
+		period 850
 

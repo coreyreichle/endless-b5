@@ -20,6 +20,6 @@ Install by replacing the previous Babylon 5 Part 1 folder in ~/.local/share/endl
 
 * Number 1 is replace artwork, with actual, human made artwork for ships, galactic background, etc.
 * Finish story line
-** Story boarding is on going, on pencil and paper
-** Need to move story boarding to issues board
+ * Story boarding is on going, on pencil and paper
+ * Need to move story boarding to issues board
 * Get creating the issues opened for items on the to-do list

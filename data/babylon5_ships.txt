@@ -28,6 +28,19 @@ ship "Aurora Starfury"
 	gun 10.8 -43.2
 	description "Earth Alliance Aurora Starfury. Extremely maneuverable, fast, and lightly armored."
 
+# Mission-specific patrol Starfury. The extra 100 fuel gives the wing enough
+# endurance for the Epsilon -> Quadrant 14 -> Epsilon patrol without changing
+# the standard Aurora Starfury used elsewhere in the plugin.
+ship "Aurora Starfury" "Aurora Starfury (Long Patrol)"
+	add attributes
+		"fuel capacity" 100
+	outfits
+		"B5 Fighter Hyperspace Drive"
+		"B5 Fusion Reactor"
+		"B5 Maneuver Drive"
+		"Aurora Starfury Retro Thrusters"
+		"B5 Light Pulse Cannon"
+
 ship "Thunderbolt"
 	sprite "ship/thunderbolt"
 	thumbnail "thumbnail/thunderbolt"

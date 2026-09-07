@@ -1,0 +1,97 @@
+# Babylon 5 main storyline - Mission 4.
+# Offered immediately upon landing on Babylon 5 after Mission 3.
+
+mission "b5 mission 4 raider sweep"
+	name "Mission 4: Raider Sweep"
+	description "Take eight Earth Alliance Starfuries to Quadrant 14, eliminate or capture every Raider encountered there, then return to Babylon 5."
+	landing
+	source "Babylon 5"
+	destination "Babylon 5"
+	waypoint "Quadrant 14"
+	to offer
+		has "b5 story start"
+		has "b5 mission 3 complete"
+		not "b5 mission 4 complete"
+	on offer
+		conversation
+			`<first> reporting back. We encountered Raiders once we exited the first jump gate.`
+			`Commander Ivanova nods. "Thank you for reporting this. We want you to head back to Quadrant 14, and take a Starfury wing with you, to see if there are any additional Raiders along the route. Narn will be needing regular humanitarian trips, and we want to make sure there is a clear route."`
+			choice
+				`	"Understood, Commander."`
+					accept
+	on accept
+		give ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 1"
+		give ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 2"
+		give ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 3"
+		give ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 4"
+		give ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 5"
+		give ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 6"
+		give ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 7"
+		give ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 8"
+		set "b5 mission 4 underway"
+		log "Babylon 5" "Earth Alliance Orders" "Mission 4: Take an eight-Starfury wing to Quadrant 14. Destroy or capture all Raiders operating there, then return to Babylon 5."
+	# No government is specified here intentionally. Endless Sky assigns such
+	# mission NPCs to the player's government as true escorts, so they follow the
+	# flagship instead of independently routing toward the mission destination.
+
+	npc kill
+		government "Raiders"
+		system "Quadrant 14"
+		personality
+			hunting
+			staying
+		fleet "B5 Raider Fighter Pair"
+		fleet "B5 Raider Fighter Wing"
+		dialog "The last Raider has been destroyed or captured. The route is clear for now. Return to Babylon 5 and report to Commander Ivanova."
+	on complete
+		take ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 1"
+			unconstrained
+			"with outfits"
+		take ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 2"
+			unconstrained
+			"with outfits"
+		take ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 3"
+			unconstrained
+			"with outfits"
+		take ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 4"
+			unconstrained
+			"with outfits"
+		take ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 5"
+			unconstrained
+			"with outfits"
+		take ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 6"
+			unconstrained
+			"with outfits"
+		take ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 7"
+			unconstrained
+			"with outfits"
+		take ship "Aurora Starfury (Long Patrol)"
+			id "b5 mission 4 starfury 8"
+			unconstrained
+			"with outfits"
+		conversation
+			`<first> reports to Commander Ivanova. "We encountered a large number of Raiders in Quadrant 14. We captured or destroyed them."`
+			`Ivanova nods. "Excellent. Do you think there's more there?"`
+			`"I didn't see a base, or mothership, but they were short-range fighters. There's probably a base nearby."`
+			`Ivanova considers that for a moment. "Okay. Report to the starport, and retrieve your next assignment."`
+			choice
+				`	"Yes, Commander."`
+					accept
+		clear "b5 mission 4 underway"
+		set "b5 mission 4 complete"
+		log "Babylon 5" "Earth Alliance Orders" "Mission 4 complete: Returned to Babylon 5 and reported the Quadrant 14 Raider patrol to Commander Ivanova. The short-range fighters suggest a Raider base or mothership may be operating nearby."
