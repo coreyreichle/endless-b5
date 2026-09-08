@@ -1,0 +1,72 @@
+# Babylon 5 main storyline - Mission 5.
+# A diplomatic transport assignment following the Quadrant 14 Raider sweep.
+# This is implemented as two chained missions so Londo Mollari and Vir Cotto
+# are actually added as passengers only after the player reaches Centauri Prime.
+
+mission "b5 mission 5a centauri pickup"
+	name "Mission 5: Diplomatic Transport"
+	description "Travel to Centauri Prime and collect two Centauri diplomatic passengers for transport to Babylon 5."
+	source "Babylon 5"
+	destination "Centauri Prime"
+	to offer
+		has "b5 story start"
+		has "b5 mission 4 complete"
+		not "b5 mission 5 complete"
+		not "b5 mission 5 pickup complete"
+	on offer
+		conversation
+			`Commander Ivanova looks up as you enter the EarthForce office. "Lt. Commander <last>. Your next assignment is straightforward. We have two Centauri diplomatic personnel waiting on Centauri Prime who require transportation back to Babylon 5."`
+			`She hands you the travel authorization. "Proceed to Centauri Prime, report to the spaceport, pick them up, and bring them directly back here. Diplomatic passengers, so try not to start a war on the way."`
+			choice
+				`	"Understood, Commander."`
+					accept
+	on accept
+		set "b5 mission 5 underway"
+		log "Babylon 5" "Earth Alliance Orders" "Mission 5: Travel to Centauri Prime, collect two Centauri diplomatic passengers, and return them to Babylon 5."
+	on complete
+		dialog "You have arrived on Centauri Prime. Report to the spaceport to collect your passengers for the return trip to Babylon 5."
+		set "b5 mission 5 pickup complete"
+
+
+mission "b5 mission 5b mollari and vir"
+	name "Mission 5: Diplomatic Transport"
+	description "Transport Ambassador Londo Mollari and his aide Vir Cotto from Centauri Prime to Babylon 5."
+	source "Centauri Prime"
+	destination "Babylon 5"
+	passengers 2
+	to offer
+		has "b5 story start"
+		has "b5 mission 5 pickup complete"
+		not "b5 mission 5 complete"
+	blocked "You need two free passenger bunks to transport the Centauri diplomatic party."
+	on offer
+		conversation
+			`A Centauri official approaches you at the spaceport, followed by two men. The first is elaborately dressed and carries himself with the unmistakable expectation that everyone nearby should already know who he is. The younger Centauri behind him is struggling with several pieces of luggage.`
+			`"Ah! You must be our transportation," says the older Centauri. "Londo Mollari, Ambassador of the Centauri Republic to Babylon 5. And this is my diplomatic aide, Vir Cotto."`
+			`Vir shifts the luggage and manages a small nod. "Hello."`
+			`Mollari looks past you toward your ship. "I was assured EarthForce would provide transportation appropriate to my position."`
+			`Vir glances toward the ship. "It looks very nice, Ambassador."`
+			`Londo turns slowly toward him. "Thank you, Vir."`
+			choice
+				`	"Ambassador Mollari, Mr. Cotto. Welcome aboard."`
+					accept
+	on accept
+		set "b5 met Londo"
+		set "b5 met Vir"
+		log "Babylon 5" "Earth Alliance Orders" "Mission 5: Ambassador Londo Mollari and his aide Vir Cotto are aboard. Return them safely to Babylon 5."
+	on complete
+		conversation
+			`Once the ship is secured at Babylon 5, Ambassador Mollari steps onto the dock and straightens his coat. Vir follows with the luggage.`
+			`Londo turns back to you. "Lt. Commander <last>, a satisfactory journey. Should you ever require the assistance of the Centauri Republic, you need only ask."`
+			`Vir smiles. "That's very generous, Ambassador."`
+			`Londo gives him a sidelong look. "I said the Lieutenant Commander may ask, Vir."`
+			`Vir pauses. "Yes, Ambassador."`
+			`Londo gives you a broad smile, then heads into the station with Vir following behind him.`
+			`A short time later, an EarthForce message arrives: "Mission complete. Report to the starport to retrieve your next assignment."`
+			choice
+				`	"Understood."`
+					accept
+		clear "b5 mission 5 underway"
+		set "b5 mission 5 complete"
+		log "Babylon 5" "Earth Alliance Orders" "Mission 5 complete: Transported Ambassador Londo Mollari and Vir Cotto from Centauri Prime to Babylon 5. Report to the starport for your next assignment."
+
