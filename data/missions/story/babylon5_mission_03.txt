@@ -26,10 +26,34 @@ mission "b5 mission 3 narn escort"
 		ship "Narn G'Quon Shuttle" "Narn Transport Two"
 		ship "Narn G'Quon Shuttle" "Narn Transport Three"
 	on complete
-		dialog "All three Narn transports have arrived safely at the Narn homeworld. The convoy crews acknowledge your escort. Return to Babylon 5 and report the Raider interception to Commander Ivanova."
+		conversation
+			`All three Narn transports have arrived safely at the Narn homeworld. The convoy crews acknowledge your escort. As the final manifests are being transferred, a Narn official approaches and asks you to wait.`
+			`A few moments later another Narn enters the room. His clothing is considerably more elaborate, and the reaction of everyone around him makes his importance immediately obvious.`
+			`"Lt. Commander <last>. A moment, if you please."`
+			`The newcomer studies you for a second before extending his hand. "I am G'Kar, ambassador of the Narn Regime to Babylon 5. I understand I have you to thank for ensuring that three Narn transports arrived here in substantially the same condition in which they departed."`
+			`He gives you a broad smile. "Considering the recent history between our governments, I find that... encouraging."`
+			choice
+				`\t"I was simply carrying out my orders."`
+					goto orders
+				`\t"Your people were under attack. There wasn't much to decide."`
+					goto stayed
+			label orders
+			`G'Kar laughs. "Yes. EarthForce officers are very fond of saying that." His expression becomes more serious. "Nevertheless, you remained with the convoy when remaining became dangerous. The Narn do not easily forget such things."`
+			goto warning
+			label stayed
+			`G'Kar's smile fades into something more thoughtful. "An admirably uncomplicated answer. Unfortunately, the universe has a habit of becoming complicated whether we wish it to or not."`
+			`He inclines his head. "You remained with the convoy when remaining became dangerous. The Narn do not easily forget such things."`
+			label warning
+			`G'Kar turns to leave, then pauses. "And Lt. Commander? Raiders rarely attack without believing there is something worth taking. I would give some thought to what they expected to find."`
+			`With that, G'Kar departs. Your orders remain unchanged: return to Babylon 5 and report the Raider interception to Commander Ivanova.`
+			choice
+				`\tReturn to your ship.`
+					accept
 		clear "b5 mission 3 convoy underway"
 		set "b5 mission 3 complete"
-		log "Babylon 5" "Earth Alliance Orders" "The Narn convoy arrived safely. Return to Babylon 5 and report the Raider interception to Commander Ivanova."
+		set "b5 met G'Kar"
+		log "Babylon 5" "Earth Alliance Orders" "The Narn convoy arrived safely. On Narn, Ambassador G'Kar personally thanked you for protecting the transports and cautioned that the Raiders may have expected to find something worth taking. Return to Babylon 5 and report the interception to Commander Ivanova."
 	on fail
 		clear "b5 mission 3 convoy underway"
 		dialog "One of the Narn transports has been lost. The escort assignment has failed."
+
