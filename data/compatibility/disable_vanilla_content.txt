@@ -1,0 +1,65 @@
+# Babylon 5 total-conversion compatibility layer.
+#
+# Endless Sky supports disabling preexisting missions and events by identifier.
+# This file suppresses stock repeatable spaceport content and the fixed-date
+# vanilla human campaign timeline so that Babylon 5 story starts remain isolated
+# from the stock Endless Sky setting.
+#
+# Intended plugin path:
+# data/compatibility/disable_vanilla_content.txt
+
+
+# ---------------------------------------------------------------------------
+# Stock repeatable spaceport missions
+# ---------------------------------------------------------------------------
+
+disable mission
+	"Shady passenger transport 1"
+	"Shady passenger transport 2"
+	"Shady passenger transport 3"
+	"Drug Running 1"
+	"Drug Running 2"
+	"Drug Running 3"
+	"Courier 1"
+	"Courier 2"
+
+	"Southern Pirate Attack"
+	"Northern Pirate Attack"
+	"Core Pirate Attack"
+	"Pirate Occupation [0]"
+	"Pirate Occupation [1]"
+	"Pirate Occupation [2]"
+	"Raider Attack 1"
+	"Raider Attack 2"
+
+	"Republic Navy Advisory System [frozen]"
+	"Republic Navy Advisory System [volcanic]"
+	"Republic Navy Advisory System [wildfire cargo]"
+	"Republic Navy Advisory System [wildfire firefighters]"
+
+	"Small Scale Delivery"
+	"Avgi: Aberrant Blockade"
+
+	# These are the player-facing landing notices tied directly to the
+	# fixed-date vanilla campaign events below.
+	"remembrance day"
+	"event: war begins"
+
+
+# ---------------------------------------------------------------------------
+# Fixed-date stock human campaign events
+#
+# These are the automatically dated events that begin the vanilla 3014
+# political timeline. Later stock campaign events are mission-triggered rather
+# than date-triggered; with the initiating vanilla timeline disabled, they are
+# not scheduled automatically.
+# ---------------------------------------------------------------------------
+
+disable event
+	"remembrance day"
+	"war begins"
+	"initial deployment 1"
+	"initial deployment 2"
+	"initial deployment 3"
+	"initial deployment 4"
+
