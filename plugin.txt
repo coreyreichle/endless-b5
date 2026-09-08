@@ -1,5 +1,5 @@
-name "Babylon 5 - Part 1"
-about "Babylon 5 conversion - Part 1: ships, equipment, factions, and sandbox testing."
+name "Endless B5"
+about "Babylon 5 conversion"
 version "0.9.3"
 authors
 	"Fan project"

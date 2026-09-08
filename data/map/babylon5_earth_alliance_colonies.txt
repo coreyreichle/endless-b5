@@ -1,0 +1,209 @@
+# Endless B5 - Earth Alliance colony expansion
+# Adds landable worlds to existing Earth Alliance systems without changing
+# hyperspace links, patrol fleets, or the existing faction homeworld definitions.
+#
+# Design rules:
+# - Shipyards remain limited to the primary faction homeworld (Earth).
+# - Industrial / scientific colonies may have an Earth Alliance outfitter.
+# - Agrarian / frontier colonies rely mainly on commodity trade.
+# - Planet attributes are intended for future ambient mission filtering.
+
+# -----------------------------------------------------------------------------
+# Existing Earth homeworld: add mission-filtering attributes only.
+# -----------------------------------------------------------------------------
+planet "B5 Earth Alliance Headquarters"
+	attributes "ea colony" "homeworld" "urban" "industrial"
+
+
+# -----------------------------------------------------------------------------
+# Proxima III - mature Inner Colony / major industrial and commercial world.
+# Important later story location; deliberately described without foreshadowing.
+# -----------------------------------------------------------------------------
+planet "B5 Proxima III"
+	"display name" "Proxima III"
+	government "Earth Alliance"
+	attributes "ea colony" "urban" "industrial"
+	spaceport "Proxima III's primary orbital and surface ports operate around the clock. Cargo containers move constantly between warehouses, factories, civilian transports, and EarthForce vessels, while passenger concourses serve traffic bound throughout the inner colonies. The facilities are smaller than Earth's immense ports, but little about them feels provincial."
+	outfitter "Earth Alliance Outfitter"
+	description "One of humanity's oldest extrasolar colonies, Proxima III has grown into a heavily developed industrial and commercial world. Its major cities are surrounded by manufacturing districts, research campuses, transportation hubs, and generations-old settlements whose inhabitants regard Proxima as home rather than an outpost of Earth."
+
+system "B5 Proxima"
+	trade "Food" 610
+	trade "Clothing" 330
+	trade "Metal" 410
+	trade "Plastic" 350
+	trade "Equipment" 470
+	trade "Medical" 580
+	trade "Industrial" 490
+	trade "Electronics" 520
+	trade "Heavy Metals" 980
+	trade "Luxury Goods" 1080
+	object "B5 Proxima III"
+		sprite "planet/forest7"
+		distance 720
+		period 330
+
+
+# -----------------------------------------------------------------------------
+# Vega Colony - productive agricultural and civilian commercial colony.
+# -----------------------------------------------------------------------------
+planet "B5 Vega Colony"
+	"display name" "Vega Colony"
+	government "Earth Alliance"
+	attributes "ea colony" "agricultural"
+	spaceport "Vega's spaceport is dominated by grain terminals, refrigerated storage, livestock-processing facilities, and rows of commercial cargo pads. Most traffic consists of bulk haulers carrying food toward the more densely populated inner colonies and returning with machinery and manufactured goods."
+	description "A prosperous agricultural colony whose broad temperate regions support large farms, food-processing settlements, and smaller civilian communities. Vega supplies a significant share of the food consumed by nearby industrial worlds and imports much of the sophisticated equipment needed to keep that production moving."
+
+system "B5 Vega"
+	trade "Food" 260
+	trade "Clothing" 350
+	trade "Metal" 500
+	trade "Plastic" 430
+	trade "Equipment" 690
+	trade "Medical" 680
+	trade "Industrial" 760
+	trade "Electronics" 790
+	trade "Heavy Metals" 1130
+	trade "Luxury Goods" 1240
+	object "B5 Vega Colony"
+		sprite "planet/forest8"
+		distance 760
+		period 355
+
+
+# -----------------------------------------------------------------------------
+# Orion VII - heavy manufacturing and technical industry.
+# -----------------------------------------------------------------------------
+planet "B5 Orion VII"
+	"display name" "Orion VII"
+	government "Earth Alliance"
+	attributes "ea colony" "industrial" "urban"
+	spaceport "Orion VII's main port sits beside a vast industrial corridor. Freight elevators, orbital depots, and assembly facilities make the port a regular stop for EarthForce logistics vessels and civilian carriers moving machinery throughout Alliance space."
+	outfitter "Earth Alliance Outfitter"
+	description "A heavily industrialized Earth Alliance colony whose economy centers on machinery, fabricated components, and large-scale manufacturing. Dense urban zones have grown around the original industrial settlements, giving the world the practical, crowded character of a colony built first to produce and only later to become a home."
+
+system "B5 Orion"
+	trade "Food" 640
+	trade "Clothing" 360
+	trade "Metal" 350
+	trade "Plastic" 310
+	trade "Equipment" 450
+	trade "Medical" 650
+	trade "Industrial" 430
+	trade "Electronics" 590
+	trade "Heavy Metals" 860
+	trade "Luxury Goods" 1190
+	object "B5 Orion VII"
+		sprite "planet/desert11"
+		distance 690
+		period 315
+
+
+# -----------------------------------------------------------------------------
+# Beta 7 Colony - food-producing agrarian colony.
+# -----------------------------------------------------------------------------
+planet "B5 Beta 7 Colony"
+	"display name" "Beta 7 Colony"
+	government "Earth Alliance"
+	attributes "ea colony" "agricultural"
+	spaceport "The Beta 7 port is functional rather than impressive: broad freight aprons, agricultural inspection stations, fuel depots, and warehouses built to move bulk cargo efficiently. Passenger facilities are modest, and most local business revolves around the harvest cycle."
+	description "A predominantly agrarian Earth Alliance colony of farming settlements, processing towns, and open countryside. Beta 7 exports food and organic products while relying on the inner colonies for electronics, medical equipment, and heavy machinery."
+
+system "B5 Beta 7"
+	trade "Food" 240
+	trade "Clothing" 390
+	trade "Metal" 520
+	trade "Plastic" 460
+	trade "Equipment" 720
+	trade "Medical" 760
+	trade "Industrial" 810
+	trade "Electronics" 830
+	trade "Heavy Metals" 1160
+	trade "Luxury Goods" 1300
+	object "B5 Beta 7 Colony"
+		sprite "planet/forest9"
+		distance 740
+		period 340
+
+
+# -----------------------------------------------------------------------------
+# Cyrus Mining Colony - extraction and heavy-industry settlement.
+# -----------------------------------------------------------------------------
+planet "B5 Cyrus Mining Colony"
+	"display name" "Cyrus Mining Colony"
+	government "Earth Alliance"
+	attributes "ea colony" "mining" "industrial"
+	spaceport "Cyrus is a working port. Ore carriers and industrial transports occupy most of the heavy berths, while automated loaders move refined metals and mineral concentrates into orbit. Crew facilities are adequate but clearly secondary to freight handling."
+	outfitter "Earth Alliance Outfitter"
+	description "A mining and heavy-industry colony established around unusually rich mineral deposits. Most settlements are clustered around extraction sites, refineries, and power facilities. Cyrus exports metals and industrial feedstock while importing food, consumer goods, and specialized electronics."
+
+system "B5 Cyrus"
+	trade "Food" 690
+	trade "Clothing" 430
+	trade "Metal" 230
+	trade "Plastic" 430
+	trade "Equipment" 560
+	trade "Medical" 790
+	trade "Industrial" 470
+	trade "Electronics" 760
+	trade "Heavy Metals" 690
+	trade "Luxury Goods" 1360
+	object "B5 Cyrus Mining Colony"
+		sprite "planet/rock21"
+		distance 670
+		period 300
+
+
+# -----------------------------------------------------------------------------
+# Grissom Colony - scientific / technical research center.
+# -----------------------------------------------------------------------------
+planet "B5 Grissom Colony"
+	"display name" "Grissom Colony"
+	government "Earth Alliance"
+	attributes "ea colony" "scientific" "urban"
+	spaceport "Grissom's port serves research institutions, technical firms, and a steady population of visiting specialists. Passenger traffic is unusually heavy for a colony of its size, and high-security cargo bays handle scientific instruments and sensitive equipment destined for laboratories across the planet."
+	outfitter "Earth Alliance Outfitter"
+	description "A research-oriented Earth Alliance colony known for universities, laboratories, observatories, and technical industries. Grissom imports raw materials and bulk necessities but produces specialized equipment, electronics, and scientific expertise used throughout Alliance space."
+
+system "B5 Grissom"
+	trade "Food" 570
+	trade "Clothing" 340
+	trade "Metal" 500
+	trade "Plastic" 410
+	trade "Equipment" 430
+	trade "Medical" 500
+	trade "Industrial" 610
+	trade "Electronics" 440
+	trade "Heavy Metals" 1080
+	trade "Luxury Goods" 1110
+	object "B5 Grissom Colony"
+		sprite "planet/ocean10"
+		distance 780
+		period 370
+
+
+# -----------------------------------------------------------------------------
+# Koulani Colony - smaller frontier agricultural settlement.
+# -----------------------------------------------------------------------------
+planet "B5 Koulani Colony"
+	"display name" "Koulani Colony"
+	government "Earth Alliance"
+	attributes "ea colony" "frontier" "agricultural"
+	spaceport "Koulani's small spaceport consists of a handful of landing fields, prefabricated terminals, storage tanks, and cargo warehouses. Local crews are accustomed to making do with limited facilities, and visiting transports are expected to arrive with whatever specialized parts they may need."
+	description "A relatively young Earth Alliance frontier colony with scattered agricultural settlements and a small but growing civilian population. Koulani exports food and basic organic products, but its distance from the major industrial centers makes manufactured goods and advanced equipment comparatively expensive."
+
+system "B5 Koulani"
+	trade "Food" 290
+	trade "Clothing" 420
+	trade "Metal" 560
+	trade "Plastic" 490
+	trade "Equipment" 760
+	trade "Medical" 810
+	trade "Industrial" 850
+	trade "Electronics" 870
+	trade "Heavy Metals" 1200
+	trade "Luxury Goods" 1380
+	object "B5 Koulani Colony"
+		sprite "planet/desert12"
+		distance 730
+		period 345
