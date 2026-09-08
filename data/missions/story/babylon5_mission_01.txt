@@ -4,8 +4,8 @@
 mission "b5 mission 1 electronics run"
 	name "Mission 1: Electronics Delivery"
 	description "Deliver 10 tons of Earth Alliance electronics from Babylon 5 to Earth in the Sol system."
-	source "Babylon 5"
-	destination "Earth Alliance Headquarters"
+	source "B5 Babylon 5"
+	destination "B5 Earth Alliance Headquarters"
 	cargo "Earth Alliance electronics" 10
 	to offer
 		has "b5 story start"

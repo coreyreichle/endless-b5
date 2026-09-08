@@ -21,5 +21,5 @@ mission "b5 vorlon homeworld permanent defense"
 			hunting
 			staying
 			uninterested
-		system "Vorlon Homeworld"
+		system "B5 Vorlon Homeworld"
 		fleet "B5 Vorlon Homeworld Defense"

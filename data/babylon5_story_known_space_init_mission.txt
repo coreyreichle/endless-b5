@@ -10,7 +10,7 @@ mission "b5 story known space initializer"
 	to offer
 		has "b5 story start"
 		not "b5 story known space initialized"
-	source "Babylon 5"
+	source "B5 Babylon 5"
 	on offer
 		event "b5 testbed known space" 0
 		set "b5 story known space initialized"

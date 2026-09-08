@@ -1,6 +1,6 @@
 # Babylon 5 v0.3.1 faction test worlds on the RPG route map.
 
-planet "Earth Alliance Headquarters"
+planet "B5 Earth Alliance Headquarters"
 	"display name" "Earth"
 	government "Earth Alliance"
 	spaceport "Earth is the political and cultural heart of the Earth Alliance, crowded with humanity's history and the institutions that bind its colonies together."
@@ -8,14 +8,15 @@ planet "Earth Alliance Headquarters"
 	outfitter "Earth Alliance Outfitter"
 	description "Humanity's birthplace and the center of the Earth Alliance. Earth remains a symbol of survival, unity, argument, ambition, and renewal: a world scarred by history but still looking outward toward the stars."
 
-planet "Minbar"
+planet "B5 Minbar Planet"
+	"display name" "Minbar"
 	government "Minbari Federation"
 	spaceport "Minbar is the spiritual and cultural center of the Minbari Federation, where tradition, caste, and ancient institutions shape everyday life."
 	shipyard "Minbari Federation Shipyard"
 	outfitter "Minbari Federation Outfitter"
 	description "A serene and ancient world at the heart of Minbari civilization. Minbar reflects a culture built around balance, discipline, spiritual purpose, and a deep sense that every life belongs to a greater pattern."
 
-planet "Narn Homeworld"
+planet "B5 Narn Homeworld"
 	"display name" "Narn"
 	government "Narn Regime"
 	spaceport "Narn is a hard world whose cities and people still carry the memory of occupation, resistance, and the long struggle for independence."
@@ -23,14 +24,16 @@ planet "Narn Homeworld"
 	outfitter "Narn Regime Outfitter"
 	description "The homeworld of the Narn Regime. Its people are proud, resilient, and fiercely independent, shaped by generations of hardship and by the conviction that Narn must never again live under another power's rule."
 
-planet "Centauri Prime"
+planet "B5 Centauri Prime Planet"
+	"display name" "Centauri Prime"
 	government "Centauri Republic"
 	spaceport "Centauri Prime is the glittering seat of the Republic, a world of palaces, ministries, old families, commerce, ceremony, and political intrigue."
 	shipyard "Centauri Republic Shipyard"
 	outfitter "Centauri Republic Outfitter"
 	description "One of the great old centers of civilization among the younger races. Centauri Prime blends immense wealth, elaborate tradition, artistic refinement, ambition, nostalgia, and the political weight of a once-vast empire."
 
-planet "Vorlon Homeworld"
+planet "B5 Vorlon Homeworld Planet"
+	"display name" "Vorlon Homeworld"
 	to land
 		never
 	government "Vorlon Empire"
@@ -39,7 +42,8 @@ planet "Vorlon Homeworld"
 	outfitter "Vorlon Outfitter"
 	description "The hidden homeworld of the Vorlons lies far beyond the familiar borders of younger civilizations. Ancient, enigmatic, and almost impossibly remote, it offers few answers and raises far more questions about those who shaped the galaxy before the current age."
 
-planet "Z'ha'dum"
+planet "B5 Z'ha'dum Planet"
+	"display name" "Z'ha'dum"
 	to land
 		never
 	government "Shadows"
@@ -48,46 +52,52 @@ planet "Z'ha'dum"
 	outfitter "Shadow Outfitter"
 	description "An ancient world associated with the Shadows and with powers older than the civilizations now contesting the galaxy. Few who seek it do so without consequence, and fewer still understand what waits there."
 
-system "Sol"
+system "B5 Sol"
+	"display name" "Sol"
 	pos 4848 4721
-	object "Earth Alliance Headquarters"
+	object "B5 Earth Alliance Headquarters"
 		sprite "planet/b5_earth"
 		distance 700
 		period 365
 
-system "Minbar"
+system "B5 Minbar"
+	"display name" "Minbar"
 	pos 5171 4755
-	object "Minbar"
+	object "B5 Minbar Planet"
 		sprite "planet/b5_minbar"
 		distance 700
 		period 360
 
-system "Narn"
+system "B5 Narn"
+	"display name" "Narn"
 	pos 5306 4868
-	object "Narn Homeworld"
+	object "B5 Narn Homeworld"
 		sprite "planet/b5_narn"
 		distance 700
 		period 350
 
-system "Centauri Prime"
+system "B5 Centauri Prime"
+	"display name" "Centauri Prime"
 	pos 5022 4838
-	object "Centauri Prime"
+	object "B5 Centauri Prime Planet"
 		sprite "planet/b5_centauri_prime"
 		distance 700
 		period 370
 
-system "Vorlon Homeworld"
+system "B5 Vorlon Homeworld"
+	"display name" "Vorlon Homeworld"
 	hidden
 	pos 5350 5360
-	object "Vorlon Homeworld"
+	object "B5 Vorlon Homeworld Planet"
 		sprite "planet/b5_vorlon_homeworld"
 		distance 700
 		period 500
 
-system "Z'ha'dum"
+system "B5 Z'ha'dum"
+	"display name" "Z'ha'dum"
 	hidden
 	pos 4550 5290
-	object "Z'ha'dum"
+	object "B5 Z'ha'dum Planet"
 		sprite "planet/babylon5"
 		distance 700
 		period 600

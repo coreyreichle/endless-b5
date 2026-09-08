@@ -3,7 +3,8 @@
 # Positions are schematic hyperspace-network positions, not literal stellar coordinates.
 # Major race territories and named systems are taken from / aligned to the RPG-era setting.
 
-system "Sol"
+system "B5 Sol"
+	"display name" "Sol"
 	pos 4848 4721
 	government "Earth Alliance"
 	trade "Food" 500
@@ -18,97 +19,106 @@ system "Sol"
 	trade "Luxury Goods" 1180
 	habitable 1000
 	belt 1400
-	link "Proxima"
-	link "Vega"
-	link "Orion"
+	link "B5 Proxima"
+	link "B5 Vega"
+	link "B5 Orion"
 	fleet "B5 Earth Patrol" 1700
 
-system "Proxima"
+system "B5 Proxima"
+	"display name" "Proxima"
 	pos 4896 4726
 	government "Earth Alliance"
 	habitable 1000
 	belt 1400
-	link "Sol"
-	link "Vega"
-	link "Epsilon"
-	link "Jericho"
+	link "B5 Sol"
+	link "B5 Vega"
+	link "B5 Epsilon"
+	link "B5 Jericho"
 	fleet "B5 Earth Patrol" 1700
 
-system "Vega"
+system "B5 Vega"
+	"display name" "Vega"
 	pos 4893 4685
 	government "Earth Alliance"
 	habitable 1000
 	belt 1400
-	link "Sol"
-	link "Proxima"
-	link "Cyrus"
-	link "Grissom"
+	link "B5 Sol"
+	link "B5 Proxima"
+	link "B5 Cyrus"
+	link "B5 Grissom"
 	fleet "B5 Earth Patrol" 1700
 
-system "Orion"
+system "B5 Orion"
+	"display name" "Orion"
 	pos 4848 4762
 	government "Earth Alliance"
 	habitable 1000
 	belt 1400
-	link "Sol"
-	link "Beta 7"
-	link "Jericho"
+	link "B5 Sol"
+	link "B5 Beta 7"
+	link "B5 Jericho"
 	fleet "B5 Earth Patrol" 1700
 
-system "Beta 7"
+system "B5 Beta 7"
+	"display name" "Beta 7"
 	pos 4900 4781
 	government "Earth Alliance"
 	habitable 1000
 	belt 1400
-	link "Orion"
-	link "Jericho"
-	link "Koulani"
+	link "B5 Orion"
+	link "B5 Jericho"
+	link "B5 Koulani"
 	fleet "B5 Earth Patrol" 1700
 
-system "Cyrus"
+system "B5 Cyrus"
+	"display name" "Cyrus"
 	pos 4938 4660
 	government "Earth Alliance"
 	habitable 1000
 	belt 1400
-	link "Vega"
-	link "Grissom"
-	link "Deneb"
+	link "B5 Vega"
+	link "B5 Grissom"
+	link "B5 Deneb"
 	fleet "B5 Earth Patrol" 1700
 
-system "Grissom"
+system "B5 Grissom"
+	"display name" "Grissom"
 	pos 4968 4685
 	government "Earth Alliance"
 	habitable 1000
 	belt 1400
-	link "Vega"
-	link "Cyrus"
-	link "Jericho"
+	link "B5 Vega"
+	link "B5 Cyrus"
+	link "B5 Jericho"
 	fleet "B5 Earth Patrol" 1700
 
-system "Jericho"
+system "B5 Jericho"
+	"display name" "Jericho"
 	pos 4971 4737
 	government "Earth Alliance"
 	habitable 1000
 	belt 1400
-	link "Proxima"
-	link "Orion"
-	link "Beta 7"
-	link "Grissom"
-	link "Epsilon"
-	link "Drazi"
-	link "Markab"
+	link "B5 Proxima"
+	link "B5 Orion"
+	link "B5 Beta 7"
+	link "B5 Grissom"
+	link "B5 Epsilon"
+	link "B5 Drazi"
+	link "B5 Markab"
 	fleet "B5 Earth Patrol" 1700
 
-system "Deneb"
+system "B5 Deneb"
+	"display name" "Deneb"
 	pos 4990 4641
 	government "Earth Alliance"
 	habitable 1000
 	belt 1400
-	link "Cyrus"
-	link "Minbari Protectorate"
+	link "B5 Cyrus"
+	link "B5 Minbari Protectorate"
 	fleet "B5 Earth Patrol" 1700
 
-system "Drazi"
+system "B5 Drazi"
+	"display name" "Drazi"
 	pos 4992 5053
 	government "Drazi Freehold"
 	trade "Food" 360
@@ -123,17 +133,18 @@ system "Drazi"
 	trade "Luxury Goods" 1390
 	habitable 1000
 	belt 1400
-	link "Jericho"
-	link "Epsilon"
-	link "Brakiri"
-	link "Markab"
-	link "Gaim"
+	link "B5 Jericho"
+	link "B5 Epsilon"
+	link "B5 Brakiri"
+	link "B5 Markab"
+	link "B5 Gaim"
 	fleet "B5 Earth Patrol" 6500
 	fleet "B5 Minbari Patrol" 7500
 	fleet "B5 Narn Patrol" 6500
 	fleet "B5 Centauri Patrol" 6500
 
-system "Brakiri"
+system "B5 Brakiri"
+	"display name" "Brakiri"
 	pos 5068 5077
 	government "Brakiri Syndicracy"
 	trade "Food" 300
@@ -148,16 +159,17 @@ system "Brakiri"
 	trade "Luxury Goods" 1040
 	habitable 1000
 	belt 1400
-	link "Drazi"
-	link "Markab"
-	link "Pak'ma'ra"
-	link "Gaim"
+	link "B5 Drazi"
+	link "B5 Markab"
+	link "B5 Pak'ma'ra"
+	link "B5 Gaim"
 	fleet "B5 Earth Patrol" 6500
 	fleet "B5 Minbari Patrol" 7500
 	fleet "B5 Narn Patrol" 6500
 	fleet "B5 Centauri Patrol" 6500
 
-system "Markab"
+system "B5 Markab"
+	"display name" "Markab"
 	pos 5054 5011
 	government "Markab Theocracy"
 	trade "Food" 270
@@ -172,18 +184,19 @@ system "Markab"
 	trade "Luxury Goods" 1260
 	habitable 1000
 	belt 1400
-	link "Jericho"
-	link "Epsilon"
-	link "Drazi"
-	link "Brakiri"
-	link "Vree"
-	link "Centauri Prime"
+	link "B5 Jericho"
+	link "B5 Epsilon"
+	link "B5 Drazi"
+	link "B5 Brakiri"
+	link "B5 Vree"
+	link "B5 Centauri Prime"
 	fleet "B5 Earth Patrol" 6500
 	fleet "B5 Minbari Patrol" 7500
 	fleet "B5 Narn Patrol" 6500
 	fleet "B5 Centauri Patrol" 6500
 
-system "Gaim"
+system "B5 Gaim"
+	"display name" "Gaim"
 	pos 5087 5134
 	government "Gaim Intelligence"
 	trade "Food" 230
@@ -198,16 +211,17 @@ system "Gaim"
 	trade "Luxury Goods" 1370
 	habitable 1000
 	belt 1400
-	link "Drazi"
-	link "Brakiri"
-	link "Abbai"
-	link "Yolu"
+	link "B5 Drazi"
+	link "B5 Brakiri"
+	link "B5 Abbai"
+	link "B5 Yolu"
 	fleet "B5 Earth Patrol" 6500
 	fleet "B5 Minbari Patrol" 7500
 	fleet "B5 Narn Patrol" 6500
 	fleet "B5 Centauri Patrol" 6500
 
-system "Abbai"
+system "B5 Abbai"
+	"display name" "Abbai"
 	pos 5159 5139
 	government "Abbai Matriarchate"
 	trade "Food" 250
@@ -222,15 +236,16 @@ system "Abbai"
 	trade "Luxury Goods" 1100
 	habitable 1000
 	belt 1400
-	link "Gaim"
-	link "Yolu"
-	link "Pak'ma'ra"
+	link "B5 Gaim"
+	link "B5 Yolu"
+	link "B5 Pak'ma'ra"
 	fleet "B5 Earth Patrol" 6500
 	fleet "B5 Minbari Patrol" 7500
 	fleet "B5 Narn Patrol" 6500
 	fleet "B5 Centauri Patrol" 6500
 
-system "Yolu"
+system "B5 Yolu"
+	"display name" "Yolu"
 	pos 5201 5096
 	government "Yolu Confederacy"
 	trade "Food" 340
@@ -245,16 +260,17 @@ system "Yolu"
 	trade "Luxury Goods" 980
 	habitable 1000
 	belt 1400
-	link "Gaim"
-	link "Abbai"
-	link "Pak'ma'ra"
-	link "Vree"
+	link "B5 Gaim"
+	link "B5 Abbai"
+	link "B5 Pak'ma'ra"
+	link "B5 Vree"
 	fleet "B5 Earth Patrol" 6500
 	fleet "B5 Minbari Patrol" 7500
 	fleet "B5 Narn Patrol" 6500
 	fleet "B5 Centauri Patrol" 6500
 
-system "Pak'ma'ra"
+system "B5 Pak'ma'ra"
+	"display name" "Pak'ma'ra"
 	pos 5140 5049
 	government "Pak'ma'ra"
 	trade "Food" 180
@@ -269,17 +285,18 @@ system "Pak'ma'ra"
 	trade "Luxury Goods" 1450
 	habitable 1000
 	belt 1400
-	link "Brakiri"
-	link "Abbai"
-	link "Yolu"
-	link "Vree"
-	link "Centauri Prime"
+	link "B5 Brakiri"
+	link "B5 Abbai"
+	link "B5 Yolu"
+	link "B5 Vree"
+	link "B5 Centauri Prime"
 	fleet "B5 Earth Patrol" 6500
 	fleet "B5 Minbari Patrol" 7500
 	fleet "B5 Narn Patrol" 6500
 	fleet "B5 Centauri Patrol" 6500
 
-system "Vree"
+system "B5 Vree"
+	"display name" "Vree"
 	pos 5178 5001
 	government "Vree Conglomerate"
 	trade "Food" 430
@@ -294,17 +311,18 @@ system "Vree"
 	trade "Luxury Goods" 1280
 	habitable 1000
 	belt 1400
-	link "Markab"
-	link "Yolu"
-	link "Pak'ma'ra"
-	link "Centauri Prime"
-	link "Quadrant 14"
+	link "B5 Markab"
+	link "B5 Yolu"
+	link "B5 Pak'ma'ra"
+	link "B5 Centauri Prime"
+	link "B5 Quadrant 14"
 	fleet "B5 Earth Patrol" 6500
 	fleet "B5 Minbari Patrol" 7500
 	fleet "B5 Narn Patrol" 6500
 	fleet "B5 Centauri Patrol" 6500
 
-system "Narn"
+system "B5 Narn"
+	"display name" "Narn"
 	pos 5306 4868
 	government "Narn Regime"
 	trade "Food" 390
@@ -319,85 +337,93 @@ system "Narn"
 	trade "Luxury Goods" 1460
 	habitable 1000
 	belt 1400
-	link "Quadrant 14"
-	link "Sorith"
-	link "Sigma 957"
-	link "Raghesh"
+	link "B5 Quadrant 14"
+	link "B5 Sorith"
+	link "B5 Sigma 957"
+	link "B5 Raghesh"
 	fleet "B5 Narn Patrol" 1800
 
-system "Quadrant 14"
+system "B5 Quadrant 14"
+	"display name" "Quadrant 14"
 	pos 5280 4920
 	government "Narn Regime"
 	habitable 1000
 	belt 1400
-	link "Epsilon"
-	link "Vree"
-	link "Narn"
-	link "Raghesh"
-	link "Centauri Prime"
+	link "B5 Epsilon"
+	link "B5 Vree"
+	link "B5 Narn"
+	link "B5 Raghesh"
+	link "B5 Centauri Prime"
 	fleet "B5 Narn Patrol" 1800
 
-system "Sorith"
+system "B5 Sorith"
+	"display name" "Sorith"
 	pos 5349 4852
 	government "Narn Regime"
 	habitable 1000
 	belt 1400
-	link "Narn"
-	link "T'il"
-	link "Sigma 957"
+	link "B5 Narn"
+	link "B5 T'il"
+	link "B5 Sigma 957"
 	fleet "B5 Narn Patrol" 1800
 
-system "T'il"
+system "B5 T'il"
+	"display name" "T'il"
 	pos 5388 4852
 	government "Narn Regime"
 	habitable 1000
 	belt 1400
-	link "Sorith"
-	link "Hilak"
+	link "B5 Sorith"
+	link "B5 Hilak"
 	fleet "B5 Narn Patrol" 1800
 
-system "Hilak"
+system "B5 Hilak"
+	"display name" "Hilak"
 	pos 5423 4872
 	government "Narn Regime"
 	habitable 1000
 	belt 1400
-	link "T'il"
-	link "Shambah"
+	link "B5 T'il"
+	link "B5 Shambah"
 	fleet "B5 Narn Patrol" 1800
 
-system "Shambah"
+system "B5 Shambah"
+	"display name" "Shambah"
 	pos 5453 4844
 	government "Narn Regime"
 	habitable 1000
 	belt 1400
-	link "Hilak"
-	link "Melat"
+	link "B5 Hilak"
+	link "B5 Melat"
 	fleet "B5 Narn Patrol" 1800
 
-system "Melat"
+system "B5 Melat"
+	"display name" "Melat"
 	pos 5492 4868
 	government "Narn Regime"
 	habitable 1000
 	belt 1400
-	link "Shambah"
+	link "B5 Shambah"
 	fleet "B5 Narn Patrol" 1800
 
-system "Sigma 957"
+system "B5 Sigma 957"
+	"display name" "Sigma 957"
 	pos 5349 4800
 	government "Narn Regime"
 	habitable 1000
 	belt 1400
-	link "Narn"
-	link "Sorith"
-	link "Z'ha'dum"
+	link "B5 Narn"
+	link "B5 Sorith"
+	link "B5 Z'ha'dum"
 	fleet "B5 Narn Patrol" 1800
-	object "Sector 14 Rift"
+	object "B5 Sector 14 Rift"
 		sprite "planet/wormhole"
 		distance 900
 		period 24
 
 
-system "Centauri Prime"
+system "B5 Centauri Prime"
+	"display name" "Centauri Prime"
 	pos 5022 4838
 	government "Centauri Republic"
 	trade "Food" 440
@@ -412,78 +438,85 @@ system "Centauri Prime"
 	trade "Luxury Goods" 940
 	habitable 1000
 	belt 1400
-	link "Epsilon"
-	link "Markab"
-	link "Pak'ma'ra"
-	link "Vree"
-	link "Quadrant 14"
-	link "Quadrant 37"
-	link "Raghesh"
-	link "Beta 2"
+	link "B5 Epsilon"
+	link "B5 Markab"
+	link "B5 Pak'ma'ra"
+	link "B5 Vree"
+	link "B5 Quadrant 14"
+	link "B5 Quadrant 37"
+	link "B5 Raghesh"
+	link "B5 Beta 2"
 	fleet "B5 Centauri Patrol" 1800
 
-system "Quadrant 37"
+system "B5 Quadrant 37"
+	"display name" "Quadrant 37"
 	pos 5064 4872
 	government "Centauri Republic"
 	habitable 1000
 	belt 1400
-	link "Centauri Prime"
-	link "Beta 2"
-	link "Beta 3"
+	link "B5 Centauri Prime"
+	link "B5 Beta 2"
+	link "B5 Beta 3"
 	fleet "B5 Centauri Patrol" 1800
 
-system "Raghesh"
+system "B5 Raghesh"
+	"display name" "Raghesh"
 	pos 5058 4795
 	government "Centauri Republic"
 	habitable 1000
 	belt 1400
-	link "Centauri Prime"
-	link "Quadrant 14"
-	link "Narn"
-	link "Beta 3"
+	link "B5 Centauri Prime"
+	link "B5 Quadrant 14"
+	link "B5 Narn"
+	link "B5 Beta 3"
 	fleet "B5 Centauri Patrol" 1800
 
-system "Beta 2"
+system "B5 Beta 2"
+	"display name" "Beta 2"
 	pos 5100 4880
 	government "Centauri Republic"
 	habitable 1000
 	belt 1400
-	link "Centauri Prime"
-	link "Quadrant 37"
-	link "Beta 3"
-	link "Beta 4"
+	link "B5 Centauri Prime"
+	link "B5 Quadrant 37"
+	link "B5 Beta 3"
+	link "B5 Beta 4"
 	fleet "B5 Centauri Patrol" 1800
 
-system "Beta 3"
+system "B5 Beta 3"
+	"display name" "Beta 3"
 	pos 5113 4829
 	government "Centauri Republic"
 	habitable 1000
 	belt 1400
-	link "Quadrant 37"
-	link "Raghesh"
-	link "Beta 2"
-	link "Beta 4"
+	link "B5 Quadrant 37"
+	link "B5 Raghesh"
+	link "B5 Beta 2"
+	link "B5 Beta 4"
 	fleet "B5 Centauri Patrol" 1800
 
-system "Beta 4"
+system "B5 Beta 4"
+	"display name" "Beta 4"
 	pos 5152 4868
 	government "Centauri Republic"
 	habitable 1000
 	belt 1400
-	link "Beta 2"
-	link "Beta 3"
-	link "Immolan"
+	link "B5 Beta 2"
+	link "B5 Beta 3"
+	link "B5 Immolan"
 	fleet "B5 Centauri Patrol" 1800
 
-system "Immolan"
+system "B5 Immolan"
+	"display name" "Immolan"
 	pos 5191 4868
 	government "Centauri Republic"
 	habitable 1000
 	belt 1400
-	link "Beta 4"
+	link "B5 Beta 4"
 	fleet "B5 Centauri Patrol" 1800
 
-system "Minbar"
+system "B5 Minbar"
+	"display name" "Minbar"
 	pos 5171 4755
 	government "Minbari Federation"
 	trade "Food" 320
@@ -498,64 +531,70 @@ system "Minbar"
 	trade "Luxury Goods" 1010
 	habitable 1000
 	belt 1400
-	link "Epsilon"
-	link "Eshar"
-	link "Tarellen"
-	link "Minbari Protectorate"
-	link "Valusha"
+	link "B5 Epsilon"
+	link "B5 Eshar"
+	link "B5 Tarellen"
+	link "B5 Minbari Protectorate"
+	link "B5 Valusha"
 	fleet "B5 Minbari Patrol" 1800
 
-system "Eshar"
+system "B5 Eshar"
+	"display name" "Eshar"
 	pos 5212 4711
 	government "Minbari Federation"
 	habitable 1000
 	belt 1400
-	link "Minbar"
-	link "Tarellen"
-	link "Tavalan"
+	link "B5 Minbar"
+	link "B5 Tarellen"
+	link "B5 Tavalan"
 	fleet "B5 Minbari Patrol" 1800
 
-system "Tarellen"
+system "B5 Tarellen"
+	"display name" "Tarellen"
 	pos 5160 4695
 	government "Minbari Federation"
 	habitable 1000
 	belt 1400
-	link "Minbar"
-	link "Eshar"
-	link "Valusha"
+	link "B5 Minbar"
+	link "B5 Eshar"
+	link "B5 Valusha"
 	fleet "B5 Minbari Patrol" 1800
 
-system "Tavalan"
+system "B5 Tavalan"
+	"display name" "Tavalan"
 	pos 5261 4691
 	government "Minbari Federation"
 	habitable 1000
 	belt 1400
-	link "Eshar"
-	link "Minbari Protectorate"
+	link "B5 Eshar"
+	link "B5 Minbari Protectorate"
 	fleet "B5 Minbari Patrol" 1800
 
-system "Valusha"
+system "B5 Valusha"
+	"display name" "Valusha"
 	pos 5115 4703
 	government "Minbari Federation"
 	habitable 1000
 	belt 1400
-	link "Minbar"
-	link "Tarellen"
-	link "Deneb"
+	link "B5 Minbar"
+	link "B5 Tarellen"
+	link "B5 Deneb"
 	fleet "B5 Minbari Patrol" 1800
 
-system "Minbari Protectorate"
+system "B5 Minbari Protectorate"
+	"display name" "Minbari Protectorate"
 	pos 5220 4763
 	government "Minbari Federation"
 	habitable 1000
 	belt 1400
-	link "Minbar"
-	link "Tavalan"
-	link "Deneb"
-	link "Vorlon Border"
+	link "B5 Minbar"
+	link "B5 Tavalan"
+	link "B5 Deneb"
+	link "B5 Vorlon Border"
 	fleet "B5 Minbari Patrol" 1800
 
-system "Vorlon Border"
+system "B5 Vorlon Border"
+	"display name" "Vorlon Border"
 	pos 5235 5290
 	government "Vorlon Empire"
 	trade "Food" 520
@@ -570,11 +609,12 @@ system "Vorlon Border"
 	trade "Luxury Goods" 1490
 	habitable 1000
 	belt 1400
-	link "Minbari Protectorate"
-	link "Vorlon Homeworld"
+	link "B5 Minbari Protectorate"
+	link "B5 Vorlon Homeworld"
 	fleet "B5 Vorlon Patrol" 4500
 
-system "Vorlon Homeworld"
+system "B5 Vorlon Homeworld"
+	"display name" "Vorlon Homeworld"
 	hidden
 	pos 5350 5360
 	government "Vorlon Empire"
@@ -590,9 +630,10 @@ system "Vorlon Homeworld"
 	trade "Luxury Goods" 1510
 	habitable 1000
 	belt 1400
-	link "Vorlon Border"
+	link "B5 Vorlon Border"
 
-system "Z'ha'dum"
+system "B5 Z'ha'dum"
+	"display name" "Z'ha'dum"
 	hidden
 	pos 4550 5290
 	government "Shadows"
@@ -608,21 +649,23 @@ system "Z'ha'dum"
 	trade "Luxury Goods" 1520
 	habitable 1000
 	belt 1400
-	link "Sigma 957"
+	link "B5 Sigma 957"
 	fleet "B5 Shadow Patrol" 5000
 
-system "Koulani"
+system "B5 Koulani"
+	"display name" "Koulani"
 	pos 4949 4801
 	government "Earth Alliance"
 	habitable 1000
 	belt 1400
-	link "Beta 7"
-	link "Jericho"
+	link "B5 Beta 7"
+	link "B5 Jericho"
 	fleet "B5 Earth Patrol" 1700
 
 
 
-system "Sector 83 by 9 by 12"
+system "B5 Sector 83 by 9 by 12"
+	"display name" "Sector 83 by 9 by 12"
 	pos 4740 5035
 	government "Independent"
 	habitable 500
@@ -638,12 +681,13 @@ system "Sector 83 by 9 by 12"
 	asteroids "large metal" 8 2
 
 
-system "Sector 14"
+system "B5 Sector 14"
+	"display name" "Sector 14"
 	pos 5270 4935
 	government "Independent"
 	habitable 500
 	belt 1200
-	object "Sector 14 Rift"
+	object "B5 Sector 14 Rift"
 		sprite "planet/wormhole"
 		distance 700
 		period 20

@@ -3,8 +3,8 @@ start "babylon 5 story"
 	name "Babylon 5"
 	description "Begin the Babylon 5 storyline in Earth year 2257, aboard Babylon 5."
 	date 1 1 2257
-	system "Epsilon"
-	planet "Babylon 5"
+	system "B5 Epsilon"
+	planet "B5 Babylon 5"
 	set "b5 story start"
 	account
 		credits 10000000

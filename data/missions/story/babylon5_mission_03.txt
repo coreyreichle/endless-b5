@@ -7,8 +7,8 @@
 mission "b5 mission 3 narn escort"
 	name "Mission 3: Narn Convoy Escort"
 	description "Escort three Narn transports from Babylon 5 to the Narn homeworld."
-	source "Babylon 5"
-	destination "Narn Homeworld"
+	source "B5 Babylon 5"
+	destination "B5 Narn Homeworld"
 	to offer
 		has "b5 story start"
 		has "b5 mission 2 complete"
@@ -56,19 +56,17 @@ mission "b5 mission 3 narn escort"
 	on fail
 		clear "b5 mission 3 convoy underway"
 		dialog "One of the Narn transports has been lost. The escort assignment has failed."
-
 # Mission 3 first-jump Raider ambush.
 #
 # This is deliberately a separate invisible entering mission. It offers after the
 # player regains control following the first jump out of Epsilon. Because no NPC
 # system is specified, the Raider NPC group starts in that current system.
-
 mission "b5 mission 3 first jump raider ambush"
 	name "Mission 3 Raider Ambush"
 	invisible
 	non-blocking
 	entering
-	destination "Narn Homeworld"
+	destination "B5 Narn Homeworld"
 	source
 		not system "Epsilon"
 	to offer

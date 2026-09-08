@@ -1,7 +1,7 @@
 # Babylon 5 minor-race homeworld planets and generated planet art.
 # v0.4.7
 
-planet "Drazi Homeworld"
+planet "B5 Drazi Homeworld"
 	"display name" "Drazi"
 	government "Drazi Freehold"
 	spaceport "The Drazi homeworld, a harsh world at the heart of the Drazi Freehold."
@@ -9,14 +9,15 @@ planet "Drazi Homeworld"
 	shipyard "B5 Drazi Shipyard"
 	outfitter "B5 Drazi Outfitter"
 
-system "Drazi"
+system "B5 Drazi"
+	"display name" "Drazi"
 	pos 4992 5053
-	object "Drazi Homeworld"
+	object "B5 Drazi Homeworld"
 		sprite "planet/b5_drazi"
 		distance 700
 		period 360
 
-planet "Brakiri Homeworld"
+planet "B5 Brakiri Homeworld"
 	"display name" "Brakiri"
 	government "Brakiri Syndicracy"
 	spaceport "The Brakiri homeworld and commercial center of the Brakiri Syndicracy."
@@ -24,66 +25,71 @@ planet "Brakiri Homeworld"
 	shipyard "B5 Brakiri Shipyard"
 	outfitter "B5 Brakiri Outfitter"
 
-system "Brakiri"
+system "B5 Brakiri"
+	"display name" "Brakiri"
 	pos 5068 5077
-	object "Brakiri Homeworld"
+	object "B5 Brakiri Homeworld"
 		sprite "planet/b5_brakiri"
 		distance 700
 		period 360
 
-planet "Markab Homeworld"
+planet "B5 Markab Homeworld"
 	"display name" "Markab"
 	government "Markab Theocracy"
 	spaceport "The Markab homeworld, center of Markab civilization and faith."
 	description "The Markab homeworld, center of Markab civilization and faith."
 
-system "Markab"
+system "B5 Markab"
+	"display name" "Markab"
 	pos 5054 5011
-	object "Markab Homeworld"
+	object "B5 Markab Homeworld"
 		sprite "planet/b5_markab"
 		distance 700
 		period 360
 
-planet "Gaim Homeworld"
+planet "B5 Gaim Homeworld"
 	"display name" "Gaim"
 	government "Gaim Intelligence"
 	spaceport "The dense, biologically rich homeworld of the Gaim."
 	description "The dense, biologically rich homeworld of the Gaim."
 
-system "Gaim"
+system "B5 Gaim"
+	"display name" "Gaim"
 	pos 5087 5134
-	object "Gaim Homeworld"
+	object "B5 Gaim Homeworld"
 		sprite "planet/b5_gaim"
 		distance 700
 		period 360
 
-planet "Abbai Homeworld"
+planet "B5 Abbai Homeworld"
 	"display name" "Abbai"
 	government "Abbai Matriarchate"
 	spaceport "The Abbai homeworld, seat of the Abbai Matriarchate."
 	description "The Abbai homeworld, seat of the Abbai Matriarchate."
 
-system "Abbai"
+system "B5 Abbai"
+	"display name" "Abbai"
 	pos 5159 5139
-	object "Abbai Homeworld"
+	object "B5 Abbai Homeworld"
 		sprite "planet/b5_abbai"
 		distance 700
 		period 360
 
-planet "Yolu Homeworld"
+planet "B5 Yolu Homeworld"
 	"display name" "Yolu"
 	government "Yolu Confederacy"
 	spaceport "The Yolu homeworld, center of the ancient Yolu civilization."
 	description "The Yolu homeworld, center of the ancient Yolu civilization."
 
-system "Yolu"
+system "B5 Yolu"
+	"display name" "Yolu"
 	pos 5201 5096
-	object "Yolu Homeworld"
+	object "B5 Yolu Homeworld"
 		sprite "planet/b5_yolu"
 		distance 700
 		period 360
 
-planet "Pak'ma'ra Homeworld"
+planet "B5 Pak'ma'ra Homeworld"
 	"display name" "Pak'ma'ra"
 	government "Pak'ma'ra"
 	spaceport "The Pak'ma'ra homeworld, known throughout League space."
@@ -91,14 +97,15 @@ planet "Pak'ma'ra Homeworld"
 	shipyard "B5 Pak'ma'ra Shipyard"
 	outfitter "B5 Pak'ma'ra Outfitter"
 
-system "Pak'ma'ra"
+system "B5 Pak'ma'ra"
+	"display name" "Pak'ma'ra"
 	pos 5140 5049
-	object "Pak'ma'ra Homeworld"
+	object "B5 Pak'ma'ra Homeworld"
 		sprite "planet/b5_pakmara"
 		distance 700
 		period 360
 
-planet "Vree Homeworld"
+planet "B5 Vree Homeworld"
 	"display name" "Vree"
 	government "Vree Conglomerate"
 	spaceport "The Vree homeworld, center of the technologically sophisticated Vree Conglomerate."
@@ -106,22 +113,24 @@ planet "Vree Homeworld"
 	shipyard "B5 Vree Shipyard"
 	outfitter "B5 Vree Outfitter"
 
-system "Vree"
+system "B5 Vree"
+	"display name" "Vree"
 	pos 5178 5001
-	object "Vree Homeworld"
+	object "B5 Vree Homeworld"
 		sprite "planet/b5_vree"
 		distance 700
 		period 360
 
-planet "Vorlon Border World"
+planet "B5 Vorlon Border World"
 	"display name" "Vorlon Border"
 	government "Vorlon Empire"
 	spaceport "A strange world on the publicly known edge of Vorlon-controlled space. The Vorlon homeworld lies deeper beyond the border and remains unknown."
 	description "A world marking the edge of known Vorlon space. It is not the Vorlon homeworld."
 
-system "Vorlon Border"
+system "B5 Vorlon Border"
+	"display name" "Vorlon Border"
 	pos 5235 5290
-	object "Vorlon Border World"
+	object "B5 Vorlon Border World"
 		sprite "planet/b5_vorlon_border"
 		distance 700
 		period 500

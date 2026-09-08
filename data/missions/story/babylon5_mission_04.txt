@@ -5,9 +5,9 @@ mission "b5 mission 4 raider sweep"
 	name "Mission 4: Raider Sweep"
 	description "Take eight Earth Alliance Starfuries to Quadrant 14, eliminate or capture every Raider encountered there, then return to Babylon 5."
 	landing
-	source "Babylon 5"
-	destination "Babylon 5"
-	waypoint "Quadrant 14"
+	source "B5 Babylon 5"
+	destination "B5 Babylon 5"
+	waypoint "B5 Quadrant 14"
 	to offer
 		has "b5 story start"
 		has "b5 mission 3 complete"
@@ -44,7 +44,7 @@ mission "b5 mission 4 raider sweep"
 
 	npc kill
 		government "Raiders"
-		system "Quadrant 14"
+		system "B5 Quadrant 14"
 		personality
 			hunting
 			staying

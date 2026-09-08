@@ -6,8 +6,8 @@ start "b5 mission test"
 	name "Mission Test"
 	description "Development start: begin aboard Babylon 5 with a ready Earth Alliance courier and storyline progress set through Mission 4, ready for Mission 5 development."
 	date 1 1 2257
-	system "Epsilon"
-	planet "Babylon 5"
+	system "B5 Epsilon"
+	planet "B5 Babylon 5"
 
 	# Normal storyline state.
 	set "b5 story start"

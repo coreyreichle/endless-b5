@@ -6,8 +6,8 @@
 mission "b5 mission 5a centauri pickup"
 	name "Mission 5: Diplomatic Transport"
 	description "Travel to Centauri Prime and collect two Centauri diplomatic passengers for transport to Babylon 5."
-	source "Babylon 5"
-	destination "Centauri Prime"
+	source "B5 Babylon 5"
+	destination "B5 Centauri Prime Planet"
 	to offer
 		has "b5 story start"
 		has "b5 mission 4 complete"
@@ -31,8 +31,8 @@ mission "b5 mission 5a centauri pickup"
 mission "b5 mission 5b mollari and vir"
 	name "Mission 5: Diplomatic Transport"
 	description "Transport Ambassador Londo Mollari and his aide Vir Cotto from Centauri Prime to Babylon 5."
-	source "Centauri Prime"
-	destination "Babylon 5"
+	source "B5 Centauri Prime Planet"
+	destination "B5 Babylon 5"
 	passengers 2
 	to offer
 		has "b5 story start"
@@ -69,4 +69,3 @@ mission "b5 mission 5b mollari and vir"
 		clear "b5 mission 5 underway"
 		set "b5 mission 5 complete"
 		log "Babylon 5" "Earth Alliance Orders" "Mission 5 complete: Transported Ambassador Londo Mollari and Vir Cotto from Centauri Prime to Babylon 5. Report to the starport for your next assignment."
-

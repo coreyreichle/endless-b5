@@ -8,7 +8,7 @@ mission "b5 testbed known space initializer"
 	to offer
 		has "b5 testbed start"
 		not "b5 testbed known space initialized"
-	source "Babylon 5"
+	source "B5 Babylon 5"
 	on offer
 		event "b5 testbed known space" 0
 		set "b5 testbed known space initialized"

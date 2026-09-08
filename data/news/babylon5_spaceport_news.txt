@@ -4,7 +4,7 @@
 
 news "b5 station life"
 	location
-		planet "Babylon 5"
+		planet "B5 Babylon 5"
 	name
 		word
 			"A Zocalo vendor"
@@ -24,7 +24,7 @@ news "b5 station life"
 
 news "b5 station visitors"
 	location
-		planet "Babylon 5"
+		planet "B5 Babylon 5"
 	name
 		word
 			"A Centauri merchant"
@@ -44,7 +44,7 @@ news "b5 raider rumors early"
 	to show
 		not "b5 mission 3 narn escort: done"
 	location
-		planet "Babylon 5"
+		planet "B5 Babylon 5"
 	name
 		word
 			"A long-haul freighter captain"
@@ -61,7 +61,7 @@ news "b5 narn convoy aftermath"
 		has "b5 mission 3 narn escort: done"
 		not "b5 mission 4 raider sweep: done"
 	location
-		planet "Babylon 5"
+		planet "B5 Babylon 5"
 	name
 		word
 			"A Narn dockworker"
@@ -77,7 +77,7 @@ news "b5 quadrant fourteen aftermath"
 	to show
 		has "b5 mission 4 raider sweep: done"
 	location
-		planet "Babylon 5"
+		planet "B5 Babylon 5"
 	name
 		word
 			"An EarthForce ground crewman"
@@ -93,7 +93,7 @@ news "b5 quadrant fourteen aftermath"
 
 news "b5 earth civilian life"
 	location
-		planet "Earth Alliance Headquarters"
+		planet "B5 Earth Alliance Headquarters"
 	name
 		word
 			"A transit worker"
@@ -111,7 +111,7 @@ news "b5 earth civilian life"
 
 news "b5 earth postwar memory"
 	location
-		planet "Earth Alliance Headquarters"
+		planet "B5 Earth Alliance Headquarters"
 	name
 		word
 			"An older EarthForce veteran"
@@ -125,7 +125,7 @@ news "b5 earth postwar memory"
 
 news "b5 centauri court and commerce"
 	location
-		planet "Centauri Prime"
+		planet "B5 Centauri Prime Planet"
 	name
 		word
 			"A minor Centauri noble"
@@ -143,7 +143,7 @@ news "b5 centauri court and commerce"
 
 news "b5 centauri imperial nostalgia"
 	location
-		planet "Centauri Prime"
+		planet "B5 Centauri Prime Planet"
 	name
 		word
 			"An elderly Centauri"
@@ -157,7 +157,7 @@ news "b5 centauri imperial nostalgia"
 
 news "b5 narn daily life"
 	location
-		planet "Narn Homeworld"
+		planet "B5 Narn Homeworld"
 	name
 		word
 			"A Narn dockworker"
@@ -177,7 +177,7 @@ news "b5 narn convoy talk"
 	to show
 		has "b5 mission 3 narn escort: done"
 	location
-		planet "Narn Homeworld"
+		planet "B5 Narn Homeworld"
 	name
 		word
 			"A Narn cargo master"
@@ -189,7 +189,7 @@ news "b5 narn convoy talk"
 
 news "b5 minbari daily life"
 	location
-		planet "Minbar"
+		planet "B5 Minbar Planet"
 	name
 		word
 			"A worker caste artisan"
@@ -207,7 +207,7 @@ news "b5 minbari daily life"
 
 news "b5 minbari human memory"
 	location
-		planet "Minbar"
+		planet "B5 Minbar Planet"
 	name
 		word
 			"A Minbari historian"
@@ -221,7 +221,7 @@ news "b5 minbari human memory"
 
 news "b5 drazi port life"
 	location
-		planet "Drazi Homeworld"
+		planet "B5 Drazi Homeworld"
 	name
 		word
 			"A Drazi dock foreman"
@@ -233,7 +233,7 @@ news "b5 drazi port life"
 
 news "b5 brakiri port life"
 	location
-		planet "Brakiri Homeworld"
+		planet "B5 Brakiri Homeworld"
 	name
 		word
 			"A Brakiri broker"
@@ -245,7 +245,7 @@ news "b5 brakiri port life"
 
 news "b5 markab port life"
 	location
-		planet "Markab Homeworld"
+		planet "B5 Markab Homeworld"
 	name
 		word
 			"A Markab physician"
@@ -257,7 +257,7 @@ news "b5 markab port life"
 
 news "b5 gaim port life"
 	location
-		planet "Gaim Homeworld"
+		planet "B5 Gaim Homeworld"
 	name
 		word
 			"A Gaim trade intermediary"
@@ -269,7 +269,7 @@ news "b5 gaim port life"
 
 news "b5 abbai port life"
 	location
-		planet "Abbai Homeworld"
+		planet "B5 Abbai Homeworld"
 	name
 		word
 			"An Abbai administrator"
@@ -281,7 +281,7 @@ news "b5 abbai port life"
 
 news "b5 yolu port life"
 	location
-		planet "Yolu Homeworld"
+		planet "B5 Yolu Homeworld"
 	name
 		word
 			"A Yolu scholar"
@@ -293,7 +293,7 @@ news "b5 yolu port life"
 
 news "b5 pakmara port life"
 	location
-		planet "Pak'ma'ra Homeworld"
+		planet "B5 Pak'ma'ra Homeworld"
 	name
 		word
 			"A Pak'ma'ra freight handler"
@@ -305,7 +305,7 @@ news "b5 pakmara port life"
 
 news "b5 vree port life"
 	location
-		planet "Vree Homeworld"
+		planet "B5 Vree Homeworld"
 	name
 		word
 			"A Vree technician"
@@ -314,4 +314,3 @@ news "b5 vree port life"
 		word
 			"The Vree technician listened to my explanation, opened the panel, and fixed in ten seconds what I'd been diagnosing for an hour. Then he left without explaining it."
 			"Vree equipment always looks as if someone removed three components you were certain every machine required. It works anyway."
-

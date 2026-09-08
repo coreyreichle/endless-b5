@@ -2,356 +2,401 @@
 # Loaded late so every habitable system has a visible star while preserving
 # the plugin's named planets, stations, and wormholes.
 
-system "Sol"
+system "B5 Sol"
+	"display name" "Sol"
 	object
 		sprite "star/g0"
 		distance 0
 		period 10
-	object "Earth Alliance Headquarters"
+	object "B5 Earth Alliance Headquarters"
 		sprite "planet/b5_earth"
 		distance 700
 		period 365
 
-system "Proxima"
+system "B5 Proxima"
+	"display name" "Proxima"
 	object
 		sprite "star/k0"
 		distance 0
 		period 10
 
-system "Vega"
+system "B5 Vega"
+	"display name" "Vega"
 	object
 		sprite "star/g5"
 		distance 0
 		period 10
 
-system "Orion"
+system "B5 Orion"
+	"display name" "Orion"
 	object
 		sprite "star/k5"
 		distance 0
 		period 10
 
-system "Beta 7"
+system "B5 Beta 7"
+	"display name" "Beta 7"
 	object
 		sprite "star/f5"
 		distance 0
 		period 10
 
-system "Cyrus"
+system "B5 Cyrus"
+	"display name" "Cyrus"
 	object
 		sprite "star/g0"
 		distance 0
 		period 10
 
-system "Grissom"
+system "B5 Grissom"
+	"display name" "Grissom"
 	object
 		sprite "star/k0"
 		distance 0
 		period 10
 
-system "Jericho"
+system "B5 Jericho"
+	"display name" "Jericho"
 	object
 		sprite "star/g5"
 		distance 0
 		period 10
 
-system "Deneb"
+system "B5 Deneb"
+	"display name" "Deneb"
 	object
 		sprite "star/k5"
 		distance 0
 		period 10
 
-system "Drazi"
+system "B5 Drazi"
+	"display name" "Drazi"
 	object
 		sprite "star/f5"
 		distance 0
 		period 10
-	object "Drazi Homeworld"
+	object "B5 Drazi Homeworld"
 		sprite "planet/b5_drazi"
 		distance 700
 		period 360
 
-system "Brakiri"
+system "B5 Brakiri"
+	"display name" "Brakiri"
 	object
 		sprite "star/g0"
 		distance 0
 		period 10
-	object "Brakiri Homeworld"
+	object "B5 Brakiri Homeworld"
 		sprite "planet/b5_brakiri"
 		distance 700
 		period 360
 
-system "Markab"
+system "B5 Markab"
+	"display name" "Markab"
 	object
 		sprite "star/k0"
 		distance 0
 		period 10
-	object "Markab Homeworld"
+	object "B5 Markab Homeworld"
 		sprite "planet/b5_markab"
 		distance 700
 		period 360
 
-system "Gaim"
+system "B5 Gaim"
+	"display name" "Gaim"
 	object
 		sprite "star/g5"
 		distance 0
 		period 10
-	object "Gaim Homeworld"
+	object "B5 Gaim Homeworld"
 		sprite "planet/b5_gaim"
 		distance 700
 		period 360
 
-system "Abbai"
+system "B5 Abbai"
+	"display name" "Abbai"
 	object
 		sprite "star/k5"
 		distance 0
 		period 10
-	object "Abbai Homeworld"
+	object "B5 Abbai Homeworld"
 		sprite "planet/b5_abbai"
 		distance 700
 		period 360
 
-system "Yolu"
+system "B5 Yolu"
+	"display name" "Yolu"
 	object
 		sprite "star/f5"
 		distance 0
 		period 10
-	object "Yolu Homeworld"
+	object "B5 Yolu Homeworld"
 		sprite "planet/b5_yolu"
 		distance 700
 		period 360
 
-system "Pak'ma'ra"
+system "B5 Pak'ma'ra"
+	"display name" "Pak'ma'ra"
 	object
 		sprite "star/g0"
 		distance 0
 		period 10
-	object "Pak'ma'ra Homeworld"
+	object "B5 Pak'ma'ra Homeworld"
 		sprite "planet/b5_pakmara"
 		distance 700
 		period 360
 
-system "Vree"
+system "B5 Vree"
+	"display name" "Vree"
 	object
 		sprite "star/k0"
 		distance 0
 		period 10
-	object "Vree Homeworld"
+	object "B5 Vree Homeworld"
 		sprite "planet/b5_vree"
 		distance 700
 		period 360
 
-system "Narn"
+system "B5 Narn"
+	"display name" "Narn"
 	object
 		sprite "star/g5"
 		distance 0
 		period 10
-	object "Narn Homeworld"
+	object "B5 Narn Homeworld"
 		sprite "planet/b5_narn"
 		distance 700
 		period 350
 
-system "Quadrant 14"
+system "B5 Quadrant 14"
+	"display name" "Quadrant 14"
 	object
 		sprite "star/k5"
 		distance 0
 		period 10
 
-system "Sorith"
+system "B5 Sorith"
+	"display name" "Sorith"
 	object
 		sprite "star/f5"
 		distance 0
 		period 10
 
-system "T'il"
+system "B5 T'il"
+	"display name" "T'il"
 	object
 		sprite "star/g0"
 		distance 0
 		period 10
 
-system "Hilak"
+system "B5 Hilak"
+	"display name" "Hilak"
 	object
 		sprite "star/k0"
 		distance 0
 		period 10
 
-system "Shambah"
+system "B5 Shambah"
+	"display name" "Shambah"
 	object
 		sprite "star/g5"
 		distance 0
 		period 10
 
-system "Melat"
+system "B5 Melat"
+	"display name" "Melat"
 	object
 		sprite "star/k5"
 		distance 0
 		period 10
 
-system "Sigma 957"
+system "B5 Sigma 957"
+	"display name" "Sigma 957"
 	object
 		sprite "star/f5"
 		distance 0
 		period 10
-	object "Sector 14 Rift"
+	object "B5 Sector 14 Rift"
 		sprite "planet/wormhole"
 		distance 900
 		period 24
 
-system "Centauri Prime"
+system "B5 Centauri Prime"
+	"display name" "Centauri Prime"
 	object
 		sprite "star/g0"
 		distance 0
 		period 10
-	object "Centauri Prime"
+	object "B5 Centauri Prime Planet"
 		sprite "planet/b5_centauri_prime"
 		distance 700
 		period 370
 
-system "Quadrant 37"
+system "B5 Quadrant 37"
+	"display name" "Quadrant 37"
 	object
 		sprite "star/k0"
 		distance 0
 		period 10
 
-system "Raghesh"
+system "B5 Raghesh"
+	"display name" "Raghesh"
 	object
 		sprite "star/g5"
 		distance 0
 		period 10
 
-system "Beta 2"
+system "B5 Beta 2"
+	"display name" "Beta 2"
 	object
 		sprite "star/k5"
 		distance 0
 		period 10
 
-system "Beta 3"
+system "B5 Beta 3"
+	"display name" "Beta 3"
 	object
 		sprite "star/f5"
 		distance 0
 		period 10
 
-system "Beta 4"
+system "B5 Beta 4"
+	"display name" "Beta 4"
 	object
 		sprite "star/g0"
 		distance 0
 		period 10
 
-system "Immolan"
+system "B5 Immolan"
+	"display name" "Immolan"
 	object
 		sprite "star/k0"
 		distance 0
 		period 10
 
-system "Minbar"
+system "B5 Minbar"
+	"display name" "Minbar"
 	object
 		sprite "star/g5"
 		distance 0
 		period 10
-	object "Minbar"
+	object "B5 Minbar Planet"
 		sprite "planet/b5_minbar"
 		distance 700
 		period 360
 
-system "Eshar"
+system "B5 Eshar"
+	"display name" "Eshar"
 	object
 		sprite "star/k5"
 		distance 0
 		period 10
 
-system "Tarellen"
+system "B5 Tarellen"
+	"display name" "Tarellen"
 	object
 		sprite "star/f5"
 		distance 0
 		period 10
 
-system "Tavalan"
+system "B5 Tavalan"
+	"display name" "Tavalan"
 	object
 		sprite "star/g0"
 		distance 0
 		period 10
 
-system "Valusha"
+system "B5 Valusha"
+	"display name" "Valusha"
 	object
 		sprite "star/k0"
 		distance 0
 		period 10
 
-system "Minbari Protectorate"
+system "B5 Minbari Protectorate"
+	"display name" "Minbari Protectorate"
 	object
 		sprite "star/g5"
 		distance 0
 		period 10
 
-system "Vorlon Border"
+system "B5 Vorlon Border"
+	"display name" "Vorlon Border"
 	object
 		sprite "star/k5"
 		distance 0
 		period 10
-	object "Vorlon Border World"
+	object "B5 Vorlon Border World"
 		sprite "planet/b5_vorlon_border"
 		distance 700
 		period 500
 
-system "Vorlon Homeworld"
+system "B5 Vorlon Homeworld"
+	"display name" "Vorlon Homeworld"
 	object
 		sprite "star/f5"
 		distance 0
 		period 10
-	object "Vorlon Homeworld"
+	object "B5 Vorlon Homeworld Planet"
 		sprite "planet/b5_vorlon_homeworld"
 		distance 700
 		period 500
 
-system "Z'ha'dum"
+system "B5 Z'ha'dum"
+	"display name" "Z'ha'dum"
 	object
 		sprite "star/g0"
 		distance 0
 		period 10
-	object "Z'ha'dum"
+	object "B5 Z'ha'dum Planet"
 		sprite "planet/babylon5"
 		distance 700
 		period 600
 
-system "Koulani"
+system "B5 Koulani"
+	"display name" "Koulani"
 	object
 		sprite "star/k0"
 		distance 0
 		period 10
 
-system "Sector 83 by 9 by 12"
+system "B5 Sector 83 by 9 by 12"
+	"display name" "Sector 83 by 9 by 12"
 	object
 		sprite "star/g5"
 		distance 0
 		period 10
 
-system "Sector 14"
+system "B5 Sector 14"
+	"display name" "Sector 14"
 	object
 		sprite "star/k5"
 		distance 0
 		period 10
-	object "Sector 14 Rift"
+	object "B5 Sector 14 Rift"
 		sprite "planet/wormhole"
 		distance 700
 		period 20
 
-system "Epsilon"
+system "B5 Epsilon"
+	"display name" "Epsilon"
 	object
 		sprite "star/g0"
 		distance 0
 		period 10
-	object "Epsilon I"
+	object "B5 Epsilon I"
 		sprite "planet/b5_markab"
 		distance 900
 		period 220
-	object "Epsilon II"
+	object "B5 Epsilon II"
 		sprite "planet/b5_vree"
 		distance 1700
 		period 410
-	object "Epsilon III"
+	object "B5 Epsilon III"
 		sprite "planet/b5_abbai"
 		distance 2600
 		period 650
-	object "Babylon 5"
+	object "B5 Babylon 5"
 		sprite "planet/babylon5"
 		distance 3400
 		period 850

@@ -4,9 +4,9 @@
 mission "b5 mission 2 dual freight"
 	name "Mission 2: Diplomatic Freight"
 	description "Carry two Earth Alliance consignments: 10 tons for Centauri Prime and 10 tons for Babylon 5."
-	source "Earth Alliance Headquarters"
-	stopover "Centauri Prime"
-	destination "Babylon 5"
+	source "B5 Earth Alliance Headquarters"
+	stopover "B5 Centauri Prime Planet"
+	destination "B5 Babylon 5"
 	cargo "Earth Alliance diplomatic freight" 20
 	to offer
 		has "b5 story start"

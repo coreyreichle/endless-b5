@@ -38,9 +38,8 @@ disable mission
 	"Republic Navy Advisory System [wildfire firefighters]"
 
 	"Small Scale Delivery"
-	"Avgi: Aberrant Blockade"
-
 	"A Dead Man's Path 1"
+	"Avgi: Aberrant Blockade"
 
 	# These are the player-facing landing notices tied directly to the
 	# fixed-date vanilla campaign events below.
