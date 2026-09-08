@@ -1,6 +1,5 @@
 # Babylon 5 known-space initialization.
 # Shared by the Testbed and main storyline starts.
-
 event "b5 testbed known space"
 	unvisit "B5 Vorlon Homeworld"
 	unvisit "B5 Z'ha'dum"
@@ -46,3 +45,4 @@ event "b5 testbed known space"
 	visit "B5 Valusha"
 	visit "B5 Minbari Protectorate"
 	visit "B5 Vorlon Border"
+

@@ -1,0 +1,145 @@
+# Babylon 5 Part 1 - special, hidden, and story-region systems.
+
+planet "B5 Vorlon Border World"
+	"display name" "Vorlon Border"
+	government "Vorlon Empire"
+	spaceport "A strange world on the publicly known edge of Vorlon-controlled space. The Vorlon homeworld lies deeper beyond the border and remains unknown."
+	description "A world marking the edge of known Vorlon space. It is not the Vorlon homeworld."
+
+planet "B5 Vorlon Homeworld Planet"
+	"display name" "Vorlon Homeworld"
+	to land
+		never
+	government "Vorlon Empire"
+	spaceport "Little about this world is meant for younger races. Its presence is felt more as an ancient warning than as a destination."
+	shipyard "Vorlon Shipyard"
+	outfitter "Vorlon Outfitter"
+	description "The hidden homeworld of the Vorlons lies far beyond the familiar borders of younger civilizations. Ancient, enigmatic, and almost impossibly remote, it offers few answers and raises far more questions about those who shaped the galaxy before the current age."
+
+planet "B5 Z'ha'dum Planet"
+	"display name" "Z'ha'dum"
+	to land
+		never
+	government "Shadows"
+	spaceport "Z'ha'dum is a name spoken more often in warning than in invitation."
+	shipyard "Shadow Shipyard"
+	outfitter "Shadow Outfitter"
+	description "An ancient world associated with the Shadows and with powers older than the civilizations now contesting the galaxy. Few who seek it do so without consequence, and fewer still understand what waits there."
+
+system "B5 Vorlon Border"
+	"display name" "Vorlon Border"
+	pos 5235 5290
+	government "Vorlon Empire"
+	trade "Food" 520
+	trade "Clothing" 420
+	trade "Metal" 570
+	trade "Plastic" 520
+	trade "Equipment" 710
+	trade "Medical" 900
+	trade "Industrial" 890
+	trade "Electronics" 870
+	trade "Heavy Metals" 1280
+	trade "Luxury Goods" 1490
+	habitable 1000
+	belt 1400
+	link "B5 Minbari Protectorate"
+	link "B5 Vorlon Homeworld"
+	fleet "B5 Vorlon Patrol" 4500
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+	object "B5 Vorlon Border World"
+		sprite "planet/b5_vorlon_border"
+		distance 700
+		period 500
+
+system "B5 Vorlon Homeworld"
+	"display name" "Vorlon Homeworld"
+	hidden
+	pos 5350 5360
+	government "Vorlon Empire"
+	trade "Food" 560
+	trade "Clothing" 430
+	trade "Metal" 580
+	trade "Plastic" 530
+	trade "Equipment" 720
+	trade "Medical" 920
+	trade "Industrial" 910
+	trade "Electronics" 880
+	trade "Heavy Metals" 1300
+	trade "Luxury Goods" 1510
+	habitable 1000
+	belt 1400
+	link "B5 Vorlon Border"
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+	object "B5 Vorlon Homeworld Planet"
+		sprite "planet/b5_vorlon_homeworld"
+		distance 700
+		period 500
+
+system "B5 Z'ha'dum"
+	"display name" "Z'ha'dum"
+	hidden
+	pos 4550 5290
+	government "Shadows"
+	trade "Food" 590
+	trade "Clothing" 440
+	trade "Metal" 560
+	trade "Plastic" 540
+	trade "Equipment" 730
+	trade "Medical" 930
+	trade "Industrial" 920
+	trade "Electronics" 890
+	trade "Heavy Metals" 1310
+	trade "Luxury Goods" 1520
+	habitable 1000
+	belt 1400
+	link "B5 Sigma 957"
+	fleet "B5 Shadow Patrol" 5000
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+	object "B5 Z'ha'dum Planet"
+		sprite "planet/babylon5"
+		distance 700
+		period 600
+
+system "B5 Sector 83 by 9 by 12"
+	"display name" "Sector 83 by 9 by 12"
+	pos 4740 5035
+	government "Independent"
+	habitable 500
+	belt 900
+	belt 1100
+	belt 1300
+	belt 1500
+	asteroids "small rock" 40 2
+	asteroids "medium rock" 30 2
+	asteroids "large rock" 20 2
+	asteroids "small metal" 18 2
+	asteroids "medium metal" 12 2
+	asteroids "large metal" 8 2
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+
+system "B5 Sector 14"
+	"display name" "Sector 14"
+	pos 5270 4935
+	government "Independent"
+	habitable 500
+	belt 1200
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+	object "B5 Sector 14 Rift"
+		sprite "planet/wormhole"
+		distance 700
+		period 20

@@ -1,0 +1,116 @@
+# Babylon 5 Part 1 - Minbari Federation map region.
+# This file is authoritative for Minbari systems and Minbar.
+
+planet "B5 Minbar Planet"
+	"display name" "Minbar"
+	government "Minbari Federation"
+	spaceport "Minbar is the spiritual and cultural center of the Minbari Federation, where tradition, caste, and ancient institutions shape everyday life."
+	shipyard "Minbari Federation Shipyard"
+	outfitter "Minbari Federation Outfitter"
+	description "A serene and ancient world at the heart of Minbari civilization. Minbar reflects a culture built around balance, discipline, spiritual purpose, and a deep sense that every life belongs to a greater pattern."
+
+system "B5 Minbar"
+	"display name" "Minbar"
+	pos 5171 4755
+	government "Minbari Federation"
+	trade "Food" 320
+	trade "Clothing" 210
+	trade "Metal" 550
+	trade "Plastic" 340
+	trade "Equipment" 460
+	trade "Medical" 520
+	trade "Industrial" 600
+	trade "Electronics" 620
+	trade "Heavy Metals" 1200
+	trade "Luxury Goods" 1010
+	habitable 1000
+	belt 1400
+	link "B5 Epsilon"
+	link "B5 Eshar"
+	link "B5 Tarellen"
+	link "B5 Minbari Protectorate"
+	link "B5 Valusha"
+	fleet "B5 Minbari Patrol" 1800
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+	object "B5 Minbar Planet"
+		sprite "planet/b5_minbar"
+		distance 700
+		period 360
+
+system "B5 Eshar"
+	"display name" "Eshar"
+	pos 5212 4711
+	government "Minbari Federation"
+	habitable 1000
+	belt 1400
+	link "B5 Minbar"
+	link "B5 Tarellen"
+	link "B5 Tavalan"
+	fleet "B5 Minbari Patrol" 1800
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+
+system "B5 Tarellen"
+	"display name" "Tarellen"
+	pos 5160 4695
+	government "Minbari Federation"
+	habitable 1000
+	belt 1400
+	link "B5 Minbar"
+	link "B5 Eshar"
+	link "B5 Valusha"
+	fleet "B5 Minbari Patrol" 1800
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+
+system "B5 Tavalan"
+	"display name" "Tavalan"
+	pos 5261 4691
+	government "Minbari Federation"
+	habitable 1000
+	belt 1400
+	link "B5 Eshar"
+	link "B5 Minbari Protectorate"
+	fleet "B5 Minbari Patrol" 1800
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+
+system "B5 Valusha"
+	"display name" "Valusha"
+	pos 5115 4703
+	government "Minbari Federation"
+	habitable 1000
+	belt 1400
+	link "B5 Minbar"
+	link "B5 Tarellen"
+	link "B5 Deneb"
+	fleet "B5 Minbari Patrol" 1800
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+
+system "B5 Minbari Protectorate"
+	"display name" "Minbari Protectorate"
+	pos 5220 4763
+	government "Minbari Federation"
+	habitable 1000
+	belt 1400
+	link "B5 Minbar"
+	link "B5 Tavalan"
+	link "B5 Deneb"
+	link "B5 Vorlon Border"
+	fleet "B5 Minbari Patrol" 1800
+	object
+		sprite "star/g5"
+		distance 0
+		period 10

@@ -1,0 +1,135 @@
+# Babylon 5 Part 1 - Centauri Republic map region.
+# This file is authoritative for Centauri systems and Centauri Prime.
+
+planet "B5 Centauri Prime Planet"
+	"display name" "Centauri Prime"
+	government "Centauri Republic"
+	spaceport "Centauri Prime is the glittering seat of the Republic, a world of palaces, ministries, old families, commerce, ceremony, and political intrigue."
+	shipyard "Centauri Republic Shipyard"
+	outfitter "Centauri Republic Outfitter"
+	description "One of the great old centers of civilization among the younger races. Centauri Prime blends immense wealth, elaborate tradition, artistic refinement, ambition, nostalgia, and the political weight of a once-vast empire."
+
+system "B5 Centauri Prime"
+	"display name" "Centauri Prime"
+	pos 5022 4838
+	government "Centauri Republic"
+	trade "Food" 440
+	trade "Clothing" 190
+	trade "Metal" 520
+	trade "Plastic" 370
+	trade "Equipment" 520
+	trade "Medical" 680
+	trade "Industrial" 660
+	trade "Electronics" 700
+	trade "Heavy Metals" 1170
+	trade "Luxury Goods" 940
+	habitable 1000
+	belt 1400
+	link "B5 Epsilon"
+	link "B5 Markab"
+	link "B5 Pak'ma'ra"
+	link "B5 Vree"
+	link "B5 Quadrant 14"
+	link "B5 Quadrant 37"
+	link "B5 Raghesh"
+	link "B5 Beta 2"
+	fleet "B5 Centauri Patrol" 1800
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+	object "B5 Centauri Prime Planet"
+		sprite "planet/b5_centauri_prime"
+		distance 700
+		period 370
+
+system "B5 Quadrant 37"
+	"display name" "Quadrant 37"
+	pos 5064 4872
+	government "Centauri Republic"
+	habitable 1000
+	belt 1400
+	link "B5 Centauri Prime"
+	link "B5 Beta 2"
+	link "B5 Beta 3"
+	fleet "B5 Centauri Patrol" 1800
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+
+system "B5 Raghesh"
+	"display name" "Raghesh"
+	pos 5058 4795
+	government "Centauri Republic"
+	habitable 1000
+	belt 1400
+	link "B5 Centauri Prime"
+	link "B5 Quadrant 14"
+	link "B5 Narn"
+	link "B5 Beta 3"
+	fleet "B5 Centauri Patrol" 1800
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+
+system "B5 Beta 2"
+	"display name" "Beta 2"
+	pos 5100 4880
+	government "Centauri Republic"
+	habitable 1000
+	belt 1400
+	link "B5 Centauri Prime"
+	link "B5 Quadrant 37"
+	link "B5 Beta 3"
+	link "B5 Beta 4"
+	fleet "B5 Centauri Patrol" 1800
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+
+system "B5 Beta 3"
+	"display name" "Beta 3"
+	pos 5113 4829
+	government "Centauri Republic"
+	habitable 1000
+	belt 1400
+	link "B5 Quadrant 37"
+	link "B5 Raghesh"
+	link "B5 Beta 2"
+	link "B5 Beta 4"
+	fleet "B5 Centauri Patrol" 1800
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+
+system "B5 Beta 4"
+	"display name" "Beta 4"
+	pos 5152 4868
+	government "Centauri Republic"
+	habitable 1000
+	belt 1400
+	link "B5 Beta 2"
+	link "B5 Beta 3"
+	link "B5 Immolan"
+	fleet "B5 Centauri Patrol" 1800
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+
+system "B5 Immolan"
+	"display name" "Immolan"
+	pos 5191 4868
+	government "Centauri Republic"
+	habitable 1000
+	belt 1400
+	link "B5 Beta 4"
+	fleet "B5 Centauri Patrol" 1800
+	object
+		sprite "star/k0"
+		distance 0
+		period 10

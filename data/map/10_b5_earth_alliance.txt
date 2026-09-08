@@ -1,0 +1,180 @@
+# Babylon 5 Part 1 - Earth Alliance map region.
+# Mongoose RPG / Galactic Guide-inspired 2257 hyperspace-route map.
+# Positions are schematic hyperspace-network positions, not literal stellar coordinates.
+# This file is authoritative for ordinary Earth Alliance systems and Earth.
+
+planet "B5 Earth Alliance Headquarters"
+	"display name" "Earth"
+	government "Earth Alliance"
+	spaceport "Earth is the political and cultural heart of the Earth Alliance, crowded with humanity's history and the institutions that bind its colonies together."
+	shipyard "Earth Alliance Shipyard"
+	outfitter "Earth Alliance Outfitter"
+	description "Humanity's birthplace and the center of the Earth Alliance. Earth remains a symbol of survival, unity, argument, ambition, and renewal: a world scarred by history but still looking outward toward the stars."
+
+system "B5 Sol"
+	"display name" "Sol"
+	pos 4848 4721
+	government "Earth Alliance"
+	trade "Food" 500
+	trade "Clothing" 280
+	trade "Metal" 450
+	trade "Plastic" 390
+	trade "Equipment" 560
+	trade "Medical" 610
+	trade "Industrial" 650
+	trade "Electronics" 650
+	trade "Heavy Metals" 1050
+	trade "Luxury Goods" 1180
+	habitable 1000
+	belt 1400
+	link "B5 Proxima"
+	link "B5 Vega"
+	link "B5 Orion"
+	fleet "B5 Earth Patrol" 1700
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+	object "B5 Earth Alliance Headquarters"
+		sprite "planet/b5_earth"
+		distance 700
+		period 365
+
+system "B5 Proxima"
+	"display name" "Proxima"
+	pos 4896 4726
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "B5 Sol"
+	link "B5 Vega"
+	link "B5 Epsilon"
+	link "B5 Jericho"
+	fleet "B5 Earth Patrol" 1700
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+
+system "B5 Vega"
+	"display name" "Vega"
+	pos 4893 4685
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "B5 Sol"
+	link "B5 Proxima"
+	link "B5 Cyrus"
+	link "B5 Grissom"
+	fleet "B5 Earth Patrol" 1700
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+
+system "B5 Orion"
+	"display name" "Orion"
+	pos 4848 4762
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "B5 Sol"
+	link "B5 Beta 7"
+	link "B5 Jericho"
+	fleet "B5 Earth Patrol" 1700
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+
+system "B5 Beta 7"
+	"display name" "Beta 7"
+	pos 4900 4781
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "B5 Orion"
+	link "B5 Jericho"
+	link "B5 Koulani"
+	fleet "B5 Earth Patrol" 1700
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+
+system "B5 Cyrus"
+	"display name" "Cyrus"
+	pos 4938 4660
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "B5 Vega"
+	link "B5 Grissom"
+	link "B5 Deneb"
+	fleet "B5 Earth Patrol" 1700
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+
+system "B5 Grissom"
+	"display name" "Grissom"
+	pos 4968 4685
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "B5 Vega"
+	link "B5 Cyrus"
+	link "B5 Jericho"
+	fleet "B5 Earth Patrol" 1700
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+
+system "B5 Jericho"
+	"display name" "Jericho"
+	pos 4971 4737
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "B5 Proxima"
+	link "B5 Orion"
+	link "B5 Beta 7"
+	link "B5 Grissom"
+	link "B5 Epsilon"
+	link "B5 Drazi"
+	link "B5 Markab"
+	fleet "B5 Earth Patrol" 1700
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+
+system "B5 Deneb"
+	"display name" "Deneb"
+	pos 4990 4641
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "B5 Cyrus"
+	link "B5 Minbari Protectorate"
+	fleet "B5 Earth Patrol" 1700
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+
+system "B5 Koulani"
+	"display name" "Koulani"
+	pos 4949 4801
+	government "Earth Alliance"
+	habitable 1000
+	belt 1400
+	link "B5 Beta 7"
+	link "B5 Jericho"
+	fleet "B5 Earth Patrol" 1700
+	object
+		sprite "star/k0"
+		distance 0
+		period 10

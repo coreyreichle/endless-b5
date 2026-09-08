@@ -68,7 +68,7 @@ mission "b5 mission 3 first jump raider ambush"
 	entering
 	destination "B5 Narn Homeworld"
 	source
-		not system "Epsilon"
+		not system "B5 Epsilon"
 	to offer
 		has "b5 mission 3 convoy underway"
 		not "b5 mission 3 raider ambush triggered"

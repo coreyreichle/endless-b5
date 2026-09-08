@@ -1,0 +1,326 @@
+# Babylon 5 Part 1 - League / minor-race systems and homeworlds.
+# This combines the previous route-map system definitions with the minor homeworld definitions.
+
+planet "B5 Drazi Homeworld"
+	"display name" "Drazi"
+	government "Drazi Freehold"
+	spaceport "The Drazi homeworld, a harsh world at the heart of the Drazi Freehold."
+	description "The Drazi homeworld, a harsh world at the heart of the Drazi Freehold."
+	shipyard "B5 Drazi Shipyard"
+	outfitter "B5 Drazi Outfitter"
+
+system "B5 Drazi"
+	"display name" "Drazi"
+	pos 4992 5053
+	government "Drazi Freehold"
+	trade "Food" 360
+	trade "Clothing" 350
+	trade "Metal" 280
+	trade "Plastic" 450
+	trade "Equipment" 650
+	trade "Medical" 820
+	trade "Industrial" 620
+	trade "Electronics" 790
+	trade "Heavy Metals" 790
+	trade "Luxury Goods" 1390
+	habitable 1000
+	belt 1400
+	link "B5 Jericho"
+	link "B5 Epsilon"
+	link "B5 Brakiri"
+	link "B5 Markab"
+	link "B5 Gaim"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+	object "B5 Drazi Homeworld"
+		sprite "planet/b5_drazi"
+		distance 700
+		period 360
+
+planet "B5 Brakiri Homeworld"
+	"display name" "Brakiri"
+	government "Brakiri Syndicracy"
+	spaceport "The Brakiri homeworld and commercial center of the Brakiri Syndicracy."
+	description "The Brakiri homeworld and commercial center of the Brakiri Syndicracy."
+	shipyard "B5 Brakiri Shipyard"
+	outfitter "B5 Brakiri Outfitter"
+
+system "B5 Brakiri"
+	"display name" "Brakiri"
+	pos 5068 5077
+	government "Brakiri Syndicracy"
+	trade "Food" 300
+	trade "Clothing" 250
+	trade "Metal" 430
+	trade "Plastic" 300
+	trade "Equipment" 500
+	trade "Medical" 650
+	trade "Industrial" 560
+	trade "Electronics" 640
+	trade "Heavy Metals" 990
+	trade "Luxury Goods" 1040
+	habitable 1000
+	belt 1400
+	link "B5 Drazi"
+	link "B5 Markab"
+	link "B5 Pak'ma'ra"
+	link "B5 Gaim"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+	object "B5 Brakiri Homeworld"
+		sprite "planet/b5_brakiri"
+		distance 700
+		period 360
+
+planet "B5 Markab Homeworld"
+	"display name" "Markab"
+	government "Markab Theocracy"
+	spaceport "The Markab homeworld, center of Markab civilization and faith."
+	description "The Markab homeworld, center of Markab civilization and faith."
+
+system "B5 Markab"
+	"display name" "Markab"
+	pos 5054 5011
+	government "Markab Theocracy"
+	trade "Food" 270
+	trade "Clothing" 300
+	trade "Metal" 470
+	trade "Plastic" 420
+	trade "Equipment" 620
+	trade "Medical" 540
+	trade "Industrial" 690
+	trade "Electronics" 760
+	trade "Heavy Metals" 1080
+	trade "Luxury Goods" 1260
+	habitable 1000
+	belt 1400
+	link "B5 Jericho"
+	link "B5 Epsilon"
+	link "B5 Drazi"
+	link "B5 Brakiri"
+	link "B5 Vree"
+	link "B5 Centauri Prime"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+	object "B5 Markab Homeworld"
+		sprite "planet/b5_markab"
+		distance 700
+		period 360
+
+planet "B5 Gaim Homeworld"
+	"display name" "Gaim"
+	government "Gaim Intelligence"
+	spaceport "The dense, biologically rich homeworld of the Gaim."
+	description "The dense, biologically rich homeworld of the Gaim."
+
+system "B5 Gaim"
+	"display name" "Gaim"
+	pos 5087 5134
+	government "Gaim Intelligence"
+	trade "Food" 230
+	trade "Clothing" 370
+	trade "Metal" 380
+	trade "Plastic" 350
+	trade "Equipment" 670
+	trade "Medical" 760
+	trade "Industrial" 720
+	trade "Electronics" 700
+	trade "Heavy Metals" 1120
+	trade "Luxury Goods" 1370
+	habitable 1000
+	belt 1400
+	link "B5 Drazi"
+	link "B5 Brakiri"
+	link "B5 Abbai"
+	link "B5 Yolu"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+	object "B5 Gaim Homeworld"
+		sprite "planet/b5_gaim"
+		distance 700
+		period 360
+
+planet "B5 Abbai Homeworld"
+	"display name" "Abbai"
+	government "Abbai Matriarchate"
+	spaceport "The Abbai homeworld, seat of the Abbai Matriarchate."
+	description "The Abbai homeworld, seat of the Abbai Matriarchate."
+
+system "B5 Abbai"
+	"display name" "Abbai"
+	pos 5159 5139
+	government "Abbai Matriarchate"
+	trade "Food" 250
+	trade "Clothing" 240
+	trade "Metal" 520
+	trade "Plastic" 360
+	trade "Equipment" 540
+	trade "Medical" 500
+	trade "Industrial" 640
+	trade "Electronics" 720
+	trade "Heavy Metals" 1180
+	trade "Luxury Goods" 1100
+	habitable 1000
+	belt 1400
+	link "B5 Gaim"
+	link "B5 Yolu"
+	link "B5 Pak'ma'ra"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+	object "B5 Abbai Homeworld"
+		sprite "planet/b5_abbai"
+		distance 700
+		period 360
+
+planet "B5 Yolu Homeworld"
+	"display name" "Yolu"
+	government "Yolu Confederacy"
+	spaceport "The Yolu homeworld, center of the ancient Yolu civilization."
+	description "The Yolu homeworld, center of the ancient Yolu civilization."
+
+system "B5 Yolu"
+	"display name" "Yolu"
+	pos 5201 5096
+	government "Yolu Confederacy"
+	trade "Food" 340
+	trade "Clothing" 220
+	trade "Metal" 500
+	trade "Plastic" 330
+	trade "Equipment" 480
+	trade "Medical" 560
+	trade "Industrial" 610
+	trade "Electronics" 610
+	trade "Heavy Metals" 1150
+	trade "Luxury Goods" 980
+	habitable 1000
+	belt 1400
+	link "B5 Gaim"
+	link "B5 Abbai"
+	link "B5 Pak'ma'ra"
+	link "B5 Vree"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+	object "B5 Yolu Homeworld"
+		sprite "planet/b5_yolu"
+		distance 700
+		period 360
+
+planet "B5 Pak'ma'ra Homeworld"
+	"display name" "Pak'ma'ra"
+	government "Pak'ma'ra"
+	spaceport "The Pak'ma'ra homeworld, known throughout League space."
+	description "The Pak'ma'ra homeworld, known throughout League space."
+	shipyard "B5 Pak'ma'ra Shipyard"
+	outfitter "B5 Pak'ma'ra Outfitter"
+
+system "B5 Pak'ma'ra"
+	"display name" "Pak'ma'ra"
+	pos 5140 5049
+	government "Pak'ma'ra"
+	trade "Food" 180
+	trade "Clothing" 400
+	trade "Metal" 350
+	trade "Plastic" 460
+	trade "Equipment" 690
+	trade "Medical" 850
+	trade "Industrial" 760
+	trade "Electronics" 820
+	trade "Heavy Metals" 930
+	trade "Luxury Goods" 1450
+	habitable 1000
+	belt 1400
+	link "B5 Brakiri"
+	link "B5 Abbai"
+	link "B5 Yolu"
+	link "B5 Vree"
+	link "B5 Centauri Prime"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+	object "B5 Pak'ma'ra Homeworld"
+		sprite "planet/b5_pakmara"
+		distance 700
+		period 360
+
+planet "B5 Vree Homeworld"
+	"display name" "Vree"
+	government "Vree Conglomerate"
+	spaceport "The Vree homeworld, center of the technologically sophisticated Vree Conglomerate."
+	description "The Vree homeworld, center of the technologically sophisticated Vree Conglomerate."
+	shipyard "B5 Vree Shipyard"
+	outfitter "B5 Vree Outfitter"
+
+system "B5 Vree"
+	"display name" "Vree"
+	pos 5178 5001
+	government "Vree Conglomerate"
+	trade "Food" 430
+	trade "Clothing" 320
+	trade "Metal" 410
+	trade "Plastic" 290
+	trade "Equipment" 430
+	trade "Medical" 690
+	trade "Industrial" 570
+	trade "Electronics" 600
+	trade "Heavy Metals" 1040
+	trade "Luxury Goods" 1280
+	habitable 1000
+	belt 1400
+	link "B5 Markab"
+	link "B5 Yolu"
+	link "B5 Pak'ma'ra"
+	link "B5 Centauri Prime"
+	link "B5 Quadrant 14"
+	fleet "B5 Earth Patrol" 6500
+	fleet "B5 Minbari Patrol" 7500
+	fleet "B5 Narn Patrol" 6500
+	fleet "B5 Centauri Patrol" 6500
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+	object "B5 Vree Homeworld"
+		sprite "planet/b5_vree"
+		distance 700
+		period 360

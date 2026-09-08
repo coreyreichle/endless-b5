@@ -1,0 +1,146 @@
+# Babylon 5 Part 1 - Narn Regime map region.
+# This file is authoritative for Narn systems and the Narn homeworld.
+
+planet "B5 Narn Homeworld"
+	"display name" "Narn"
+	government "Narn Regime"
+	spaceport "Narn is a hard world whose cities and people still carry the memory of occupation, resistance, and the long struggle for independence."
+	shipyard "Narn Regime Shipyard"
+	outfitter "Narn Regime Outfitter"
+	description "The homeworld of the Narn Regime. Its people are proud, resilient, and fiercely independent, shaped by generations of hardship and by the conviction that Narn must never again live under another power's rule."
+
+system "B5 Narn"
+	"display name" "Narn"
+	pos 5306 4868
+	government "Narn Regime"
+	trade "Food" 390
+	trade "Clothing" 380
+	trade "Metal" 240
+	trade "Plastic" 500
+	trade "Equipment" 680
+	trade "Medical" 860
+	trade "Industrial" 590
+	trade "Electronics" 830
+	trade "Heavy Metals" 760
+	trade "Luxury Goods" 1460
+	habitable 1000
+	belt 1400
+	link "B5 Quadrant 14"
+	link "B5 Sorith"
+	link "B5 Sigma 957"
+	link "B5 Raghesh"
+	fleet "B5 Narn Patrol" 1800
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+	object "B5 Narn Homeworld"
+		sprite "planet/b5_narn"
+		distance 700
+		period 350
+
+system "B5 Quadrant 14"
+	"display name" "Quadrant 14"
+	pos 5280 4920
+	government "Narn Regime"
+	habitable 1000
+	belt 1400
+	link "B5 Epsilon"
+	link "B5 Vree"
+	link "B5 Narn"
+	link "B5 Raghesh"
+	link "B5 Centauri Prime"
+	fleet "B5 Narn Patrol" 1800
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+
+system "B5 Sorith"
+	"display name" "Sorith"
+	pos 5349 4852
+	government "Narn Regime"
+	habitable 1000
+	belt 1400
+	link "B5 Narn"
+	link "B5 T'il"
+	link "B5 Sigma 957"
+	fleet "B5 Narn Patrol" 1800
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+
+system "B5 T'il"
+	"display name" "T'il"
+	pos 5388 4852
+	government "Narn Regime"
+	habitable 1000
+	belt 1400
+	link "B5 Sorith"
+	link "B5 Hilak"
+	fleet "B5 Narn Patrol" 1800
+	object
+		sprite "star/g0"
+		distance 0
+		period 10
+
+system "B5 Hilak"
+	"display name" "Hilak"
+	pos 5423 4872
+	government "Narn Regime"
+	habitable 1000
+	belt 1400
+	link "B5 T'il"
+	link "B5 Shambah"
+	fleet "B5 Narn Patrol" 1800
+	object
+		sprite "star/k0"
+		distance 0
+		period 10
+
+system "B5 Shambah"
+	"display name" "Shambah"
+	pos 5453 4844
+	government "Narn Regime"
+	habitable 1000
+	belt 1400
+	link "B5 Hilak"
+	link "B5 Melat"
+	fleet "B5 Narn Patrol" 1800
+	object
+		sprite "star/g5"
+		distance 0
+		period 10
+
+system "B5 Melat"
+	"display name" "Melat"
+	pos 5492 4868
+	government "Narn Regime"
+	habitable 1000
+	belt 1400
+	link "B5 Shambah"
+	fleet "B5 Narn Patrol" 1800
+	object
+		sprite "star/k5"
+		distance 0
+		period 10
+
+system "B5 Sigma 957"
+	"display name" "Sigma 957"
+	pos 5349 4800
+	government "Narn Regime"
+	habitable 1000
+	belt 1400
+	link "B5 Narn"
+	link "B5 Sorith"
+	link "B5 Z'ha'dum"
+	fleet "B5 Narn Patrol" 1800
+	object
+		sprite "star/f5"
+		distance 0
+		period 10
+	object "B5 Sector 14 Rift"
+		sprite "planet/wormhole"
+		distance 900
+		period 24
