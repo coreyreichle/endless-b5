@@ -1,0 +1,317 @@
+# Babylon 5 ambient spaceport news.
+# Short, non-mission conversations intended to make ports feel inhabited.
+# Static pools establish culture; conditional pools react to story progress.
+
+news "b5 station life"
+	location
+		planet "Babylon 5"
+	name
+		word
+			"A Zocalo vendor"
+			"A dockworker on break"
+			"A weary customs clerk"
+			"A freighter mechanic"
+			"A station maintenance worker"
+			"A civilian pilot"
+	message
+		word
+			"The station is five miles long and somehow the part you need is always at the other end."
+			"Half the job here is keeping ships moving. The other half is explaining docking regulations to people who insist they have diplomatic immunity."
+			"You can tell when a transport just came through from Earth. Everyone gets off complaining about the coffee."
+			"The Zocalo never really closes. Shift changes just mean a different set of people arguing over the same tables."
+			"They built this place for diplomacy. Mostly, I repair cargo loaders. I suppose peace needs cargo loaders too."
+			"If you stay here long enough, every language in known space starts to sound normal."
+
+news "b5 station visitors"
+	location
+		planet "Babylon 5"
+	name
+		word
+			"A Centauri merchant"
+			"A Narn trader"
+			"A Brakiri broker"
+			"A Drazi traveler"
+			"A Minbari visitor"
+	message
+		word
+			"Everyone comes to Babylon 5 to negotiate. The trick is discovering what they actually came to negotiate about."
+			"Neutral ground is a useful fiction. Still, useful fictions are better than useless wars."
+			"The humans are very proud of this station. Considering how many times they tried to build one, perhaps they should be."
+			"I came for business and stayed because my departure clearance has been misplaced. Twice."
+			"On my world, meetings begin when everyone is prepared. Here they begin when everyone has arrived. It is... efficient, in its own way."
+
+news "b5 raider rumors early"
+	to show
+		not "b5 mission 3 narn escort: done"
+	location
+		planet "Babylon 5"
+	name
+		word
+			"A long-haul freighter captain"
+			"An insurance broker"
+			"A dockside cargo handler"
+	message
+		word
+			"Raider activity is up again. Nothing dramatic, they say. Funny how people who say that are never flying the freighters."
+			"Cargo insurance on the outer routes went up this month. Underwriters know things before governments admit them."
+			"A transport came in yesterday with scoring all along one side. Captain said it was debris. Nobody believed him."
+
+news "b5 narn convoy aftermath"
+	to show
+		has "b5 mission 3 narn escort: done"
+		not "b5 mission 4 raider sweep: done"
+	location
+		planet "Babylon 5"
+	name
+		word
+			"A Narn dockworker"
+			"An EarthForce technician"
+			"A cargo dispatcher"
+	message
+		word
+			"Word is a Narn convoy got hit outside the main lanes and still made it through. Whoever was escorting them knew their business."
+			"Maintenance just received a rush order for Starfury consumables. Somebody upstairs is planning a flight."
+			"The Narn are asking harder questions about Raider patrols. EarthForce is giving shorter answers."
+
+news "b5 quadrant fourteen aftermath"
+	to show
+		has "b5 mission 4 raider sweep: done"
+	location
+		planet "Babylon 5"
+	name
+		word
+			"An EarthForce ground crewman"
+			"A freight pilot"
+			"A station security officer"
+			"A bartender"
+	message
+		word
+			"Those Starfuries that went out toward Quadrant 14 came back with scorched armor and no public report. Make of that what you will."
+			"Raiders don't fly short-range fighters into empty space without somewhere to refuel. That's all I'm saying."
+			"Security has been asking whether anyone has seen unregistered supply ships. Suddenly everyone remembers seeing one."
+			"Pilots are talking about Quadrant 14. When pilots lower their voices, I start paying attention."
+
+news "b5 earth civilian life"
+	location
+		planet "Earth Alliance Headquarters"
+	name
+		word
+			"A transit worker"
+			"A government clerk"
+			"A university student"
+			"An EarthForce veteran"
+			"A cargo coordinator"
+	message
+		word
+			"Everyone talks about the colonies until they come home. Then they complain that Earth is too crowded."
+			"EarthGov has a form for everything. If they ever discover intelligent life that doesn't use forms, we'll probably declare it hostile."
+			"My grandparents still call Minbari ships 'the enemy.' My generation mostly knows them from history lectures and diplomatic broadcasts."
+			"There are ships leaving for a dozen colonies every day. Humanity spent centuries dreaming about the stars, and now people complain about departure delays."
+			"The Alliance is held together by jump routes, paperwork, and people pretending the first two are enough."
+
+news "b5 earth postwar memory"
+	location
+		planet "Earth Alliance Headquarters"
+	name
+		word
+			"An older EarthForce veteran"
+			"A memorial attendant"
+			"A middle-aged commuter"
+	message
+		word
+			"People who weren't here during the war talk about it like history. For some of us it still feels like weather that might come back."
+			"The memorials are quieter on weekdays. I think that's when the people who actually remember prefer to visit."
+			"We survived the Minbari War. People say that like survival settled every argument about what Earth should become afterward."
+
+news "b5 centauri court and commerce"
+	location
+		planet "Centauri Prime"
+	name
+		word
+			"A minor Centauri noble"
+			"A palace functionary"
+			"A wine merchant"
+			"A customs official"
+			"A well-dressed Centauri trader"
+	message
+		word
+			"On Centauri Prime, being invited to dinner is an honor. Being seated correctly is politics."
+			"The Republic has endured for centuries because we respect tradition. Also because every ministry keeps three copies of everything."
+			"Humans always ask which vintage is best. The correct answer depends entirely on who is paying."
+			"A commercial permit can be obtained quickly, provided you already know the person who decides whether it should be obtained quickly."
+			"Babylon 5 is charming. A little austere, perhaps, but humans have only recently rediscovered civilization. One must be patient."
+
+news "b5 centauri imperial nostalgia"
+	location
+		planet "Centauri Prime"
+	name
+		word
+			"An elderly Centauri"
+			"A young government aide"
+			"A museum guide"
+	message
+		word
+			"Once, the Republic's banners flew over a hundred worlds. Now our children learn the names from maps and call it history."
+			"Everyone in the capital wants reform, provided reform begins in somebody else's ministry."
+			"The old exhibits describe expansion as destiny. The newer plaques use more careful words. The artifacts remain the same."
+
+news "b5 narn daily life"
+	location
+		planet "Narn Homeworld"
+	name
+		word
+			"A Narn dockworker"
+			"A market trader"
+			"A freight supervisor"
+			"A veteran of the occupation"
+			"A young Narn mechanic"
+	message
+		word
+			"Nothing on Narn is thrown away if it can be repaired. Occupation taught us the price of depending on someone else for necessities."
+			"Foreigners see dust and stone. We see a world that survived everything done to it."
+			"The Centauri left rail lines, factories, and graves. We improved the first two."
+			"Independence is not a holiday. It is work you do every day so your children never have to win it again."
+			"I rebuilt this loader from three machines made on three different worlds. It works. That makes it Narn now."
+
+news "b5 narn convoy talk"
+	to show
+		has "b5 mission 3 narn escort: done"
+	location
+		planet "Narn Homeworld"
+	name
+		word
+			"A Narn cargo master"
+			"A transport crewman"
+	message
+		word
+			"The convoy from Babylon 5 arrived intact. That matters more than whatever speeches the officials make about it."
+			"We expected trouble on the route. We did not expect an EarthForce officer to stay with the transports when it came. People noticed."
+
+news "b5 minbari daily life"
+	location
+		planet "Minbar"
+	name
+		word
+			"A worker caste artisan"
+			"A temple attendant"
+			"A Minbari archivist"
+			"A young acolyte"
+			"A transport coordinator"
+	message
+		word
+			"A thing made quickly can still be useful. A thing made with care may remain useful after the maker is forgotten."
+			"Visitors often mistake quiet for emptiness. Minbar has never been empty."
+			"Humans ask why our records go back so far. We ask why theirs do not."
+			"The three castes disagree often. Harmony does not mean the absence of disagreement; it means remembering what the disagreement serves."
+			"Your vessel will be serviced when the inspection is complete. Precision takes less time than repairing haste."
+
+news "b5 minbari human memory"
+	location
+		planet "Minbar"
+	name
+		word
+			"A Minbari historian"
+			"A warrior caste veteran"
+			"A religious caste pilgrim"
+	message
+		word
+			"The war with Earth ended, but endings and explanations are not the same thing."
+			"Some wounds become scars. Others become questions. The Earth war left us both."
+			"Humans speak of the war as something they survived. Minbari speak of it more carefully."
+
+news "b5 drazi port life"
+	location
+		planet "Drazi Homeworld"
+	name
+		word
+			"A Drazi dock foreman"
+			"A Drazi merchant"
+	message
+		word
+			"If two cargo crews claim the same berth, the schedule says one thing and tradition says another. Tradition is usually louder."
+			"Humans negotiate too long. Centauri negotiate until they win. Drazi negotiate until everyone knows the price."
+
+news "b5 brakiri port life"
+	location
+		planet "Brakiri Homeworld"
+	name
+		word
+			"A Brakiri broker"
+			"A shipping agent"
+	message
+		word
+			"Every problem has a cost. The difficulty is discovering whether you are buying the solution or merely renting it."
+			"Babylon 5 is good for business. Peace is good for business too, although certain kinds of unrest have excellent margins."
+
+news "b5 markab port life"
+	location
+		planet "Markab Homeworld"
+	name
+		word
+			"A Markab physician"
+			"A temple visitor"
+	message
+		word
+			"Travel changes customs faster than people admit. We return home insisting we are unchanged, then discover we have brought new habits with us."
+			"There is comfort in knowing one's place in the world. There is also danger in refusing to look beyond it."
+
+news "b5 gaim port life"
+	location
+		planet "Gaim Homeworld"
+	name
+		word
+			"A Gaim trade intermediary"
+			"A foreign commercial attaché"
+	message
+		word
+			"The Gaim delegation has revised the contract again. Apparently the Queen's interests were translated too narrowly the first time."
+			"Dealing with the Gaim becomes easier once you stop assuming the individual in front of you is the important party."
+
+news "b5 abbai port life"
+	location
+		planet "Abbai Homeworld"
+	name
+		word
+			"An Abbai administrator"
+			"A harbor engineer"
+	message
+		word
+			"Security is strongest when nobody needs to test it. That principle applies to borders as well as pressure seals."
+			"Other worlds find our caution frustrating. We find rebuilding after preventable disasters more frustrating."
+
+news "b5 yolu port life"
+	location
+		planet "Yolu Homeworld"
+	name
+		word
+			"A Yolu scholar"
+			"An elderly archivist"
+	message
+		word
+			"Young civilizations believe speed and progress are synonyms. Age teaches a more complicated vocabulary."
+			"The galaxy has produced many urgent crises. Most are forgotten. The consequences are not."
+
+news "b5 pakmara port life"
+	location
+		planet "Pak'ma'ra Homeworld"
+	name
+		word
+			"A Pak'ma'ra freight handler"
+			"A visiting trader"
+	message
+		word
+			"The Pak'ma'ra cargo crew finished unloading before anyone else had agreed whose responsibility it was."
+			"People make jokes until they need something transported cheaply, reliably, and without questions. Then suddenly everyone knows a Pak'ma'ra."
+
+news "b5 vree port life"
+	location
+		planet "Vree Homeworld"
+	name
+		word
+			"A Vree technician"
+			"A visiting engineer"
+	message
+		word
+			"The Vree technician listened to my explanation, opened the panel, and fixed in ten seconds what I'd been diagnosing for an hour. Then he left without explaining it."
+			"Vree equipment always looks as if someone removed three components you were certain every machine required. It works anyway."
+
