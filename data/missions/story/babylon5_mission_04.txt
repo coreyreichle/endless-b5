@@ -14,7 +14,7 @@ mission "b5 mission 4 raider sweep"
 		not "b5 mission 4 complete"
 	on offer
 		conversation
-			`<first> reporting back. We encountered Raiders once we exited the first jump gate.`
+			`Lt. Commander <last> reporting back. We encountered Raiders once we exited the first jump gate.`
 			`Commander Ivanova nods. "Thank you for reporting this. We want you to head back to Quadrant 14, and take a Starfury wing with you, to see if there are any additional Raiders along the route. Narn will be needing regular humanitarian trips, and we want to make sure there is a clear route."`
 			choice
 				`	"Understood, Commander."`
@@ -48,9 +48,8 @@ mission "b5 mission 4 raider sweep"
 		personality
 			hunting
 			staying
-		fleet "B5 Raider Fighter Pair"
 		fleet "B5 Raider Fighter Wing"
-		dialog "The last Raider has been destroyed or captured. The route is clear for now. Return to Babylon 5 and report to Commander Ivanova."
+		dialog "You've dispatched the raiders, and cleared the convoy route to the Narn homeworld. Return to Babylon 5 and report to Commander Ivanova."
 	on complete
 		take ship "Aurora Starfury (Long Patrol)"
 			id "b5 mission 4 starfury 1"
@@ -85,10 +84,10 @@ mission "b5 mission 4 raider sweep"
 			unconstrained
 			"with outfits"
 		conversation
-			`<first> reports to Commander Ivanova. "We encountered a large number of Raiders in Quadrant 14. We captured or destroyed them."`
+			`"Lt. Commander <last> reporting, as ordered. We encountered a large number of Raiders in Quadrant 14. We captured or destroyed them."`
 			`Ivanova nods. "Excellent. Do you think there's more there?"`
 			`"I didn't see a base, or mothership, but they were short-range fighters. There's probably a base nearby."`
-			`Ivanova considers that for a moment. "Okay. Report to the starport, and retrieve your next assignment."`
+			`Ivanova pauses to considers this for a moment. "Okay. Report to the starport, and retrieve your next assignment."`
 			choice
 				`	"Yes, Commander."`
 					accept

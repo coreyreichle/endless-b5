@@ -21,5 +21,5 @@ mission "b5 mission 2 dual freight"
 		dialog "The Centauri Prime consignment has been delivered. Continue to Babylon 5 with the second Earth Alliance shipment."
 		set "b5 mission 2 centauri stop complete"
 	on complete
-		dialog "The Babylon 5 consignment has been delivered. Mission 2 is complete."
+		dialog "The Babylon 5 consignment has been delivered. Report to the starport, to recieve your next assignment."
 		set "b5 mission 2 complete"
