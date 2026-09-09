@@ -1,9 +1,29 @@
 # Earth Alliance officer payroll.
 # Endless Sky 0.11.2 parser-safe implementation.
 #
-# The tracker counts in-game days while the Babylon 5 story is active.
-# Once seven days have accrued, the invisible payout mission deposits
-# 1,000 credits on the player's next landing and subtracts seven days.
+# "b5 ea weekly salary" is the canonical weekly pay value for the player.
+# Story promotions should change this condition rather than hardcoding pay
+# anywhere else.
+#
+# Endless Sky mission payment nodes require numeric values, so each salary
+# tier needs a parser-safe payout mission gated by the canonical condition.
+# Ambient job-board orders should use the same salary condition/tier gates.
+#
+# The initializer also migrates existing story saves that predate the salary
+# condition by assigning the current starting salary of 1,000 credits/week.
+
+mission "b5 earth alliance officer salary initializer"
+	name "Earth Alliance Officer Salary Initializer"
+	landing
+	invisible
+	non-blocking
+	repeat
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 0
+	on offer
+		"b5 ea weekly salary" = 1000
+		fail
 
 mission "b5 earth alliance officer payroll tracker"
 	name "Earth Alliance Officer Payroll Tracker"
@@ -17,7 +37,13 @@ mission "b5 earth alliance officer payroll tracker"
 	on daily
 		"b5 ea payroll days" ++
 
-mission "b5 earth alliance officer payroll payout"
+# Starting salary tier: 1,000 credits/week.
+#
+# When the storyline promotes the player, set "b5 ea weekly salary" to the
+# new weekly amount and add a matching payout tier below. Keeping the amount
+# in the condition makes salary progression authoritative in one place and
+# allows ambient orders to use the same pay-grade gate.
+mission "b5 earth alliance officer payroll payout 1000"
 	name "Earth Alliance Officer Payroll"
 	landing
 	invisible
@@ -26,6 +52,7 @@ mission "b5 earth alliance officer payroll payout"
 	to offer
 		has "b5 story start"
 		"b5 ea payroll days" >= 7
+		"b5 ea weekly salary" == 1000
 	on offer
 		payment 1000
 		"b5 ea payroll days" -= 7
