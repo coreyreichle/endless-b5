@@ -6,10 +6,64 @@
 planet "B5 Earth Alliance Headquarters"
 	"display name" "Earth"
 	government "Earth Alliance"
+	attributes "ea colony" homeworld urban industrial
 	spaceport "Earth is the political and cultural heart of the Earth Alliance, crowded with humanity's history and the institutions that bind its colonies together."
 	shipyard "Earth Alliance Shipyard"
 	outfitter "Earth Alliance Outfitter"
 	description "Humanity's birthplace and the center of the Earth Alliance. Earth remains a symbol of survival, unity, argument, ambition, and renewal: a world scarred by history but still looking outward toward the stars."
+
+planet "B5 Proxima III"
+	"display name" "Proxima III"
+	government "Earth Alliance"
+	attributes "ea colony" urban industrial
+	spaceport "Proxima III is one of the mature Inner Colonies, with dense settlements, established industry, and regular traffic linking it closely to Earth."
+	outfitter "Earth Alliance Outfitter"
+	description "A long-settled Earth Alliance colony in the Proxima system. Proxima III supports major population centers, manufacturing districts, orbital commerce, and the infrastructure expected of one of humanity's established Inner Colonies."
+
+planet "B5 Vega Colony"
+	"display name" "Vega Colony"
+	government "Earth Alliance"
+	attributes "ea colony" agricultural
+	spaceport "Vega Colony is a productive agricultural settlement whose farms and processing centers supply food to nearby Earth Alliance systems."
+	description "A broad agricultural colony in the Vega system. Much of its economy is built around food production, storage, and shipment to the more densely populated Inner Colonies."
+
+planet "B5 Orion VII"
+	"display name" "Orion VII"
+	government "Earth Alliance"
+	attributes "ea colony" urban industrial
+	spaceport "Orion VII is a busy industrial colony, its ports handling machinery, manufactured goods, and a steady flow of workers and commercial traffic."
+	outfitter "Earth Alliance Outfitter"
+	description "An established industrial and urban colony of the Earth Alliance. Orion VII has grown around manufacturing, logistics, and the trade routes connecting Sol with the outer colonies."
+
+planet "B5 Beta 7 Colony"
+	"display name" "Beta 7 Colony"
+	government "Earth Alliance"
+	attributes "ea colony" agricultural
+	spaceport "Beta 7 Colony is an agricultural settlement supplying food and other bulk goods to neighboring Earth Alliance worlds."
+	description "A productive but comparatively quiet Earth Alliance colony. Its settlements are spread across large agricultural regions, with commerce centered on food production and export."
+
+planet "B5 Cyrus Mining Colony"
+	"display name" "Cyrus Mining Colony"
+	government "Earth Alliance"
+	attributes "ea colony" mining industrial
+	spaceport "Cyrus is a working mining colony, dominated by extraction firms, processing facilities, freight yards, and crews moving between the surface and nearby resource operations."
+	outfitter "Earth Alliance Outfitter"
+	description "An Earth Alliance mining and industrial colony built around the extraction and processing of metals and other raw materials. Life here is practical, work-oriented, and closely tied to heavy industry."
+
+planet "B5 Grissom Colony"
+	"display name" "Grissom Colony"
+	government "Earth Alliance"
+	attributes "ea colony" scientific urban
+	spaceport "Grissom Colony combines a substantial civilian population with research institutions, technical industries, and facilities serving EarthForce and commercial science programs."
+	outfitter "Earth Alliance Outfitter"
+	description "A developed Earth Alliance colony known for research, technical education, and specialized industry. Its laboratories and engineering firms attract scientists, technicians, and government contracts from across human space."
+
+planet "B5 Koulani Colony"
+	"display name" "Koulani Colony"
+	government "Earth Alliance"
+	attributes "ea colony" frontier agricultural
+	spaceport "Koulani is a modest frontier colony where agriculture, local trade, and basic services support settlements far from the busiest Inner Colony routes."
+	description "A smaller Earth Alliance frontier settlement. Koulani lacks the extensive infrastructure of the Inner Colonies, but its farms and local industries make it an important foothold on the edge of established human space."
 
 system "B5 Sol"
 	"display name" "Sol"
@@ -44,6 +98,16 @@ system "B5 Proxima"
 	"display name" "Proxima"
 	pos 4896 4726
 	government "Earth Alliance"
+	trade "Food" 470
+	trade "Clothing" 300
+	trade "Metal" 390
+	trade "Plastic" 360
+	trade "Equipment" 500
+	trade "Medical" 590
+	trade "Industrial" 540
+	trade "Electronics" 610
+	trade "Heavy Metals" 980
+	trade "Luxury Goods" 1120
 	habitable 1000
 	belt 1400
 	link "B5 Sol"
@@ -55,11 +119,25 @@ system "B5 Proxima"
 		sprite "star/k0"
 		distance 0
 		period 10
+	object "B5 Proxima III"
+		sprite "planet/forest7"
+		distance 720
+		period 340
 
 system "B5 Vega"
 	"display name" "Vega"
 	pos 4893 4685
 	government "Earth Alliance"
+	trade "Food" 240
+	trade "Clothing" 360
+	trade "Metal" 520
+	trade "Plastic" 410
+	trade "Equipment" 650
+	trade "Medical" 620
+	trade "Industrial" 730
+	trade "Electronics" 740
+	trade "Heavy Metals" 1100
+	trade "Luxury Goods" 1290
 	habitable 1000
 	belt 1400
 	link "B5 Sol"
@@ -71,11 +149,25 @@ system "B5 Vega"
 		sprite "star/g5"
 		distance 0
 		period 10
+	object "B5 Vega Colony"
+		sprite "planet/forest8"
+		distance 760
+		period 380
 
 system "B5 Orion"
 	"display name" "Orion"
 	pos 4848 4762
 	government "Earth Alliance"
+	trade "Food" 560
+	trade "Clothing" 320
+	trade "Metal" 340
+	trade "Plastic" 350
+	trade "Equipment" 470
+	trade "Medical" 660
+	trade "Industrial" 500
+	trade "Electronics" 570
+	trade "Heavy Metals" 900
+	trade "Luxury Goods" 1210
 	habitable 1000
 	belt 1400
 	link "B5 Sol"
@@ -86,11 +178,25 @@ system "B5 Orion"
 		sprite "star/k5"
 		distance 0
 		period 10
+	object "B5 Orion VII"
+		sprite "planet/desert11"
+		distance 800
+		period 410
 
 system "B5 Beta 7"
 	"display name" "Beta 7"
 	pos 4900 4781
 	government "Earth Alliance"
+	trade "Food" 260
+	trade "Clothing" 410
+	trade "Metal" 570
+	trade "Plastic" 460
+	trade "Equipment" 680
+	trade "Medical" 640
+	trade "Industrial" 760
+	trade "Electronics" 780
+	trade "Heavy Metals" 1180
+	trade "Luxury Goods" 1370
 	habitable 1000
 	belt 1400
 	link "B5 Orion"
@@ -101,11 +207,25 @@ system "B5 Beta 7"
 		sprite "star/f5"
 		distance 0
 		period 10
+	object "B5 Beta 7 Colony"
+		sprite "planet/forest9"
+		distance 740
+		period 360
 
 system "B5 Cyrus"
 	"display name" "Cyrus"
 	pos 4938 4660
 	government "Earth Alliance"
+	trade "Food" 690
+	trade "Clothing" 420
+	trade "Metal" 210
+	trade "Plastic" 430
+	trade "Equipment" 520
+	trade "Medical" 770
+	trade "Industrial" 430
+	trade "Electronics" 680
+	trade "Heavy Metals" 610
+	trade "Luxury Goods" 1420
 	habitable 1000
 	belt 1400
 	link "B5 Vega"
@@ -116,11 +236,25 @@ system "B5 Cyrus"
 		sprite "star/g0"
 		distance 0
 		period 10
+	object "B5 Cyrus Mining Colony"
+		sprite "planet/rock21"
+		distance 820
+		period 430
 
 system "B5 Grissom"
 	"display name" "Grissom"
 	pos 4968 4685
 	government "Earth Alliance"
+	trade "Food" 610
+	trade "Clothing" 330
+	trade "Metal" 480
+	trade "Plastic" 370
+	trade "Equipment" 450
+	trade "Medical" 500
+	trade "Industrial" 550
+	trade "Electronics" 500
+	trade "Heavy Metals" 1060
+	trade "Luxury Goods" 1150
 	habitable 1000
 	belt 1400
 	link "B5 Vega"
@@ -131,6 +265,10 @@ system "B5 Grissom"
 		sprite "star/k0"
 		distance 0
 		period 10
+	object "B5 Grissom Colony"
+		sprite "planet/ocean10"
+		distance 780
+		period 390
 
 system "B5 Jericho"
 	"display name" "Jericho"
@@ -169,6 +307,16 @@ system "B5 Koulani"
 	"display name" "Koulani"
 	pos 4949 4801
 	government "Earth Alliance"
+	trade "Food" 310
+	trade "Clothing" 450
+	trade "Metal" 560
+	trade "Plastic" 490
+	trade "Equipment" 720
+	trade "Medical" 730
+	trade "Industrial" 800
+	trade "Electronics" 820
+	trade "Heavy Metals" 1210
+	trade "Luxury Goods" 1450
 	habitable 1000
 	belt 1400
 	link "B5 Beta 7"
@@ -178,3 +326,8 @@ system "B5 Koulani"
 		sprite "star/k0"
 		distance 0
 		period 10
+	object "B5 Koulani Colony"
+		sprite "planet/desert12"
+		distance 760
+		period 400
+

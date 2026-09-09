@@ -1,13 +1,43 @@
 # Babylon 5 Part 1 - Centauri Republic map region.
-# This file is authoritative for Centauri systems and Centauri Prime.
+# This file is authoritative for Centauri systems and their inhabited worlds.
 
 planet "B5 Centauri Prime Planet"
 	"display name" "Centauri Prime"
 	government "Centauri Republic"
+	attributes "centauri colony" homeworld urban industrial
 	spaceport "Centauri Prime is the glittering seat of the Republic, a world of palaces, ministries, old families, commerce, ceremony, and political intrigue."
 	shipyard "Centauri Republic Shipyard"
 	outfitter "Centauri Republic Outfitter"
 	description "One of the great old centers of civilization among the younger races. Centauri Prime blends immense wealth, elaborate tradition, artistic refinement, ambition, nostalgia, and the political weight of a once-vast empire."
+
+planet "B5 Raghesh III"
+	"display name" "Raghesh III"
+	government "Centauri Republic"
+	attributes "centauri colony" agricultural
+	spaceport "Raghesh III is an old Centauri agricultural colony whose estates and settlements have supplied the Republic for generations."
+	description "An established Centauri colony with deep historical ties to the Republic. Large agricultural estates and old settlements give Raghesh III a distinctly traditional character."
+
+planet "B5 Beta 2 Colony"
+	"display name" "Beta 2 Colony"
+	government "Centauri Republic"
+	attributes "centauri colony" industrial urban
+	spaceport "Beta 2 is a developed Centauri industrial colony, with manufacturing districts, merchant facilities, and a busy civilian port."
+	outfitter "Centauri Republic Outfitter"
+	description "A substantial Centauri colony supporting manufacturing, trade, and the material needs of the Republic's remaining interstellar holdings."
+
+planet "B5 Beta 3 Planet"
+	"display name" "Beta 3"
+	government "Centauri Republic"
+	attributes "centauri colony" agricultural
+	spaceport "Beta 3 is known for its estates, agricultural holdings, and specialty goods favored by wealthy Centauri households."
+	description "A prosperous Centauri agricultural colony whose estates produce food, textiles, and luxury commodities for markets across the Republic."
+
+planet "B5 Immolan Planet"
+	"display name" "Immolan"
+	government "Centauri Republic"
+	attributes "centauri colony" urban
+	spaceport "Immolan is a commercial Centauri colony where merchants, administrators, and shipping interests dominate daily life."
+	description "An urban Centauri trade center serving the outer reaches of the Republic. Its port handles both routine freight and the more elaborate demands of Centauri commerce."
 
 system "B5 Centauri Prime"
 	"display name" "Centauri Prime"
@@ -62,6 +92,16 @@ system "B5 Raghesh"
 	"display name" "Raghesh"
 	pos 5058 4795
 	government "Centauri Republic"
+	trade "Food" 240
+	trade "Clothing" 280
+	trade "Metal" 570
+	trade "Plastic" 430
+	trade "Equipment" 700
+	trade "Medical" 690
+	trade "Industrial" 760
+	trade "Electronics" 770
+	trade "Heavy Metals" 1190
+	trade "Luxury Goods" 1110
 	habitable 1000
 	belt 1400
 	link "B5 Centauri Prime"
@@ -73,11 +113,25 @@ system "B5 Raghesh"
 		sprite "star/g5"
 		distance 0
 		period 10
+	object "B5 Raghesh III"
+		sprite "planet/forest10"
+		distance 760
+		period 390
 
 system "B5 Beta 2"
 	"display name" "Beta 2"
 	pos 5100 4880
 	government "Centauri Republic"
+	trade "Food" 590
+	trade "Clothing" 300
+	trade "Metal" 330
+	trade "Plastic" 340
+	trade "Equipment" 470
+	trade "Medical" 700
+	trade "Industrial" 480
+	trade "Electronics" 600
+	trade "Heavy Metals" 830
+	trade "Luxury Goods" 1250
 	habitable 1000
 	belt 1400
 	link "B5 Centauri Prime"
@@ -89,11 +143,25 @@ system "B5 Beta 2"
 		sprite "star/k5"
 		distance 0
 		period 10
+	object "B5 Beta 2 Colony"
+		sprite "planet/desert10"
+		distance 800
+		period 410
 
 system "B5 Beta 3"
 	"display name" "Beta 3"
 	pos 5113 4829
 	government "Centauri Republic"
+	trade "Food" 290
+	trade "Clothing" 210
+	trade "Metal" 610
+	trade "Plastic" 470
+	trade "Equipment" 690
+	trade "Medical" 650
+	trade "Industrial" 780
+	trade "Electronics" 760
+	trade "Heavy Metals" 1240
+	trade "Luxury Goods" 820
 	habitable 1000
 	belt 1400
 	link "B5 Quadrant 37"
@@ -105,6 +173,10 @@ system "B5 Beta 3"
 		sprite "star/f5"
 		distance 0
 		period 10
+	object "B5 Beta 3 Planet"
+		sprite "planet/forest11"
+		distance 740
+		period 370
 
 system "B5 Beta 4"
 	"display name" "Beta 4"
@@ -125,6 +197,16 @@ system "B5 Immolan"
 	"display name" "Immolan"
 	pos 5191 4868
 	government "Centauri Republic"
+	trade "Food" 510
+	trade "Clothing" 230
+	trade "Metal" 490
+	trade "Plastic" 350
+	trade "Equipment" 540
+	trade "Medical" 660
+	trade "Industrial" 620
+	trade "Electronics" 650
+	trade "Heavy Metals" 1080
+	trade "Luxury Goods" 890
 	habitable 1000
 	belt 1400
 	link "B5 Beta 4"
@@ -133,3 +215,7 @@ system "B5 Immolan"
 		sprite "star/k0"
 		distance 0
 		period 10
+	object "B5 Immolan Planet"
+		sprite "planet/ocean8"
+		distance 780
+		period 400

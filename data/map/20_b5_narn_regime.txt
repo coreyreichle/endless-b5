@@ -1,13 +1,44 @@
 # Babylon 5 Part 1 - Narn Regime map region.
-# This file is authoritative for Narn systems and the Narn homeworld.
+# This file is authoritative for Narn systems and their inhabited worlds.
 
 planet "B5 Narn Homeworld"
 	"display name" "Narn"
 	government "Narn Regime"
+	attributes "narn colony" homeworld urban industrial
 	spaceport "Narn is a hard world whose cities and people still carry the memory of occupation, resistance, and the long struggle for independence."
 	shipyard "Narn Regime Shipyard"
 	outfitter "Narn Regime Outfitter"
 	description "The homeworld of the Narn Regime. Its people are proud, resilient, and fiercely independent, shaped by generations of hardship and by the conviction that Narn must never again live under another power's rule."
+
+planet "B5 Sorith Colony"
+	"display name" "Sorith Colony"
+	government "Narn Regime"
+	attributes "narn colony" industrial urban
+	spaceport "Sorith is a practical Narn industrial colony, crowded with processing works, freight depots, machine shops, and workers moving between factories and orbital traffic."
+	outfitter "Narn Regime Outfitter"
+	description "An established Narn industrial colony whose economy centers on manufacturing, heavy equipment, and the practical needs of an expanding post-occupation state."
+
+planet "B5 T'il Planet"
+	"display name" "T'il"
+	government "Narn Regime"
+	attributes "narn colony" agricultural
+	spaceport "T'il is a productive agricultural world whose farms and processing settlements help feed the Narn Regime."
+	description "A quieter Narn colony devoted largely to agriculture and food processing. Its exports support more heavily industrialized Narn worlds."
+
+planet "B5 Hilak Mining Colony"
+	"display name" "Hilak Mining Colony"
+	government "Narn Regime"
+	attributes "narn colony" mining industrial
+	spaceport "Hilak is a hard-working mining colony built around extraction sites, ore processing, and the transport of raw materials."
+	outfitter "Narn Regime Outfitter"
+	description "A Narn mining and industrial colony where metals and other strategic resources are extracted and processed for use throughout the Regime."
+
+planet "B5 Shambah Planet"
+	"display name" "Shambah"
+	government "Narn Regime"
+	attributes "narn colony" urban
+	spaceport "Shambah is a busy Narn commercial settlement serving local government, freight traffic, and civilian trade."
+	description "An urban Narn colony whose ports and markets make it a regional center for commerce and administration."
 
 system "B5 Narn"
 	"display name" "Narn"
@@ -60,6 +91,16 @@ system "B5 Sorith"
 	"display name" "Sorith"
 	pos 5349 4852
 	government "Narn Regime"
+	trade "Food" 620
+	trade "Clothing" 430
+	trade "Metal" 260
+	trade "Plastic" 470
+	trade "Equipment" 560
+	trade "Medical" 790
+	trade "Industrial" 440
+	trade "Electronics" 720
+	trade "Heavy Metals" 690
+	trade "Luxury Goods" 1440
 	habitable 1000
 	belt 1400
 	link "B5 Narn"
@@ -70,11 +111,25 @@ system "B5 Sorith"
 		sprite "star/f5"
 		distance 0
 		period 10
+	object "B5 Sorith Colony"
+		sprite "planet/desert8"
+		distance 760
+		period 390
 
 system "B5 T'il"
 	"display name" "T'il"
 	pos 5388 4852
 	government "Narn Regime"
+	trade "Food" 250
+	trade "Clothing" 410
+	trade "Metal" 560
+	trade "Plastic" 500
+	trade "Equipment" 720
+	trade "Medical" 720
+	trade "Industrial" 790
+	trade "Electronics" 820
+	trade "Heavy Metals" 1080
+	trade "Luxury Goods" 1370
 	habitable 1000
 	belt 1400
 	link "B5 Sorith"
@@ -84,11 +139,25 @@ system "B5 T'il"
 		sprite "star/g0"
 		distance 0
 		period 10
+	object "B5 T'il Planet"
+		sprite "planet/forest6"
+		distance 720
+		period 350
 
 system "B5 Hilak"
 	"display name" "Hilak"
 	pos 5423 4872
 	government "Narn Regime"
+	trade "Food" 710
+	trade "Clothing" 450
+	trade "Metal" 190
+	trade "Plastic" 440
+	trade "Equipment" 520
+	trade "Medical" 820
+	trade "Industrial" 410
+	trade "Electronics" 700
+	trade "Heavy Metals" 560
+	trade "Luxury Goods" 1490
 	habitable 1000
 	belt 1400
 	link "B5 T'il"
@@ -98,11 +167,25 @@ system "B5 Hilak"
 		sprite "star/k0"
 		distance 0
 		period 10
+	object "B5 Hilak Mining Colony"
+		sprite "planet/rock20"
+		distance 820
+		period 430
 
 system "B5 Shambah"
 	"display name" "Shambah"
 	pos 5453 4844
 	government "Narn Regime"
+	trade "Food" 520
+	trade "Clothing" 340
+	trade "Metal" 430
+	trade "Plastic" 390
+	trade "Equipment" 570
+	trade "Medical" 670
+	trade "Industrial" 610
+	trade "Electronics" 680
+	trade "Heavy Metals" 920
+	trade "Luxury Goods" 1240
 	habitable 1000
 	belt 1400
 	link "B5 Hilak"
@@ -112,6 +195,10 @@ system "B5 Shambah"
 		sprite "star/g5"
 		distance 0
 		period 10
+	object "B5 Shambah Planet"
+		sprite "planet/desert9"
+		distance 760
+		period 380
 
 system "B5 Melat"
 	"display name" "Melat"

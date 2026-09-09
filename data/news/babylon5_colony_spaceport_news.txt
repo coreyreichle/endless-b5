@@ -1,0 +1,350 @@
+# Babylon 5 colony spaceport news.
+#
+# Ambient chatter for the additional inhabited worlds.
+# Kept separate from babylon5_spaceport_news.txt so the colony expansion can
+# be tested or reverted independently.
+#
+# Uses exact planet filters, matching the existing B5 spaceport-news style.
+# Endless Sky 0.11.2.
+
+news "b5 colony proxima iii"
+	location
+		planet "B5 Proxima III"
+	name
+		word
+			"A Proxima commuter"
+			"An EarthForce logistics clerk"
+			"A factory technician"
+			"A long-haul pilot"
+	message
+		word
+			"People on Earth still call us a colony. My family has been here for generations."
+			"Half the freight through this port is machinery going out or components coming back. Proxima keeps a lot of factories busy."
+			"Earth is close enough to matter and far enough away that we have learned to solve our own problems."
+			"Every transport schedule assumes nothing will break between here and Sol. Every mechanic knows better."
+			"Proxima has universities, factories, suburbs, traffic, taxes... all the things people imagine they are escaping when they leave Earth."
+			"EarthForce likes Proxima because we're close to Sol and already have the infrastructure. The requisition forms still come from Earth, of course."
+
+news "b5 colony vega colony"
+	location
+		planet "B5 Vega Colony"
+	name
+		word
+			"A farm cooperative manager"
+			"A produce inspector"
+			"A freight dispatcher"
+			"A field technician"
+	message
+		word
+			"Most captains think food just appears in cargo containers. Around here we know exactly how much work goes into every ton."
+			"The harvest was good. Now the difficult part is finding enough hulls to move it before the warehouses fill."
+			"Vega exports food and imports nearly everything farmers complain about paying too much for."
+			"You can tell which freighters usually haul machinery. Their crews stare at a load of grain as if it might escape."
+			"People picture colonial farming as open skies and simple living. They forget the weather models, soil labs, and six pages of export inspections."
+			"Earth may set the standards, but it is Vega produce people complain about when a shipment is late."
+
+news "b5 colony orion vii"
+	location
+		planet "B5 Orion VII"
+	name
+		word
+			"A shift supervisor"
+			"A dock mechanic"
+			"A union representative"
+			"A parts buyer"
+	message
+		word
+			"The factories never really stop. We just change which shift is complaining about them."
+			"If your ship needs a common component, somebody on Orion probably makes it. If it needs an uncommon one, somebody claims they can."
+			"Industrial contracts are easy: deliver exactly what was ordered, exactly when promised, after the specification changes twice."
+			"The port gets louder at shift change. Thousands leave the plants while thousands more arrive to replace them."
+			"People call Orion dirty until they need something manufactured quickly."
+			"EarthForce procurement keeps half the machine shops here busy and the other half filling out forms."
+
+news "b5 colony beta 7 colony"
+	location
+		planet "B5 Beta 7 Colony"
+	name
+		word
+			"A grain hauler"
+			"A colonial farmer"
+			"A weather technician"
+			"A warehouse foreman"
+	message
+		word
+			"Quiet world, mostly. Until harvest season. Then every landing pad has a freighter sitting on it."
+			"The weather service says the rains will be late. The farmers say the weather service is always late."
+			"Most of what leaves here is measured in tons, not credits. Food has a way of becoming important when there isn't enough of it."
+			"We send produce inward and receive machinery outward. That is the colonial economy in one sentence."
+			"People from Earth ask what we do for entertainment. Mostly we ask why people from Earth need so much entertainment."
+			"Agricultural worlds don't make the news often. That's usually a sign we're doing our jobs."
+
+news "b5 colony cyrus mining colony"
+	location
+		planet "B5 Cyrus Mining Colony"
+	name
+		word
+			"A mining foreman"
+			"An ore hauler"
+			"A drilling technician"
+			"A company safety inspector"
+	message
+		word
+			"Everything here is dust, machinery, and somebody asking when the next shipment of spare parts arrives."
+			"Ore is cheap until a factory runs out of it. Then suddenly everyone remembers where Cyrus is."
+			"Mining equipment has two states: broken and about to be broken."
+			"The company says safety is everyone's responsibility. The crews say replacement parts are the company's responsibility."
+			"Most visitors complain about the landscape. We look at the same rocks and see next quarter's production."
+			"A loaded ore carrier flies differently. You learn to spot the captains who discovered that after takeoff."
+
+news "b5 colony grissom colony"
+	location
+		planet "B5 Grissom Colony"
+	name
+		word
+			"A research assistant"
+			"A systems engineer"
+			"A graduate student"
+			"A laboratory administrator"
+	message
+		word
+			"Three laboratories are arguing over the same sensor array. That means the experiment is probably important."
+			"Grissom attracts people who enjoy asking questions and organizations that enjoy classifying the answers."
+			"The university promised my project six months of instrument time. Apparently they meant six months spread across four years."
+			"Scientists say they want pristine equipment. Engineers know they want equipment that survives scientists."
+			"EarthForce funds more research here than it publicly discusses. Most of it is probably boring. Probably."
+			"The port handles an absurd amount of delicate cargo. Dock crews become very polite when a container costs more than their ship."
+
+news "b5 colony koulani colony"
+	location
+		planet "B5 Koulani Colony"
+	name
+		word
+			"A frontier shopkeeper"
+			"A local farmer"
+			"A supply pilot"
+			"A colonial administrator"
+	message
+		word
+			"Everybody knows when a new ship lands. Give it an hour and everybody knows why."
+			"Out here, a late supply run is not an inconvenience. It changes what is on the shelves for the next month."
+			"Koulani is small enough that the port authority and the agricultural office share a coffee machine."
+			"People come here to get away from crowded worlds, then complain that we don't have everything crowded worlds have."
+			"Most machinery gets repaired until there is more repair than original machine."
+			"Frontier colonies teach patience. Mostly while waiting for parts."
+
+news "b5 colony sorith colony"
+	location
+		planet "B5 Sorith Colony"
+	name
+		word
+			"A Narn factory worker"
+			"A freight supervisor"
+			"A machine-shop foreman"
+			"A Narn engineer"
+	message
+		word
+			"Sorith makes what Narn needs. That is more important than making what outsiders admire."
+			"Every machine we build here is one less machine we must ask another government to sell us."
+			"The factories are loud. Good. Silence does not rebuild a civilization."
+			"Foreign buyers call our equipment crude. They still buy it when they need something that keeps working."
+			"Production quotas rise every year. So does production. Complaining about both is traditional."
+			"A broken loader is not scrap. It is a collection of parts waiting to become a working loader again."
+
+news "b5 colony t il planet"
+	location
+		planet "B5 T'il Planet"
+	name
+		word
+			"A Narn farmer"
+			"A food processor"
+			"A transport coordinator"
+			"A village merchant"
+	message
+		word
+			"T'il feeds workers on worlds that think industry is more important than agriculture. Hungry workers eventually learn otherwise."
+			"We waste very little here. Narn learned long ago that waste is a luxury."
+			"The harvest belongs to the farmer until the transport schedule arrives. Then it belongs to logistics."
+			"Some visitors expect every Narn world to be factories and soldiers. They should spend a season in these fields."
+			"Independence also means feeding yourself. That lesson is not complicated."
+			"The freighters arrive empty and leave heavy. That is how we prefer it."
+
+news "b5 colony hilak mining colony"
+	location
+		planet "B5 Hilak Mining Colony"
+	name
+		word
+			"A Narn miner"
+			"An ore processor"
+			"A maintenance chief"
+			"A cargo master"
+	message
+		word
+			"The rock does not care who ruled Narn a century ago. It still has to be drilled."
+			"Hilak supplies metal. Sorith turns it into machines. Other worlds use those machines to extract more metal. Efficient."
+			"A miner who ignores maintenance becomes a miner waiting for rescue."
+			"Centauri equipment used to work these deposits. Some of it still does, after enough Narn modifications."
+			"We count production in ore, but every shipment also means fewer resources bought from somebody else."
+			"Do not call the equipment old. Call it proven."
+
+news "b5 colony shambah planet"
+	location
+		planet "B5 Shambah Planet"
+	name
+		word
+			"A Narn merchant"
+			"A customs clerk"
+			"A freight broker"
+			"A municipal official"
+	message
+		word
+			"Shambah is where cargo changes hands, paperwork changes desks, and everyone insists their part was the urgent one."
+			"Trade is simple. Someone has what you need, and you have something they need. Politics is what happens around the price."
+			"We do business with Centauri when business requires it. Memory and commerce are capable of occupying the same room."
+			"The port expanded twice and is already too small again. That is a problem I prefer to an empty port."
+			"Narn merchants bargain hard because we remember when others set the price for us."
+			"If your manifest is correct, customs is quick. If it is not, you will have time to correct it."
+
+news "b5 colony raghesh iii"
+	location
+		planet "B5 Raghesh III"
+	name
+		word
+			"A Centauri estate manager"
+			"A vintner"
+			"A provincial official"
+			"A household steward"
+	message
+		word
+			"Raghesh III was civilized when some human colonies were still survey reports."
+			"The estates produce food, wine, and arguments over which family first cultivated which valley."
+			"A noble house may own the land, but somebody still has to convince the harvest to arrive on schedule."
+			"Visitors think provincial life is simple. They have never negotiated irrigation rights between three old families."
+			"The best produce never reaches the public market. Naturally, I can tell you where it does reach."
+			"Centauri Prime has fashion. Raghesh III has traditions old enough to survive fashion."
+
+news "b5 colony beta 2 colony"
+	location
+		planet "B5 Beta 2 Colony"
+	name
+		word
+			"A Centauri industrialist"
+			"A factory administrator"
+			"A customs agent"
+			"A contract broker"
+	message
+		word
+			"Manufacturing is merely politics with measurable output."
+			"The Republic requires permits for everything. Fortunately, there is also a permit for expediting permits."
+			"Beta 2 lacks the elegance of the capital, which is why useful things can occasionally be completed here."
+			"Every noble wants his family's name on a factory. Very few want to know what happens inside one."
+			"A good contract specifies price, delivery, penalties, and which cousin in the ministry approved it."
+			"Human machinery is inelegant but surprisingly tolerant of abuse. We have found a market for both qualities."
+
+news "b5 colony beta 3 planet"
+	location
+		planet "B5 Beta 3 Planet"
+	name
+		word
+			"A Centauri estate owner"
+			"A specialty-goods merchant"
+			"A household factor"
+			"A visiting socialite"
+	message
+		word
+			"Beta 3 produces several things the capital considers indispensable and everyone else considers expensive."
+			"One does not simply grow a superior vintage. One also requires a superior label, a superior bottle, and superior acquaintances."
+			"The estates compete over harvests, fashions, marriages, and occasionally agriculture."
+			"Luxury goods are ordinary goods accompanied by a convincing story. Centauri are excellent storytellers."
+			"My employer insists the household imports nothing unnecessary. You would be astonished how broad the definition of necessary can become."
+			"Earth traders always ask for the famous vintages. Experienced traders ask which vintage will be famous next year."
+
+news "b5 colony immolan planet"
+	location
+		planet "B5 Immolan Planet"
+	name
+		word
+			"A Centauri merchant"
+			"A shipping agent"
+			"A commercial advocate"
+			"A port official"
+	message
+		word
+			"Immolan is not the capital. This is useful; business can occur before everyone finishes introducing their ancestors."
+			"A cargo delayed is money delayed. A cargo seized by customs is money negotiating."
+			"Merchants here care less about which house began a dispute than which house can pay the invoice."
+			"Every route into the Republic eventually produces paperwork. Immolan has learned to sell assistance with paperwork."
+			"Commerce creates friendships of remarkable durability, provided the accounts remain balanced."
+			"I have traded with humans, Narn, Brakiri, and Drazi. Each claims the others are impossible. All pay eventually."
+
+news "b5 colony eshar planet"
+	location
+		planet "B5 Eshar Planet"
+	name
+		word
+			"A Worker Caste artisan"
+			"A fabrication supervisor"
+			"A Minbari technician"
+			"A materials coordinator"
+	message
+		word
+			"Work done correctly does not need to announce itself."
+			"The Worker Caste built the halls in which the other castes debate what should be built next."
+			"A component may be hidden inside a machine for a century. That does not make its workmanship less important."
+			"Visitors often ask how quickly we can manufacture something. We first ask how long they expect it to remain useful."
+			"Eshar's workshops are busy because maintenance is part of creation, not an admission of failure."
+			"Precision is not slowness. Repeating careless work is slowness."
+
+news "b5 colony tarellen planet"
+	location
+		planet "B5 Tarellen Planet"
+	name
+		word
+			"A Religious Caste pilgrim"
+			"A Minbari farmer"
+			"A temple caretaker"
+			"A produce steward"
+	message
+		word
+			"The fields are cultivated according to old patterns. Their age does not prevent them from feeding modern cities."
+			"Pilgrims come seeking silence and are often surprised to discover agriculture is not silent."
+			"Food prepared with attention nourishes more than hunger. The Worker Caste usually reminds us it must also arrive on time."
+			"Tarellen's temples receive visitors from across the Federation. The farmers receive their appetites."
+			"Tradition survives because each generation performs it, not because the past performs it for us."
+			"The harvest follows its own calendar. Wisdom consists partly of knowing which schedules cannot be negotiated."
+
+news "b5 colony tavalan planet"
+	location
+		planet "B5 Tavalan Planet"
+	name
+		word
+			"A Minbari researcher"
+			"A Worker Caste engineer"
+			"A laboratory steward"
+			"A visiting scholar"
+	message
+		word
+			"A hypothesis is not diminished by being wrong. Only by refusing to learn why."
+			"Tavalan's laboratories prefer instruments built nearby. The engineers prefer knowing exactly who to blame."
+			"Scientific work and craftsmanship are less separate than outsiders imagine."
+			"Humans often ask whether our research is military or civilian. Some questions reveal more about the asker than the answer."
+			"The most elegant solution is not always the most complicated one. Usually it is the one with the fewest unnecessary parts."
+			"Records are kept carefully here. Discovery without memory is merely repetition."
+
+news "b5 colony valusha planet"
+	location
+		planet "B5 Valusha Planet"
+	name
+		word
+			"A Minbari cultivator"
+			"A Religious Caste teacher"
+			"A temple guest"
+			"A local steward"
+	message
+		word
+			"Valusha is quiet because people here value quiet, not because nothing happens."
+			"The fields and temples share water from the same valleys. It is a useful reminder that categories are not separations."
+			"Visitors come expecting revelation. Most leave having learned patience instead."
+			"Some traditions are ancient. Others only claim to be. Time eventually reveals the difference."
+			"A good harvest is received with gratitude, then stored carefully. Gratitude is not a substitute for preparation."
+			"Travelers from busier worlds sometimes ask how we tolerate the stillness. We wonder how they tolerate the noise."

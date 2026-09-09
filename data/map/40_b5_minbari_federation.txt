@@ -1,13 +1,44 @@
 # Babylon 5 Part 1 - Minbari Federation map region.
-# This file is authoritative for Minbari systems and Minbar.
+# This file is authoritative for Minbari systems and their inhabited worlds.
 
 planet "B5 Minbar Planet"
 	"display name" "Minbar"
 	government "Minbari Federation"
+	attributes "minbari colony" homeworld urban religious
 	spaceport "Minbar is the spiritual and cultural center of the Minbari Federation, where tradition, caste, and ancient institutions shape everyday life."
 	shipyard "Minbari Federation Shipyard"
 	outfitter "Minbari Federation Outfitter"
 	description "A serene and ancient world at the heart of Minbari civilization. Minbar reflects a culture built around balance, discipline, spiritual purpose, and a deep sense that every life belongs to a greater pattern."
+
+planet "B5 Eshar Planet"
+	"display name" "Eshar"
+	government "Minbari Federation"
+	attributes "minbari colony" industrial
+	spaceport "Eshar is a Worker Caste world of workshops, fabrication complexes, and carefully ordered industrial settlements."
+	outfitter "Minbari Federation Outfitter"
+	description "A Minbari industrial colony shaped largely by the Worker Caste. Its production facilities supply equipment and materials throughout Federation space."
+
+planet "B5 Tarellen Planet"
+	"display name" "Tarellen"
+	government "Minbari Federation"
+	attributes "minbari colony" agricultural religious
+	spaceport "Tarellen is a quiet Minbari world of cultivated lands, religious communities, and settlements built with deliberate harmony between habitation and landscape."
+	description "An agricultural and religious Minbari colony where food production exists alongside centers of contemplation, learning, and traditional practice."
+
+planet "B5 Tavalan Planet"
+	"display name" "Tavalan"
+	government "Minbari Federation"
+	attributes "minbari colony" scientific industrial
+	spaceport "Tavalan hosts research institutions, technical workshops, and Worker Caste facilities devoted to precision engineering and scientific work."
+	outfitter "Minbari Federation Outfitter"
+	description "A Minbari scientific and industrial colony where research and disciplined craftsmanship support advanced technical projects."
+
+planet "B5 Valusha Planet"
+	"display name" "Valusha"
+	government "Minbari Federation"
+	attributes "minbari colony" agricultural religious
+	spaceport "Valusha is a peaceful Minbari agricultural world whose settlements include several important religious communities."
+	description "A quiet Federation colony known for cultivated landscapes, traditional settlements, and the presence of the Religious Caste."
 
 system "B5 Minbar"
 	"display name" "Minbar"
@@ -44,6 +75,16 @@ system "B5 Eshar"
 	"display name" "Eshar"
 	pos 5212 4711
 	government "Minbari Federation"
+	trade "Food" 560
+	trade "Clothing" 310
+	trade "Metal" 300
+	trade "Plastic" 330
+	trade "Equipment" 430
+	trade "Medical" 570
+	trade "Industrial" 420
+	trade "Electronics" 520
+	trade "Heavy Metals" 790
+	trade "Luxury Goods" 1190
 	habitable 1000
 	belt 1400
 	link "B5 Minbar"
@@ -54,11 +95,25 @@ system "B5 Eshar"
 		sprite "star/k5"
 		distance 0
 		period 10
+	object "B5 Eshar Planet"
+		sprite "planet/desert7"
+		distance 760
+		period 390
 
 system "B5 Tarellen"
 	"display name" "Tarellen"
 	pos 5160 4695
 	government "Minbari Federation"
+	trade "Food" 220
+	trade "Clothing" 270
+	trade "Metal" 620
+	trade "Plastic" 420
+	trade "Equipment" 680
+	trade "Medical" 590
+	trade "Industrial" 760
+	trade "Electronics" 730
+	trade "Heavy Metals" 1260
+	trade "Luxury Goods" 980
 	habitable 1000
 	belt 1400
 	link "B5 Minbar"
@@ -69,11 +124,25 @@ system "B5 Tarellen"
 		sprite "star/f5"
 		distance 0
 		period 10
+	object "B5 Tarellen Planet"
+		sprite "planet/forest5"
+		distance 720
+		period 350
 
 system "B5 Tavalan"
 	"display name" "Tavalan"
 	pos 5261 4691
 	government "Minbari Federation"
+	trade "Food" 540
+	trade "Clothing" 290
+	trade "Metal" 360
+	trade "Plastic" 320
+	trade "Equipment" 410
+	trade "Medical" 470
+	trade "Industrial" 460
+	trade "Electronics" 430
+	trade "Heavy Metals" 880
+	trade "Luxury Goods" 1100
 	habitable 1000
 	belt 1400
 	link "B5 Eshar"
@@ -83,11 +152,25 @@ system "B5 Tavalan"
 		sprite "star/g0"
 		distance 0
 		period 10
+	object "B5 Tavalan Planet"
+		sprite "planet/ocean9"
+		distance 800
+		period 410
 
 system "B5 Valusha"
 	"display name" "Valusha"
 	pos 5115 4703
 	government "Minbari Federation"
+	trade "Food" 260
+	trade "Clothing" 250
+	trade "Metal" 590
+	trade "Plastic" 410
+	trade "Equipment" 650
+	trade "Medical" 560
+	trade "Industrial" 730
+	trade "Electronics" 700
+	trade "Heavy Metals" 1220
+	trade "Luxury Goods" 950
 	habitable 1000
 	belt 1400
 	link "B5 Minbar"
@@ -98,6 +181,10 @@ system "B5 Valusha"
 		sprite "star/k0"
 		distance 0
 		period 10
+	object "B5 Valusha Planet"
+		sprite "planet/forest4"
+		distance 740
+		period 370
 
 system "B5 Minbari Protectorate"
 	"display name" "Minbari Protectorate"
