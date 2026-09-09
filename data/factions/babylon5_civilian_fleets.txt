@@ -1,0 +1,56 @@
+# Babylon 5 Part 1 - civilian traffic fleets.
+#
+# These fleets are intentionally non-military. They exist to make inhabited
+# systems feel busier and to provide more ships capable of producing ambient
+# radio chatter.
+#
+# Local civilian fleets use the government of the territory they belong to.
+# Independent traffic represents League / neutral commercial visitors.
+#
+# "timid" keeps these ships from behaving like combat patrols.
+
+fleet "B5 Earth Civilian Traffic"
+	government "Earth Alliance"
+	personality
+		timid
+	variant 8
+		"Earth Alliance Courier Shuttle"
+	variant 3
+		"Earth Alliance Courier Shuttle" 2
+
+fleet "B5 Narn Civilian Traffic"
+	government "Narn Regime"
+	personality
+		timid
+	variant 8
+		"Narn G'Quon Shuttle"
+	variant 3
+		"Narn G'Quon Shuttle" 2
+
+fleet "B5 Centauri Civilian Traffic"
+	government "Centauri Republic"
+	personality
+		timid
+	variant 8
+		"Centauri Court Shuttle"
+	variant 3
+		"Centauri Court Shuttle" 2
+
+fleet "B5 Independent Civilian Traffic"
+	government "B5 Independent"
+	personality
+		timid
+	variant 5
+		"Drazi Prowl Shuttle"
+	variant 5
+		"Brakiri Breeze Shuttle"
+	variant 5
+		"Vree Lumen Shuttle"
+	variant 5
+		"Pak'ma'ra Nesh Shuttle"
+	variant 2
+		"Drazi Prowl Shuttle"
+		"Brakiri Breeze Shuttle"
+	variant 2
+		"Vree Lumen Shuttle"
+		"Pak'ma'ra Nesh Shuttle"

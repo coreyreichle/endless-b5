@@ -1,0 +1,178 @@
+# Babylon 5 Part 1 - ambient in-flight radio chatter.
+#
+# These phrases provide non-gameplay ambient transmissions from friendly ships.
+# Endless Sky uses a government's "friendly hail" phrase for random in-flight
+# chatter as well as friendly ship hails.
+#
+# DESIGN RULES:
+# - Flavor only. No mission hints, deadlines, rewards, or actionable intelligence.
+# - No story progression or Shadow War spoilers.
+# - Faction voice should be recognizable without requiring lore knowledge.
+# - Vorlon and Shadow governments are intentionally omitted. Casual chatter would
+#   undermine their intended tone.
+# - Raider chatter is intentionally omitted for now; hostile hail work can be
+#   developed separately.
+#
+# Because these are attached to ship governments, regional flavor emerges from
+# the fleets present in a system. A Narn ship speaks with a Narn voice even when
+# encountered outside Narn space, which is appropriate for intercepted traffic.
+
+
+# ===========================================================================
+# EARTH ALLIANCE
+# ===========================================================================
+
+phrase "b5 friendly earth alliance"
+	word
+		"Earthforce traffic control reminds all civilian vessels to maintain assigned approach vectors."
+		"Routine navigation advisory: verify your jump coordinates before entering the beacon corridor."
+		"Earth Alliance Customs reminds captains that undeclared cargo may be subject to inspection."
+		"Merchant traffic is advised to keep identification transponders active while approaching Alliance facilities."
+		"Earthforce recruitment offices are accepting applications throughout Alliance space. Service guarantees responsibility."
+		"Colonial Affairs reports another increase in passenger traffic to the outer colonies."
+		"Attention all ships: priority docking lanes are reserved for military and emergency traffic."
+		"Alliance navigation control reports normal jump-point activity. Maintain safe separation."
+		"Freighter control, this is commercial transport seven-one-four. Requesting revised docking clearance."
+		"Anyone else getting static on the civilian band, or is our comm array finally giving up?"
+		"Next time somebody says this run is routine, remind me how many hours we spent waiting for clearance."
+		"We're carrying machine parts, agricultural equipment, and three crates that somehow have six different customs forms."
+		"Tell maintenance the port maneuvering thruster is drifting again. I am not docking this thing sideways."
+		"Passenger liner Meridian to local control: requesting departure clearance on the outbound commercial lane."
+		"Earthforce patrol to civilian traffic: maintain course. This is a routine identification sweep."
+		"There's a rumor the station commissary finally received real coffee. I'll believe it when I taste it."
+		"Cargo tug six, clear the approach lane. Some of us have schedules to pretend we're keeping."
+		"Alliance beacon network is operating normally. Report navigation anomalies to the nearest traffic authority."
+		"Long-range haulers are reporting heavier traffic than usual along the inner colony routes."
+		"Whoever designed this cargo manifest never had to load a ship."
+
+
+government "Earth Alliance"
+	"friendly hail" "b5 friendly earth alliance"
+
+
+# ===========================================================================
+# NARN REGIME
+# ===========================================================================
+
+phrase "b5 friendly narn"
+	word
+		"Narn transport control advises outbound vessels to clear the military approach lanes."
+		"Government freight priority remains in effect for reconstruction materials and agricultural equipment."
+		"Commercial captains are reminded that Narn customs declarations are required before orbital approach."
+		"Transport three-eight to control: our cargo is secured and we are ready for departure."
+		"The shipment is late because the dockmaster changed our berth twice. Complain to him, not to me."
+		"We have reactor components for the colony works. If they want them today, they can clear us a landing slot."
+		"Another Centauri freighter on the long-range scope. Keep the recorder running."
+		"The old captain swears he saw an empty ship drifting beyond the beacon line. The old captain also drinks too much."
+		"Tell the port authority the G'Quan Eth shipment stays climate-controlled or they can explain the loss themselves."
+		"Narn courier to local control: diplomatic pouch aboard, requesting priority departure."
+		"Reconstruction office says the replacement pumps were supposed to arrive last week. That makes two of us."
+		"Our engineer says the drive is fine. Our engineer also says the noise is normal. I dislike both statements."
+		"Keep the cargo clamps tight. I did not cross three systems to scatter machinery across a jump point."
+		"Narn traffic control confirms your vector. Proceed and maintain transponder contact."
+		"There's always another colony asking for generators, filters, or medical equipment. At least the work matters."
+		"If anyone finds a crate marked agricultural samples on dock twelve, it belongs on our ship."
+		"Freighter captain to escort: we appreciate the company, but you're making the passengers nervous."
+		"Maintain your course. Our navigators have already accounted for your approach."
+		"The manifest says spare parts. The dock workers say religious materials. I have learned not to ask."
+		"Outbound traffic, be advised: military vessels have priority at the jump point."
+
+
+government "Narn Regime"
+	"friendly hail" "b5 friendly narn"
+
+
+# ===========================================================================
+# CENTAURI REPUBLIC
+# ===========================================================================
+
+phrase "b5 friendly centauri"
+	word
+		"Centauri traffic control welcomes registered vessels. Unregistered vessels may expect a considerably less gracious reception."
+		"Imperial commerce office reminds captains that proper customs documentation prevents unfortunate delays."
+		"House courier requesting priority clearance. The seals are diplomatic and the schedule is not negotiable."
+		"My dear captain, if your cargo were truly priceless, you would have hired a better ship."
+		"The spoo is properly aged, properly sealed, and apparently more important than every passenger aboard."
+		"Control, inform the dockmaster that House representatives do not wait behind livestock transports."
+		"A merchant without patience is merely a customer with a ship."
+		"We were promised a reception committee. I see two fuel tenders and a customs inspector."
+		"Centauri liner Aurelia requesting approach clearance and a berth appropriate to diplomatic passengers."
+		"Tell the purser that if one more case of wine is missing, I will personally inspect the crew quarters."
+		"I assure you, the customs declaration is complete. Whether it is understandable is an entirely different matter."
+		"The Republic has endured for centuries. Surely this traffic queue cannot last longer."
+		"Dock control, our passengers have been waiting twenty minutes and have already begun writing complaints."
+		"That freighter's paint scheme is either very fashionable or the result of an industrial accident."
+		"Commercial traffic advisory: noble delegations have priority on the inner approach lanes."
+		"Yes, the cargo is insured. No, that does not mean you may handle it carelessly."
+		"The captain says this route is prestigious. The crew says it is long."
+		"Centauri courier to control: sealed correspondence aboard, requesting immediate departure authorization."
+		"I have heard three different explanations for the delay. I admire the creativity."
+		"Please remind the loading crew that antique furnishings are not ballast."
+
+
+government "Centauri Republic"
+	"friendly hail" "b5 friendly centauri"
+
+
+# ===========================================================================
+# MINBARI FEDERATION
+# ===========================================================================
+
+phrase "b5 friendly minbari"
+	word
+		"Minbari traffic guidance acknowledges your approach. Maintain your present vector."
+		"Worker Caste transport requesting clearance for orbital transfer."
+		"Navigation control reports the jump corridor clear. Proceed in sequence."
+		"The cargo has been balanced according to the manifest. There is no need to disturb it further."
+		"Federation courier to control: sealed records aboard and ready for departure."
+		"Worker Caste vessel seven-two acknowledges. We will hold position until the approach lane is clear."
+		"Your course crosses an active traffic lane. A correction of three degrees is recommended."
+		"The passengers have completed boarding. Their belongings required considerably more time."
+		"Maintenance reports the drive is functioning within tolerance. The vibration is apparently within tolerance as well."
+		"Archive transport requesting a quiet berth and standard environmental controls."
+		"Religious Caste passengers have requested that the observation ports remain uncovered during transit."
+		"The docking sequence has been revised. Please observe the new order."
+		"Minbari transport to local control: supplies secured, crew accounted for, ready to proceed."
+		"There is no urgency. There is, however, an agreed time of arrival."
+		"Worker Caste supervisor to cargo team: verify every seal before departure."
+		"We have crossed this route many times. Familiarity does not make care unnecessary."
+		"Navigation records show no hazard. The crew member who reported lights beyond the beacon has been advised to rest."
+		"Federation traffic control requests that civilian vessels maintain silence on the priority channel."
+		"The cargo is delicate only if handled incorrectly."
+		"Our departure was delayed by ceremony. The schedule has been adjusted."
+
+
+government "Minbari Federation"
+	"friendly hail" "b5 friendly minbari"
+
+
+# ===========================================================================
+# INDEPENDENT / BABYLON 5-STYLE MIXED CIVILIAN TRAFFIC
+# ===========================================================================
+
+phrase "b5 friendly independent"
+	word
+		"Independent freighter to local control: requesting a berth, fuel, and preferably both before tomorrow."
+		"Anybody know whether berth twelve is actually open? Control keeps routing ships there."
+		"Commercial transport to traffic control: manifest transmitted. Again."
+		"I heard somebody picked up a distress call from an empty sector last week. Probably a bad relay."
+		"Dock workers say every captain complains about the fees. Dock workers are correct."
+		"We're two jumps behind schedule, one fuel stop ahead of bankruptcy, and somehow still making good time."
+		"Passenger transport requesting approach clearance. Half our passengers are already standing by the airlock."
+		"If this beacon is calibrated correctly, then my navigator owes me twenty credits."
+		"Freighter on the outer lane, your transponder is flickering. Thought you might want to know."
+		"Control, we have perishable cargo aboard. Yes, everyone says that. Ours really is."
+		"Someone on the station is selling replacement couplings at twice the usual price. Plan accordingly."
+		"The rumor says raiders. The patrol says sensor noise. I'm taking the route with the patrol."
+		"Long-haul transport requesting fuel prices and trying not to sound desperate."
+		"To the ship broadcasting music on the traffic band: some of us are attempting to navigate."
+		"Cargo shuttle six to freighter six: your container is still on the dock."
+		"There's a story going around about strange lights near the jump point. There's always a story going around."
+		"Independent courier requesting docking clearance and directions to whichever office stamped this manifest."
+		"Our mechanic says we can make another jump. I would prefer a second opinion."
+		"Anybody heading outbound, traffic control says the inner lane is backed up."
+		"Safe travels, whoever's listening. It's a long way between friendly ports."
+
+
+government "B5 Independent"
+	"friendly hail" "b5 friendly independent"

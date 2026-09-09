@@ -1,0 +1,93 @@
+# Babylon 5 Part 1 - civilian traffic placement.
+# Additive system modifications only; existing military patrol rates are unchanged.
+
+# Earth Alliance inhabited systems.
+system "B5 Sol"
+	add fleet "B5 Earth Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Proxima"
+	add fleet "B5 Earth Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Vega"
+	add fleet "B5 Earth Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Orion"
+	add fleet "B5 Earth Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Beta 7"
+	add fleet "B5 Earth Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Cyrus"
+	add fleet "B5 Earth Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Grissom"
+	add fleet "B5 Earth Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Koulani"
+	add fleet "B5 Earth Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+# Narn inhabited systems.
+system "B5 Narn"
+	add fleet "B5 Narn Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Sorith"
+	add fleet "B5 Narn Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 T'il"
+	add fleet "B5 Narn Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Hilak"
+	add fleet "B5 Narn Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Shambah"
+	add fleet "B5 Narn Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+# Centauri inhabited systems.
+system "B5 Centauri Prime"
+	add fleet "B5 Centauri Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Raghesh"
+	add fleet "B5 Centauri Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Beta 2"
+	add fleet "B5 Centauri Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Beta 3"
+	add fleet "B5 Centauri Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Immolan"
+	add fleet "B5 Centauri Civilian Traffic" 900
+	add fleet "B5 Independent Civilian Traffic" 1400
+
+# Minbari inhabited systems: neutral visitors only for now.
+system "B5 Minbar"
+	add fleet "B5 Independent Civilian Traffic" 1100
+
+system "B5 Eshar"
+	add fleet "B5 Independent Civilian Traffic" 1100
+
+system "B5 Tarellen"
+	add fleet "B5 Independent Civilian Traffic" 1100
+
+system "B5 Tavalan"
+	add fleet "B5 Independent Civilian Traffic" 1100
+
+system "B5 Valusha"
+	add fleet "B5 Independent Civilian Traffic" 1100
