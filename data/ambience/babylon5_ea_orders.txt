@@ -149,3 +149,258 @@ mission "b5 ambient minbari data crystals 1000"
 	on complete
 		payment 1000
 		dialog "The sealed Minbari archive consignment is received without incident. Earth Alliance closes the transport order and credits <payment> in standard service compensation to your account."
+
+# ===========================================================================
+# ADDITIONAL ROUTINE DUTY TYPES
+# ===========================================================================
+
+
+# ---------------------------------------------------------------------------
+# COURIER - EARTH ALLIANCE
+# ---------------------------------------------------------------------------
+
+mission "b5 ambient ea courier 1000"
+	name "EA Courier Order: Official Dispatches"
+	job
+	repeat
+	cargo "sealed Earth Alliance dispatches" 1
+	description "Earth Alliance Command has authorized the transfer of <cargo> from <origin> to <destination>. The material is to remain sealed in transit. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "Earth Alliance"
+	destination
+		attributes "spaceport"
+		distance 1 10
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+	on accept
+		dialog "Your authorization is confirmed. The sealed dispatches are transferred aboard and logged against your vessel."
+	on complete
+		payment 1000
+		dialog "The dispatches are accepted and your courier order is closed. <payment> in standard service compensation is credited to your account."
+
+
+# ---------------------------------------------------------------------------
+# COURIER - NARN
+# ---------------------------------------------------------------------------
+
+mission "b5 ambient narn courier 1000"
+	name "EA Authorized Request: Narn Dispatch"
+	job
+	repeat
+	cargo "sealed Narn government dispatches" 1
+	description "The Narn government has requested Earth Alliance assistance carrying <cargo> from <origin> to <destination>. Earth Alliance Command has authorized the request through the local terminal. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "Narn Regime"
+	destination
+		attributes "spaceport"
+		distance 1 10
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+	on accept
+		dialog "Earth Alliance authorization is confirmed. A Narn official delivers the sealed dispatches to your vessel and records the transfer."
+	on complete
+		payment 1000
+		dialog "The Narn dispatches are accepted intact. Earth Alliance closes the authorized courier order and credits <payment> in standard service compensation to your account."
+
+
+# ---------------------------------------------------------------------------
+# COURIER - CENTAURI
+# ---------------------------------------------------------------------------
+
+mission "b5 ambient centauri courier 1000"
+	name "EA Authorized Request: Centauri Dispatch"
+	job
+	repeat
+	cargo "sealed Centauri diplomatic correspondence" 1
+	description "The Centauri Republic has requested Earth Alliance assistance carrying <cargo> from <origin> to <destination>. Earth Alliance Command has approved the request through diplomatic channels. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "Centauri Republic"
+	destination
+		attributes "spaceport"
+		distance 1 10
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+	on accept
+		dialog "Earth Alliance confirms the authorization. A Centauri functionary delivers an elaborately sealed diplomatic case and insists upon personally witnessing the transfer."
+	on complete
+		payment 1000
+		dialog "The Centauri correspondence is accepted with its seals intact. The Earth Alliance courier order is closed, and <payment> in standard service compensation is credited to your account."
+
+
+# ---------------------------------------------------------------------------
+# COURIER - MINBARI
+# ---------------------------------------------------------------------------
+
+mission "b5 ambient minbari courier 1000"
+	name "EA Authorized Request: Minbari Records"
+	job
+	repeat
+	cargo "sealed Minbari records" 1
+	description "The Minbari Federation has requested Earth Alliance assistance carrying <cargo> from <origin> to <destination>. Earth Alliance Command has authorized the transfer through the local terminal. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "Minbari Federation"
+	destination
+		attributes "spaceport"
+		distance 1 10
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+	on accept
+		dialog "Earth Alliance authorization is confirmed. The sealed records are transferred aboard under the supervision of Minbari attendants."
+	on complete
+		payment 1000
+		dialog "The records are received without incident. Earth Alliance closes the courier order and credits <payment> in standard service compensation to your account."
+
+
+# ---------------------------------------------------------------------------
+# PERSONNEL TRANSFER - EARTH ALLIANCE
+# ---------------------------------------------------------------------------
+
+mission "b5 ambient ea personnel 1000"
+	name "EA Personnel Order: Duty Transfer"
+	job
+	repeat
+	passengers 2
+	description "Earth Alliance Personnel Command requires transport for <passengers> from <origin> to <destination>. This is a routine duty transfer authorized through the Earth Alliance terminal. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "Earth Alliance"
+	destination
+		attributes "spaceport"
+		distance 1 10
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+	on accept
+		dialog "The transfer order is confirmed. The assigned Earth Alliance personnel report aboard with their travel authorizations."
+	on complete
+		payment 1000
+		dialog "The transferred personnel report to their new posting. Your order is closed, and <payment> in standard service compensation is credited to your account."
+
+
+# ---------------------------------------------------------------------------
+# PERSONNEL TRANSFER - NARN
+# ---------------------------------------------------------------------------
+
+mission "b5 ambient narn personnel 1000"
+	name "EA Authorized Request: Narn Delegation"
+	job
+	repeat
+	passengers 2
+	description "The Narn government has requested Earth Alliance transport for <passengers> from <origin> to <destination>. Earth Alliance Command has authorized the movement as an intergovernmental service order. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "Narn Regime"
+	destination
+		attributes "spaceport"
+		distance 1 10
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+	on accept
+		dialog "Earth Alliance confirms the request. The Narn delegation reports aboard with government travel documents and a minimum of ceremony."
+	on complete
+		payment 1000
+		dialog "The Narn delegation disembarks and the authorized personnel-transfer order is closed. <payment> in standard service compensation is credited to your account."
+
+
+# ---------------------------------------------------------------------------
+# PERSONNEL TRANSFER - CENTAURI
+# ---------------------------------------------------------------------------
+
+mission "b5 ambient centauri personnel 1000"
+	name "EA Authorized Request: Centauri Delegation"
+	job
+	repeat
+	passengers 2
+	description "The Centauri Republic has requested Earth Alliance transport for <passengers> from <origin> to <destination>. Earth Alliance Command has approved the movement through diplomatic channels. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "Centauri Republic"
+	destination
+		attributes "spaceport"
+		distance 1 10
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+	on accept
+		dialog "Earth Alliance confirms the authorization. The Centauri delegation boards with its credentials, luggage, and considerably more ceremony than the passenger count would suggest."
+	on complete
+		payment 1000
+		dialog "The Centauri delegation disembarks and the diplomatic transport order is closed. <payment> in standard service compensation is credited to your account."
+
+
+# ---------------------------------------------------------------------------
+# PERSONNEL TRANSFER - MINBARI
+# ---------------------------------------------------------------------------
+
+mission "b5 ambient minbari personnel 1000"
+	name "EA Authorized Request: Minbari Delegation"
+	job
+	repeat
+	passengers 2
+	description "The Minbari Federation has requested Earth Alliance transport for <passengers> from <origin> to <destination>. Earth Alliance Command has authorized the movement as a routine intergovernmental service order. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "Minbari Federation"
+	destination
+		attributes "spaceport"
+		distance 1 10
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+	on accept
+		dialog "Earth Alliance confirms the request. The Minbari delegation boards quietly, accompanied by carefully prepared travel documentation."
+	on complete
+		payment 1000
+		dialog "The Minbari delegation disembarks and the authorized transport order is closed. <payment> in standard service compensation is credited to your account."
+
+
+# ===========================================================================
+# PRIORITY / EMERGENCY ORDERS - DISABLED
+#
+# These templates are intentionally commented out. They are reserved for a
+# later ambient-mission pass, after we can ensure that urgent deadlines do not
+# compete with or distort the pacing of story missions.
+#
+# To enable them later, remove the leading "# " from the mission definitions
+# and review their deadlines against the campaign timeline first.
+# ===========================================================================
+
+# mission "b5 ambient priority logistics 1000"
+# 	name "EA Priority Order: Critical Supply"
+# 	job
+# 	repeat
+# 	cargo "priority Earth Alliance supplies" 4
+# 	description "Earth Alliance Command has designated this transfer of <cargo> from <origin> to <destination> as a priority service order. Prompt delivery is required. Completion carries one standard week of service compensation: <payment>."
+# 	destination
+# 		attributes "spaceport"
+# 		distance 1 8
+# 	deadline 3
+# 	to offer
+# 		has "b5 story start"
+# 		"b5 ea weekly salary" == 1000
+# 	on accept
+# 		dialog "Priority authorization confirmed. The cargo is transferred aboard for immediate delivery."
+# 	on complete
+# 		payment 1000
+# 		dialog "The priority shipment is received and the order is closed. <payment> in standard service compensation is credited to your account."
+
+# mission "b5 ambient emergency personnel 1000"
+# 	name "EA Emergency Order: Personnel Transfer"
+# 	job
+# 	repeat
+# 	passengers 2
+# 	description "Earth Alliance Command has authorized emergency transport for <passengers> from <origin> to <destination>. Immediate movement is requested. Completion carries one standard week of service compensation: <payment>."
+# 	destination
+# 		attributes "spaceport"
+# 		distance 1 8
+# 	deadline 3
+# 	to offer
+# 		has "b5 story start"
+# 		"b5 ea weekly salary" == 1000
+# 	on accept
+# 		dialog "Emergency transport authorization confirmed. The assigned personnel report aboard for immediate departure."
+# 	on complete
+# 		payment 1000
+# 		dialog "The personnel are delivered safely and the emergency order is closed. <payment> in standard service compensation is credited to your account."
+
