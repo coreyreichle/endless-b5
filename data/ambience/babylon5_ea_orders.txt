@@ -1,24 +1,55 @@
 # Babylon 5 Part 1 - Earth Alliance ambient orders.
 #
-# These are routine assignments made available through Earth Alliance channels.
-# The player is an Earth Alliance officer, not an independent freight contractor:
-# foreign-government jobs are requests accepted and authorized by Earth Alliance.
+# JOB BOARD FICTION:
+# In Endless B5, the Job Board represents an Earth Alliance orders terminal.
+# The player remains an Earth Alliance officer regardless of the government
+# controlling the planet where the terminal is accessed.
+#
+# A mission's source filter therefore controls which locally-relevant requests
+# appear at that terminal; it does NOT imply that the local government employs
+# the player.
 #
 # PAY:
-# Endless Sky 0.11.2 requires a numeric mission payment. Each salary tier therefore
-# needs a matching set of job variants gated by "b5 ea weekly salary".
-# This initial set matches the current 1,000-credit weekly salary.
+# Endless Sky 0.11.2 requires a numeric mission payment. Each salary tier
+# therefore needs a matching set of order variants gated by
+# "b5 ea weekly salary". This initial set matches the current
+# 1,000-credit weekly salary.
 #
-# FOREIGN PICKUPS:
-# Foreign-request jobs are accepted from an Earth Alliance job board, then require
-# a stopover at the requesting government's world before returning to an Earth
-# Alliance destination. This follows Endless Sky's established stopover cargo-job
-# pattern and lets the text clearly distinguish "assignment pickup" from physical
-# cargo pickup.
+# All routine ambient orders pay exactly one standard week of service
+# compensation. Cargo amount, commodity value, and distance do not increase
+# the payout.
 
 
 # ---------------------------------------------------------------------------
-# EARTH ALLIANCE - INTERNAL LOGISTICS
+# UNIVERSAL EARTH ALLIANCE TERMINAL ORDER
+#
+# No source filter is intentional. A job mission without a source filter can
+# appear on every inhabited planet's Job Board. In Endless B5, that means any
+# accessible Earth Alliance orders terminal.
+# ---------------------------------------------------------------------------
+
+mission "b5 ambient ea terminal dispatch 1000"
+	name "EA Dispatch Order"
+	job
+	repeat
+	cargo "sealed Earth Alliance dispatches" 1
+	description "Earth Alliance Command has authorized the transfer of <cargo> from <origin> to <destination>. This routine order is available for pickup through the local Earth Alliance terminal. Completion carries one standard week of service compensation: <payment>."
+	destination
+		attributes "spaceport"
+		distance 1 8
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+	on accept
+		dialog "Earth Alliance Command confirms the order. The <cargo> is released to your vessel for delivery to <destination>."
+	on complete
+		payment 1000
+		dialog "The receiving office confirms delivery and closes the order. <payment> in standard service compensation is credited to your account."
+
+
+# ---------------------------------------------------------------------------
+# EARTH ALLIANCE - LOCAL LOGISTICS
+# Appears when using an EA terminal on an Earth Alliance-controlled world.
 # ---------------------------------------------------------------------------
 
 mission "b5 ambient ea logistics 1000"
@@ -26,11 +57,11 @@ mission "b5 ambient ea logistics 1000"
 	job
 	repeat
 	cargo "replacement life-support components" 6
-	description "Earth Alliance Logistics has authorized the transfer of <cargo> from <origin> to <destination>. This is a routine service assignment, not a commercial freight contract. Completion carries one standard week of service compensation: <payment>."
+	description "Earth Alliance Logistics has authorized the transfer of <cargo> from <origin> to <destination>. The assignment is available through the Earth Alliance terminal as a routine service order. Completion carries one standard week of service compensation: <payment>."
 	source
 		government "Earth Alliance"
 	destination
-		government "Earth Alliance"
+		attributes "spaceport"
 		distance 1 8
 	to offer
 		has "b5 story start"
@@ -43,7 +74,8 @@ mission "b5 ambient ea logistics 1000"
 
 
 # ---------------------------------------------------------------------------
-# NARN REGIME - REQUEST VIA EARTH ALLIANCE
+# NARN REGIME - LOCAL REQUEST VIA EARTH ALLIANCE
+# Appears when using the EA terminal on a Narn-controlled world.
 # ---------------------------------------------------------------------------
 
 mission "b5 ambient narn gquan eth 1000"
@@ -51,27 +83,25 @@ mission "b5 ambient narn gquan eth 1000"
 	job
 	repeat
 	cargo "G'Quan Eth plants" 1
-	description "The Narn government has requested Earth Alliance assistance transporting <cargo> from Narn to <destination>. Earth Alliance Command has authorized the request and made it available as a routine service order. Completion carries one standard week of service compensation: <payment>."
+	description "The Narn government has requested Earth Alliance assistance transporting <cargo> from <origin> to <destination>. Earth Alliance Command has authorized the request for pickup through the local terminal. Completion carries one standard week of service compensation: <payment>."
 	source
-		government "Earth Alliance"
-	stopover "B5 Narn Homeworld"
+		government "Narn Regime"
 	destination
-		government "Earth Alliance"
+		attributes "spaceport"
 		distance 1 12
 	to offer
 		has "b5 story start"
 		"b5 ea weekly salary" == 1000
 	on accept
-		dialog "Earth Alliance Command confirms the Narn request. Proceed to Narn, receive the consignment from the local authorities, and deliver it to <destination>."
-	on stopover
-		dialog "Narn officials meet your ship and supervise the transfer of <cargo>. The plants are handled with unusual care; their religious importance is made very clear before you are cleared to depart."
+		dialog "Earth Alliance Command confirms the Narn request. Local Narn authorities release the <cargo> to your vessel for delivery to <destination>."
 	on complete
 		payment 1000
-		dialog "Earth Alliance personnel acknowledge receipt of the Narn consignment and close the diplomatic transport request. <payment> in standard service compensation is credited to your account."
+		dialog "The receiving office acknowledges the Narn consignment and closes the Earth Alliance transport order. <payment> in standard service compensation is credited to your account."
 
 
 # ---------------------------------------------------------------------------
-# CENTAURI REPUBLIC - REQUEST VIA EARTH ALLIANCE
+# CENTAURI REPUBLIC - LOCAL REQUEST VIA EARTH ALLIANCE
+# Appears when using the EA terminal on a Centauri-controlled world.
 # ---------------------------------------------------------------------------
 
 mission "b5 ambient centauri spoo 1000"
@@ -79,27 +109,25 @@ mission "b5 ambient centauri spoo 1000"
 	job
 	repeat
 	cargo "aged spoo" 2
-	description "The Centauri Republic has requested Earth Alliance assistance transporting <cargo> from Centauri Prime to <destination>. Earth Alliance Command has approved the request through diplomatic channels. Completion carries one standard week of service compensation: <payment>."
+	description "The Centauri Republic has requested Earth Alliance assistance transporting <cargo> from <origin> to <destination>. Earth Alliance Command has approved the request through diplomatic channels and made it available through the local terminal. Completion carries one standard week of service compensation: <payment>."
 	source
-		government "Earth Alliance"
-	stopover "B5 Centauri Prime Planet"
+		government "Centauri Republic"
 	destination
-		government "Earth Alliance"
+		attributes "spaceport"
 		distance 1 12
 	to offer
 		has "b5 story start"
 		"b5 ea weekly salary" == 1000
 	on accept
-		dialog "The Centauri request has been cleared by Earth Alliance Command. Proceed to Centauri Prime, collect the authorized consignment, and deliver it to <destination>."
-	on stopover
-		dialog "A Centauri official oversees the loading of <cargo>, offering more instructions about proper storage and handling than the size of the shipment would seem to require. The manifest is finally stamped and returned to you."
+		dialog "The Centauri request has been cleared by Earth Alliance Command. Local officials release the <cargo> to your vessel for delivery to <destination>."
 	on complete
 		payment 1000
 		dialog "The Centauri consignment is accepted and the Earth Alliance transport order is closed. <payment> in standard service compensation is credited to your account."
 
 
 # ---------------------------------------------------------------------------
-# MINBARI FEDERATION - REQUEST VIA EARTH ALLIANCE
+# MINBARI FEDERATION - LOCAL REQUEST VIA EARTH ALLIANCE
+# Appears when using the EA terminal on a Minbari-controlled world.
 # ---------------------------------------------------------------------------
 
 mission "b5 ambient minbari data crystals 1000"
@@ -107,20 +135,17 @@ mission "b5 ambient minbari data crystals 1000"
 	job
 	repeat
 	cargo "Minbari data crystals" 1
-	description "The Minbari Federation has requested Earth Alliance assistance transporting <cargo> from Minbar to <destination>. Earth Alliance Command has authorized the transfer as a routine intergovernmental service order. Completion carries one standard week of service compensation: <payment>."
+	description "The Minbari Federation has requested Earth Alliance assistance transporting <cargo> from <origin> to <destination>. Earth Alliance Command has authorized the transfer as a routine intergovernmental service order available through the local terminal. Completion carries one standard week of service compensation: <payment>."
 	source
-		government "Earth Alliance"
-	stopover "B5 Minbar Planet"
+		government "Minbari Federation"
 	destination
-		government "Earth Alliance"
+		attributes "spaceport"
 		distance 1 12
 	to offer
 		has "b5 story start"
 		"b5 ea weekly salary" == 1000
 	on accept
-		dialog "Earth Alliance Command confirms the Minbari request. Proceed to Minbar, receive the sealed archive consignment, and deliver it to <destination>."
-	on stopover
-		dialog "Worker Caste attendants bring the <cargo> aboard in sealed containers. The transfer is quiet and methodical, and the accompanying documentation specifies that the containers are to remain undisturbed until delivery."
+		dialog "Earth Alliance Command confirms the Minbari request. Worker Caste attendants release the sealed <cargo> to your vessel for delivery to <destination>."
 	on complete
 		payment 1000
 		dialog "The sealed Minbari archive consignment is received without incident. Earth Alliance closes the transport order and credits <payment> in standard service compensation to your account."
