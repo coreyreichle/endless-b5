@@ -1,0 +1,149 @@
+# Babylon 5 Part 1 - Detached-duty Alliance Terminal orders.
+#
+# FICTION:
+# While an Earth Alliance officer is operating in Independent / League space,
+# routine work continues to accumulate in Earth Alliance territory. The local
+# terminal can therefore offer orders that pull the player back toward EA
+# worlds. League authorities occasionally request EA-authorized assistance,
+# but those requests are deliberately less common.
+#
+# BALANCE:
+# - Four "back home" EA orders: 35% offer chance each.
+# - Two low-demand League liaison requests: 15% offer chance each.
+# - All destinations are Earth Alliance spaceports.
+# - All pay the current 1,000-credit weekly salary.
+#
+# Priority / emergency work remains out of scope.
+# ===========================================================================
+
+mission "b5 ambient detached backlog dispatches 1000"
+	name "EA Backlog Order: Command Dispatches"
+	job
+	repeat
+	cargo "accumulated Earth Alliance dispatch packets" 1
+	description "While you have been operating outside Alliance territory, Earth Alliance Command has accumulated <cargo> awaiting an available officer. Return them from <origin> to <destination>. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "B5 Independent" "Drazi Freehold" "Brakiri Syndicracy" "Markab Theocracy" "Gaim Intelligence" "Abbai Matriarchate" "Yolu Confederacy" "Pak'ma'ra" "Vree Conglomerate"
+	destination
+		government "Earth Alliance"
+		attributes "spaceport"
+		distance 1 20
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+		"random" < 35
+	on accept
+		dialog "The terminal confirms the backlog assignment. A sealed packet case is transferred aboard for return to Earth Alliance territory."
+	on complete
+		payment 1000
+		dialog "The receiving command office acknowledges the accumulated dispatches and clears the backlog item. <payment> in standard service compensation is credited to your account."
+
+mission "b5 ambient detached backlog maintenance 1000"
+	name "EA Backlog Order: Maintenance Requisitions"
+	job
+	repeat
+	cargo "deferred maintenance requisitions" 3
+	description "Earth Alliance Logistics has several <cargo> that have been waiting for transport while you were detached beyond Alliance territory. Deliver them from <origin> to <destination>. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "B5 Independent" "Drazi Freehold" "Brakiri Syndicracy" "Markab Theocracy" "Gaim Intelligence" "Abbai Matriarchate" "Yolu Confederacy" "Pak'ma'ra" "Vree Conglomerate"
+	destination
+		government "Earth Alliance"
+		attributes "spaceport"
+		distance 1 20
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+		"random" < 35
+	on accept
+		dialog "Earth Alliance Logistics assigns the deferred requisitions to your vessel. The containers are tagged for priority unloading once you are back in Alliance space."
+	on complete
+		payment 1000
+		dialog "The maintenance office accepts the requisitions and removes them from the outstanding queue. <payment> in standard service compensation is credited to your account."
+
+mission "b5 ambient detached backlog personnel 1000"
+	name "EA Backlog Order: Personnel Rotation"
+	job
+	repeat
+	passengers 2
+	description "Earth Alliance Personnel Command has a delayed rotation for <passengers> awaiting transport back into Alliance territory. Carry them from <origin> to <destination>. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "B5 Independent" "Drazi Freehold" "Brakiri Syndicracy" "Markab Theocracy" "Gaim Intelligence" "Abbai Matriarchate" "Yolu Confederacy" "Pak'ma'ra" "Vree Conglomerate"
+	destination
+		government "Earth Alliance"
+		attributes "spaceport"
+		distance 1 20
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+		"random" < 35
+	on accept
+		dialog "The delayed personnel rotation is assigned to you. The officers report aboard relieved to finally have confirmed transport orders."
+	on complete
+		payment 1000
+		dialog "The personnel report to their new posting and the delayed rotation is closed. <payment> in standard service compensation is credited to your account."
+
+mission "b5 ambient detached backlog records 1000"
+	name "EA Backlog Order: Colonial Records"
+	job
+	repeat
+	cargo "colonial audit records" 2
+	description "Earth Alliance Civil Administration has <cargo> queued for return from <origin> to an Alliance office at <destination>. The work accumulated while available officers were operating elsewhere. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "B5 Independent" "Drazi Freehold" "Brakiri Syndicracy" "Markab Theocracy" "Gaim Intelligence" "Abbai Matriarchate" "Yolu Confederacy" "Pak'ma'ra" "Vree Conglomerate"
+	destination
+		government "Earth Alliance"
+		attributes "spaceport"
+		distance 1 20
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+		"random" < 35
+	on accept
+		dialog "The terminal assigns the administrative backlog to your vessel. The sealed record cases are transferred aboard and logged."
+	on complete
+		payment 1000
+		dialog "Civil Administration receives the records and closes the outstanding transfer. <payment> in standard service compensation is credited to your account."
+
+mission "b5 ambient league liaison documents 1000"
+	name "EA Authorized Request: League Liaison Packet"
+	job
+	repeat
+	cargo "League liaison documents" 1
+	description "Local authorities have asked Earth Alliance to carry <cargo> to <destination>. The request is routine and has been approved through Alliance liaison channels. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "B5 Independent" "Drazi Freehold" "Brakiri Syndicracy" "Markab Theocracy" "Gaim Intelligence" "Abbai Matriarchate" "Yolu Confederacy" "Pak'ma'ra" "Vree Conglomerate"
+	destination
+		government "Earth Alliance"
+		attributes "spaceport"
+		distance 1 20
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+		"random" < 15
+	on accept
+		dialog "Earth Alliance liaison staff confirm the local request. The documents are sealed and transferred to your custody."
+	on complete
+		payment 1000
+		dialog "The Alliance liaison office receives the packet and closes the local request. <payment> in standard service compensation is credited to your account."
+
+mission "b5 ambient league technical samples 1000"
+	name "EA Authorized Request: Technical Samples"
+	job
+	repeat
+	cargo "sealed technical samples" 2
+	description "A local League technical office has requested Earth Alliance transport of <cargo> from <origin> to <destination> for routine evaluation. Alliance Command has authorized the request. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "B5 Independent" "Drazi Freehold" "Brakiri Syndicracy" "Markab Theocracy" "Gaim Intelligence" "Abbai Matriarchate" "Yolu Confederacy" "Pak'ma'ra" "Vree Conglomerate"
+	destination
+		government "Earth Alliance"
+		attributes "spaceport"
+		distance 1 20
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+		"random" < 15
+	on accept
+		dialog "The local technical office transfers the sealed samples after Earth Alliance authorization is verified."
+	on complete
+		payment 1000
+		dialog "Earth Alliance technicians accept the samples and close the liaison request. <payment> in standard service compensation is credited to your account."
