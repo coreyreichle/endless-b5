@@ -1,0 +1,138 @@
+# Babylon 5 civilian traffic overrides.
+# Baseline: endless-b5 main commit 030cc8b8937cf0ec3ddc28f3c0546dca701eb4e7
+# Loaded after the authoritative regional map files.
+# Each fleet list intentionally includes the existing military patrol because
+# redefining a list-valued system field replaces the prior list.
+
+system "B5 Sol"
+	pos 4848 4721
+	fleet "B5 Earth Patrol" 1700
+	fleet "B5 Earth Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Proxima"
+	pos 4896 4726
+	fleet "B5 Earth Patrol" 1700
+	fleet "B5 Earth Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Vega"
+	pos 4893 4685
+	fleet "B5 Earth Patrol" 1700
+	fleet "B5 Earth Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Orion"
+	pos 4848 4762
+	fleet "B5 Earth Patrol" 1700
+	fleet "B5 Earth Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Beta 7"
+	pos 4900 4781
+	fleet "B5 Earth Patrol" 1700
+	fleet "B5 Earth Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Cyrus"
+	pos 4938 4660
+	fleet "B5 Earth Patrol" 1700
+	fleet "B5 Earth Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Grissom"
+	pos 4968 4685
+	fleet "B5 Earth Patrol" 1700
+	fleet "B5 Earth Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Koulani"
+	pos 4949 4801
+	fleet "B5 Earth Patrol" 1700
+	fleet "B5 Earth Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Narn"
+	pos 5306 4868
+	fleet "B5 Narn Patrol" 1800
+	fleet "B5 Narn Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Sorith"
+	pos 5349 4852
+	fleet "B5 Narn Patrol" 1800
+	fleet "B5 Narn Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 T'il"
+	pos 5388 4852
+	fleet "B5 Narn Patrol" 1800
+	fleet "B5 Narn Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Hilak"
+	pos 5423 4872
+	fleet "B5 Narn Patrol" 1800
+	fleet "B5 Narn Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Shambah"
+	pos 5453 4844
+	fleet "B5 Narn Patrol" 1800
+	fleet "B5 Narn Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Centauri Prime"
+	pos 5022 4838
+	fleet "B5 Centauri Patrol" 1800
+	fleet "B5 Centauri Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Raghesh"
+	pos 5058 4795
+	fleet "B5 Centauri Patrol" 1800
+	fleet "B5 Centauri Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Beta 2"
+	pos 5100 4880
+	fleet "B5 Centauri Patrol" 1800
+	fleet "B5 Centauri Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Beta 3"
+	pos 5113 4829
+	fleet "B5 Centauri Patrol" 1800
+	fleet "B5 Centauri Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Immolan"
+	pos 5191 4868
+	fleet "B5 Centauri Patrol" 1800
+	fleet "B5 Centauri Civilian Traffic" 900
+	fleet "B5 Independent Civilian Traffic" 1400
+
+system "B5 Minbar"
+	pos 5171 4755
+	fleet "B5 Minbari Patrol" 1800
+	fleet "B5 Independent Civilian Traffic" 1100
+
+system "B5 Eshar"
+	pos 5212 4711
+	fleet "B5 Minbari Patrol" 1800
+	fleet "B5 Independent Civilian Traffic" 1100
+
+system "B5 Tarellen"
+	pos 5160 4695
+	fleet "B5 Minbari Patrol" 1800
+	fleet "B5 Independent Civilian Traffic" 1100
+
+system "B5 Tavalan"
+	pos 5261 4691
+	fleet "B5 Minbari Patrol" 1800
+	fleet "B5 Independent Civilian Traffic" 1100
+
+system "B5 Valusha"
+	pos 5115 4703
+	fleet "B5 Minbari Patrol" 1800
+	fleet "B5 Independent Civilian Traffic" 1100
