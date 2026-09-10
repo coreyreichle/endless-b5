@@ -1,11 +1,22 @@
 name "Endless B5"
-about "Babylon 5 conversion"
-version "0.9.3"
+
+about "A Babylon 5 total conversion for Endless Sky."
+about "Serve as an Earth Alliance officer in the Babylon 5 universe, with new factions, ships, equipment, systems, missions, and an original campaign."
+
+version "0.4.0"
+
 authors
-	"Fan project"
+	"Corey Reichle (corey dot reichle at gmail dot com)"
+
 tags
 	"Babylon 5"
+	"Total Conversion"
+	"Story"
+	"Missions"
 	"Ships"
 	"Equipment"
+	"Factions"
+	"Map"
+
 dependencies
 	"game version" "0.11.2"

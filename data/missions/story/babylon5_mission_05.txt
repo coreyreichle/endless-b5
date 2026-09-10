@@ -68,4 +68,6 @@ mission "b5 mission 5b mollari and vir"
 					accept
 		clear "b5 mission 5 underway"
 		set "b5 mission 5 complete"
-		log "Babylon 5" "Earth Alliance Orders" "Mission 5 complete: Transported Ambassador Londo Mollari and Vir Cotto from Centauri Prime to Babylon 5. Report to the starport for your next assignment."
+		log "Babylon 5" "Earth Alliance Orders" "Mission 5 complete: Transported Ambassador Londo Mollari and Vir Cotto from Centauri Prime to Babylon 5.  No further orders at this time."
+#This is the "real" ending.  Delete the line above, and uncomment the line below once Mission 6 is ready to start testing."
+#		log "Babylon 5" "Earth Alliance Orders" "Mission 5 complete: Transported Ambassador Londo Mollari and Vir Cotto from Centauri Prime to Babylon 5. Report to the starport for your next assignment."
