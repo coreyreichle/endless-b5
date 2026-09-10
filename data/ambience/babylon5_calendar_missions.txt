@@ -1,0 +1,99 @@
+# Babylon 5 Part 1 - Non-story calendar ambience missions.
+#
+# PURPOSE:
+# Recurring, calendar-driven work that is independent of main-story progression.
+# Story-dependent calendar missions belong with the story mission files instead.
+#
+# MUTAI TRANSPORT:
+# Each August, Earth Alliance authorizes passenger transport to Babylon 5 for
+# people traveling in connection with the annual Mutai tournament.
+#
+# - 2258: Narn, Centauri, and League / Independent pickup orders.
+# - 2259 onward: the same three orders plus an Earth Alliance-origin order.
+# - Orders may repeat throughout August.
+# - The player remains an Earth Alliance officer; passengers do not employ them.
+# - All variants below match the current 1,000-credit weekly salary tier.
+# ===========================================================================
+
+mission "b5 calendar mutai narn transport 1000"
+	name "EA Calendar Order: Mutai Transport"
+	job
+	repeat
+	passengers 3 6
+	description "Earth Alliance liaison channels have authorized transport for <passengers> traveling from <origin> to Babylon 5 in connection with the annual Mutai tournament. Carry them to Babylon 5. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "Narn Regime"
+	destination "Babylon 5"
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+		"year" >= 2258
+		"month" == 8
+	on accept
+		dialog "Earth Alliance authorization is confirmed. The Narn travelers report aboard with their documents and little interest in ceremony. Their destination is Babylon 5 for the annual Mutai tournament."
+	on complete
+		payment 1000
+		dialog "The Narn travelers disembark into the growing tournament crowds on Babylon 5. The authorized transport order is closed, and <payment> in standard service compensation is credited to your account."
+
+mission "b5 calendar mutai centauri transport 1000"
+	name "EA Calendar Order: Mutai Transport"
+	job
+	repeat
+	passengers 2 5
+	description "Earth Alliance diplomatic channels have authorized transport for <passengers> traveling from <origin> to Babylon 5 during the annual Mutai tournament. Carry them to Babylon 5. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "Centauri Republic"
+	destination "Babylon 5"
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+		"year" >= 2258
+		"month" == 8
+	on accept
+		dialog "The authorization clears through Earth Alliance channels. The Centauri party boards with an impressive quantity of luggage and describes the journey as a cultural visit, though their enthusiasm for the Mutai tournament is difficult to miss."
+	on complete
+		payment 1000
+		dialog "The Centauri party departs into Babylon 5's tournament-week traffic. Earth Alliance closes the authorized transport order and credits <payment> in standard service compensation to your account."
+
+mission "b5 calendar mutai league transport 1000"
+	name "EA Calendar Order: Mutai Transport"
+	job
+	repeat
+	passengers 2 6
+	description "Earth Alliance liaison services have approved transport for <passengers> traveling from <origin> to Babylon 5 for the annual Mutai tournament. Carry them to Babylon 5. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "B5 Independent" "Drazi Freehold" "Brakiri Syndicracy" "Markab Theocracy" "Gaim Intelligence" "Abbai Matriarchate" "Yolu Confederacy" "Pak'ma'ra" "Vree Conglomerate"
+		not planet "Babylon 5"
+	destination "Babylon 5"
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+		"year" >= 2258
+		"month" == 8
+	on accept
+		dialog "Earth Alliance liaison staff confirm the travel authorization. The group reports aboard among animated discussion of fighters, styles, and tournament prospects."
+	on complete
+		payment 1000
+		dialog "Your passengers join the crowds arriving on Babylon 5 for the Mutai tournament. The liaison transport order is closed, and <payment> in standard service compensation is credited to your account."
+
+mission "b5 calendar mutai ea transport 1000"
+	name "EA Calendar Order: Mutai Transport"
+	job
+	repeat
+	passengers 2 5
+	description "Earth Alliance has authorized transport for <passengers> traveling from <origin> to Babylon 5 during the annual Mutai tournament. Carry them to Babylon 5. Completion carries one standard week of service compensation: <payment>."
+	source
+		government "Earth Alliance"
+		not planet "Earth"
+		not planet "Babylon 5"
+	destination "Babylon 5"
+	to offer
+		has "b5 story start"
+		"b5 ea weekly salary" == 1000
+		"year" >= 2259
+		"month" == 8
+	on accept
+		dialog "The annual transport authorization is confirmed. The Alliance travelers report aboard with approved passage to Babylon 5 for the Mutai tournament."
+	on complete
+		payment 1000
+		dialog "The travelers disembark on Babylon 5 amid the tournament crowds. The transport order is closed, and <payment> in standard service compensation is credited to your account."
