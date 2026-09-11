@@ -12,9 +12,9 @@ start "babylon 5 story"
 		maintenance 0
 		score 0
 	conversation
-		`I was there at the dawn of the third age of mankind.`
-		`It began in the Earth year 2257, with the founding of the last of the Babylon stations, located deep in neutral space. It was a port of call for refugees, smugglers, businessmen, diplomats . . . and travelers from a hundred worlds. Could be a dangerous place – but we accepted the risk, because Babylon 5 was our last, best hope for peace.`
-		`Under the leadership of its final commander, Babylon 5 was a dream given form: a dream of a galaxy without war, when species from different worlds could live side by side in mutual respect. A dream that was in danger as never before, by the arrival of one man on a mission of destruction.`
-		`Babylon 5 was the last of the Babylon stations. This is its story....`
+		'It was the dawn of the third age of mankind – ten years after the Earth-Minbari War.'
+		'The Babylon Project was a dream, given form. Its goal: to prevent another war, by creating a place where humans and aliens can work out their differences peacefully. It's a port of call – home away from home – for diplomats, hustlers, entrepreneurs, and wanderers.'
+		'Humans and aliens, wrapped in two million, five hundred thousand tons of spinning metal . . . all alone in the night.'
+		'It can be a dangerous place, but it's our last best hope for peace.'
 		name
 		`You are an Earth Alliance officer newly assigned to Babylon 5. Purchase your transport ship, then enter the spaceport to receive your orders for your next mission.`

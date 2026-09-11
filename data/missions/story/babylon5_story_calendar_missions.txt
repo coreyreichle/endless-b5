@@ -1,0 +1,210 @@
+# Babylon 5 Part 1 - story-dependent calendar missions and timeline ambience.
+#
+# This file is for calendar-driven material that is part of the main Babylon 5
+# story timeline. Non-story calendar jobs belong under data/ambience/.
+#
+# EARTH ALLIANCE PRESIDENTIAL ELECTION, 2258-2259
+#
+# November 1, 2258:
+# - Earth Alliance ship chatter begins discussing the Santiago / Crane election.
+# - Earth Alliance spaceports begin carrying election discussion.
+#
+# February 1, 2259:
+# - Campaign chatter stops.
+# - A one-time election-result bulletin announces Luis Santiago as President
+#   and Morgan Clark as Vice President.
+# - Earth Alliance ship and spaceport chatter switches to post-election reactions.
+#
+# March 1, 2259:
+# - Election-specific ship chatter ends and the normal EA hail phrase is restored.
+# - February-only election news naturally ceases through its to-show conditions.
+#
+# The dated government events only replace Earth Alliance's friendly hail phrase.
+# Other governments and hostile / disabled hails are untouched.
+# ===========================================================================
+
+
+# ===========================================================================
+# EARTH ALLIANCE SHIP CHATTER PHRASES
+# ===========================================================================
+
+phrase "b5 friendly earth alliance election campaign 2258"
+	word
+		"Earthforce traffic control reminds all civilian vessels to maintain assigned approach vectors."
+		"Routine navigation advisory: verify your jump coordinates before entering the beacon corridor."
+		"Earth Alliance Customs reminds captains that undeclared cargo may be subject to inspection."
+		"Merchant traffic is advised to keep identification transponders active while approaching Alliance facilities."
+		"Attention all ships: priority docking lanes are reserved for military and emergency traffic."
+		"Alliance navigation control reports normal jump-point activity. Maintain safe separation."
+		"Freighter control, this is commercial transport seven-one-four. Requesting revised docking clearance."
+		"Anyone else getting static on the civilian band, or is our comm array finally giving up?"
+		"Next time somebody says this run is routine, remind me how many hours we spent waiting for clearance."
+		"Earthforce patrol to civilian traffic: maintain course. This is a routine identification sweep."
+		"Long-range haulers are reporting heavier traffic than usual along the inner colony routes."
+		"Election coverage again? I thought leaving port would get us away from it."
+		"My whole family is voting Santiago. My brother says Crane. Thanksgiving should be peaceful."
+		"Crane keeps talking about shaking things up. Santiago keeps talking about stability. Depends which one you think we need."
+		"Earth Alliance News Service has another Santiago interview scheduled after the next traffic report."
+		"Did you catch the Crane speech last night? Half the crew loved it and the other half started arguing before she finished."
+		"Captain says politics stays off the bridge. That rule lasted about twelve minutes."
+		"Whatever happens in February, I just want the colonies to stop being an afterthought."
+		"Santiago has experience. Crane has energy. Ask me tomorrow and I may have changed my mind."
+		"Election board reminder: absentee voting procedures are available to Alliance personnel serving off-world."
+		"If one more political ad interrupts the docking advisories, I'm switching this channel off."
+		"Earthforce personnel are reminded that political activity while in uniform remains subject to service regulations."
+		"I don't care who wins as long as someone finally does something about these maintenance backlogs."
+		"The polls say Santiago is ahead. The polls last week said it was close. So naturally everyone is arguing about the polls."
+		"Crane's people are promising more attention to the outer colonies. That got everyone's attention out here."
+		"Santiago says continuity matters with everything happening beyond Alliance space. Hard to argue with that."
+		"Two more months of election talk. Then we'll spend two months arguing about the result."
+
+
+phrase "b5 friendly earth alliance election aftermath 2259"
+	word
+		"Earthforce traffic control reminds all civilian vessels to maintain assigned approach vectors."
+		"Routine navigation advisory: verify your jump coordinates before entering the beacon corridor."
+		"Earth Alliance Customs reminds captains that undeclared cargo may be subject to inspection."
+		"Merchant traffic is advised to keep identification transponders active while approaching Alliance facilities."
+		"Attention all ships: priority docking lanes are reserved for military and emergency traffic."
+		"Alliance navigation control reports normal jump-point activity. Maintain safe separation."
+		"Freighter control, this is commercial transport seven-one-four. Requesting revised docking clearance."
+		"Earthforce patrol to civilian traffic: maintain course. This is a routine identification sweep."
+		"Cargo tug six, clear the approach lane. Some of us have schedules to pretend we're keeping."
+		"Alliance beacon network is operating normally. Report navigation anomalies to the nearest traffic authority."
+		"Santiago won. Maybe now the campaign ads can finally stop clogging the news bands."
+		"I voted Crane, but Santiago has the job now. I hope he proves me wrong about a few things."
+		"My family backed Santiago. I'm more interested in what Vice President Clark is going to do with the office."
+		"Crane had good ideas about the colonies. I hope the new administration listened to some of them."
+		"President Santiago says the Alliance needs steadiness. Fine by me, if steadiness includes fixing the infrastructure budget."
+		"The election is over and somehow the arguments aren't. I'm beginning to think that was never the point."
+		"I preferred Crane, but Santiago won fairly. Now let's see what the administration actually does."
+		"Santiago again. Maybe continuity is what we need. Maybe it's just what we're used to."
+		"Clark as Vice President? Didn't see that becoming the part everyone aboard wanted to debate."
+		"The captain banned election arguments in the mess. Now everyone argues about whether the ban is political."
+		"Outer colony turnout was up this election. Maybe somebody on Earth will notice we're out here."
+		"I backed Santiago, but Crane was right about one thing: the colonies need more than speeches."
+		"Earthforce channels are carrying the inauguration coverage between navigation bulletins."
+		"New administration, same cargo manifest. Some things in the Alliance are eternal."
+		"Give Santiago and Clark a chance. We can complain after they've actually had time to break something."
+		"I voted for Crane. My copilot voted Santiago. We've agreed the reactor is a safer subject."
+
+
+# ===========================================================================
+# DATED SHIP-CHATTER SWITCHES
+# ===========================================================================
+
+event "b5 ea election campaigning begins 2258"
+	date 1 11 2258
+	government "Earth Alliance"
+		"friendly hail" "b5 friendly earth alliance election campaign 2258"
+
+
+event "b5 ea election result chatter begins 2259"
+	date 1 2 2259
+	government "Earth Alliance"
+		"friendly hail" "b5 friendly earth alliance election aftermath 2259"
+
+
+event "b5 ea election chatter ends 2259"
+	date 1 3 2259
+	government "Earth Alliance"
+		"friendly hail" "b5 friendly earth alliance"
+
+
+# ===========================================================================
+# EARTH ALLIANCE SPACEPORT NEWS - CAMPAIGN PERIOD
+# ===========================================================================
+
+news "b5 ea election campaign discussion 2258"
+	location
+		government "Earth Alliance"
+	to show
+		or
+			and
+				"year" == 2258
+				"month" >= 11
+			and
+				"year" == 2259
+				"month" == 1
+	name
+		word
+			"Dockworker"
+			"Freighter Captain"
+			"Earthforce Technician"
+			"Colony Administrator"
+			"Transit Clerk"
+			"Off-Duty Petty Officer"
+			"Shipping Agent"
+			"Port Engineer"
+	message
+		word
+			"Santiago has experience, and right now experience counts for something. Crane has good ideas, but I am not convinced this is the year to experiment."
+			"I am voting Crane. The outer colonies have heard promises from Earth before, and I would like a president who sounds as though she remembers we exist."
+			"My spouse is for Santiago and my parents are for Crane. I volunteered for an extra shift rather than answer another family call."
+			"Every screen in the terminal has election coverage on it. I came here to check a departure time and now I know three different polling averages."
+			"Santiago talks about stability. Crane talks about reform. Around this port, either one could find plenty of evidence for their argument."
+			"Crane's campaign says the Alliance needs to invest beyond Earth and Mars. That message plays well out here."
+			"I do not dislike Crane, but Santiago already knows the machinery of government. With everything going on in the galaxy, that matters."
+			"I would settle for whichever candidate promises to make customs forms shorter."
+			"Earthforce says we are not supposed to campaign in uniform, which has not stopped anyone in the mess from having an opinion."
+			"The polls change every week. The arguments in this starport do not."
+			"Both campaigns keep talking about security. I would like either of them to explain whether that means more patrols or just more paperwork."
+			"Santiago is the safe choice. Crane is the interesting choice. I have not decided whether I want safe or interesting from a president."
+
+
+# ===========================================================================
+# FEBRUARY 2259 ELECTION RESULT ANNOUNCEMENT
+# ===========================================================================
+
+mission "b5 story calendar ea election result 2259"
+	landing
+	invisible
+	to offer
+		has "b5 story start"
+		"year" == 2259
+		"month" == 2
+		"day" >= 1
+	on offer
+		conversation
+			`As you finish the routine post-flight checks, the public information channel cuts across the local terminal feed with the Earth Alliance seal and the tone reserved for major government announcements.`
+			`"Earth Alliance Election Commission results are now final. Luis Santiago has won the election for President of the Earth Alliance. Morgan Clark will serve as Vice President."`
+			`The announcement continues with turnout figures, concession statements, and plans for the incoming administration. Around you, the reaction ranges from cheers to quiet disappointment to the weary relief of people glad that months of campaigning are finally over.`
+				decline
+
+
+# ===========================================================================
+# EARTH ALLIANCE SPACEPORT NEWS - POST-ELECTION FEBRUARY 2259
+# ===========================================================================
+
+news "b5 ea election aftermath discussion 2259"
+	location
+		government "Earth Alliance"
+	to show
+		"year" == 2259
+		"month" == 2
+	name
+		word
+			"Dockworker"
+			"Freighter Captain"
+			"Earthforce Technician"
+			"Colony Administrator"
+			"Transit Clerk"
+			"Off-Duty Petty Officer"
+			"Shipping Agent"
+			"Port Engineer"
+	message
+		word
+			"I preferred Crane, but Santiago won. I hope he proves me wrong about the colony budget."
+			"I voted Santiago. Continuity is not exciting, but exciting is overrated when you are trying to keep trade routes open."
+			"Crane lost, but she was right about the outer colonies needing more attention. I hope Santiago remembers that."
+			"President Santiago and Vice President Clark. Give it a month and everyone here will be blaming them for the docking fees."
+			"I backed Crane. My partner backed Santiago. We are still speaking, although we have agreed not to discuss election coverage over breakfast."
+			"Santiago says the Alliance needs unity after the election. Around here, getting everyone to agree on a lunch order would be a promising start."
+			"I am glad Santiago won, but I want to know what Clark brings to the administration besides another name on the podium."
+			"The election is finished. The port is still understaffed, the transit office is still behind, and my cargo is still on the wrong dock. Democracy survives."
+			"Crane had my vote. Santiago has my support now that he won. That is how this is supposed to work."
+			"I did not vote for Santiago, but if his administration can get infrastructure funding out here, I will happily admit I underestimated him."
+			"People keep calling Santiago the stability candidate. Stability would be wonderful if someone could stabilize the freight schedule."
+			"Clark is the one I am watching. Vice Presidents are easy to ignore right up until they are not."
+			"Santiago won comfortably enough. The question now is whether the campaign promises survive contact with the budget."
+			"I preferred Santiago, but Crane forced people to talk about the colonies. I hope that part of the campaign does not disappear with the posters."
