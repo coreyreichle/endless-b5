@@ -1,0 +1,33 @@
+# Vorlon diplomatic / passenger transport.
+#
+# Smaller and less heavily armed than the Vorlon cruiser, but still built with
+# advanced Vorlon systems and substantial defensive strength.
+
+ship "Vorlon Transport"
+	sprite "ship/vorlon_transport"
+	thumbnail "thumbnail/vorlon_transport"
+	attributes
+		category "Medium Warship"
+		cost 60000000
+		mass 900
+		drag 24
+		"heat dissipation" 0.9
+		hull 3200
+		shields 6500
+		"fuel capacity" 900
+		"cargo space" 80
+		"outfit space" 620
+		"engine capacity" 360
+		"weapon capacity" 120
+		"required crew" 12
+		bunks 50
+	outfits
+		"Vorlon Drive" 3
+		"Vorlon Reactor" 2
+		"B5 Jump Drive"
+		"Vorlon Weapon" 2
+	engine -28 142
+	engine 28 142
+	gun -22 -132
+	gun 22 -132
+	description "A compact Vorlon transport used for diplomatic travel and the movement of small delegations. Its organic systems provide exceptional protection and mobility, while its armament is modest by Vorlon standards."

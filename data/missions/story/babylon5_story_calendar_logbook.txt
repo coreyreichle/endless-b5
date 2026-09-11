@@ -1,0 +1,61 @@
+# Babylon 5 Part 1 - story calendar logbook milestones.
+#
+# Significant story-calendar events belong in the player's logbook.
+# Routine ambience jobs (including the recurring Mutai passenger transports)
+# intentionally do not create log entries.
+#
+# This file is separate from babylon5_story_calendar_missions.txt so the
+# logbook pass remains easy to test and remove independently.
+# ===========================================================================
+
+
+# ---------------------------------------------------------------------------
+# 2258 Mutai result.
+#
+# Walker Smith did not defeat Gyor outright: the Muta-Do declared their bout a
+# draw. Smith nevertheless became the first Human to compete in the Mutai, and
+# his performance resulted in Humans being accepted as Mutari thereafter.
+# ---------------------------------------------------------------------------
+
+event "b5 mutai walker smith result 2258"
+	date 31 8 2258
+	set "b5 mutai walker smith result"
+
+mission "b5 story calendar mutai result log 2258"
+	landing
+	invisible
+	to offer
+		has "b5 story start"
+		has "b5 mutai walker smith result"
+		not "b5 mutai walker smith result logged"
+	on offer
+		conversation
+			`An ISN sports bulletin reports an unusual result from Babylon 5. Earth boxer Walker Smith has become the first Human permitted to fight in the Mutai, facing the reigning Sho-Rin, Gyor.`
+			`The bout ended in a draw after both fighters were exhausted, but Smith earned the respect of Gyor and the Muta-Do. In the aftermath, Humans were formally accepted into the Mutai as fellow Mutari.`
+			action
+				log "Babylon 5" "Calendar Events" "Walker Smith became the first Human to compete in the Mutai on Babylon 5. His bout with Sho-Rin Gyor ended in a draw, but Smith's performance earned Human fighters acceptance into the Mutai."
+				set "b5 mutai walker smith result logged"
+			decline
+
+
+# ---------------------------------------------------------------------------
+# 2259 Earth Alliance presidential election result.
+# The existing election announcement remains responsible for the visible
+# bulletin; this companion mission records the result once in the logbook.
+# ---------------------------------------------------------------------------
+
+mission "b5 story calendar ea election result log 2259"
+	landing
+	invisible
+	to offer
+		has "b5 story start"
+		"year" == 2259
+		"month" >= 2
+		not "b5 ea election result logged"
+	on offer
+		conversation
+			`Your Earth Alliance information feed records the final presidential election result for your service log.`
+			action
+				log "Earth Alliance" "Calendar Events" "Luis Santiago won the 2259 Earth Alliance presidential election. Morgan Clark will serve as Vice President."
+				set "b5 ea election result logged"
+			decline
