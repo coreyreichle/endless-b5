@@ -2,7 +2,6 @@
 # A diplomatic transport assignment following the Quadrant 14 Raider sweep.
 # This is implemented as two chained missions so Londo Mollari and Vir Cotto
 # are actually added as passengers only after the player reaches Centauri Prime.
-
 mission "b5 mission 5a centauri pickup"
 	name "Mission 5: Diplomatic Transport"
 	description "Travel to Centauri Prime and collect two Centauri diplomatic passengers for transport to Babylon 5."
@@ -22,11 +21,10 @@ mission "b5 mission 5a centauri pickup"
 					accept
 	on accept
 		set "b5 mission 5 underway"
-		log "Babylon 5" "Earth Alliance Orders" "Mission 5: Travel to Centauri Prime, collect two Centauri diplomatic passengers, and return them to Babylon 5."
+		log "Mission 5: Travel to Centauri Prime, collect two Centauri diplomatic passengers, and return them to Babylon 5."
 	on complete
 		dialog "You have arrived on Centauri Prime. Report to the spaceport to collect your passengers for the return trip to Babylon 5."
 		set "b5 mission 5 pickup complete"
-
 
 mission "b5 mission 5b mollari and vir"
 	name "Mission 5: Diplomatic Transport"
@@ -53,7 +51,7 @@ mission "b5 mission 5b mollari and vir"
 	on accept
 		set "b5 met Londo"
 		set "b5 met Vir"
-		log "Babylon 5" "Earth Alliance Orders" "Mission 5: Ambassador Londo Mollari and his aide Vir Cotto are aboard. Return them safely to Babylon 5."
+		log "Mission 5: Ambassador Londo Mollari and his aide Vir Cotto are aboard. Return them safely to Babylon 5."
 	on complete
 		conversation
 			`Once the ship is secured at Babylon 5, Ambassador Mollari steps onto the dock and straightens his coat. Vir follows with the luggage.`
@@ -68,6 +66,6 @@ mission "b5 mission 5b mollari and vir"
 					accept
 		clear "b5 mission 5 underway"
 		set "b5 mission 5 complete"
-		log "Babylon 5" "Earth Alliance Orders" "Mission 5 complete: Transported Ambassador Londo Mollari and Vir Cotto from Centauri Prime to Babylon 5.  No further orders at this time."
+		log "Mission 5 complete: Transported Ambassador Londo Mollari and Vir Cotto from Centauri Prime to Babylon 5.  No further orders at this time."
 #This is the "real" ending.  Delete the line above, and uncomment the line below once Mission 6 is ready to start testing."
-#		log "Babylon 5" "Earth Alliance Orders" "Mission 5 complete: Transported Ambassador Londo Mollari and Vir Cotto from Centauri Prime to Babylon 5. Report to the starport for your next assignment."
+#		log "Mission 5 complete: Transported Ambassador Londo Mollari and Vir Cotto from Centauri Prime to Babylon 5. Report to the starport for your next assignment."

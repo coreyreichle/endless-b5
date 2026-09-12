@@ -1,6 +1,5 @@
 # Babylon 5 main storyline - Mission 4.
 # Offered immediately upon landing on Babylon 5 after Mission 3.
-
 mission "b5 mission 4 raider sweep"
 	name "Mission 4: Raider Sweep"
 	description "Take eight Earth Alliance Starfuries to Quadrant 14, eliminate or capture every Raider encountered there, then return to Babylon 5."
@@ -37,11 +36,10 @@ mission "b5 mission 4 raider sweep"
 		give ship "Aurora Starfury (Long Patrol)"
 			id "b5 mission 4 starfury 8"
 		set "b5 mission 4 underway"
-		log "Babylon 5" "Earth Alliance Orders" "Mission 4: Take an eight-Starfury wing to Quadrant 14. Destroy or capture all Raiders operating there, then return to Babylon 5."
+		log "Mission 4: Take an eight-Starfury wing to Quadrant 14. Destroy or capture all Raiders operating there, then return to Babylon 5."
 	# No government is specified here intentionally. Endless Sky assigns such
 	# mission NPCs to the player's government as true escorts, so they follow the
 	# flagship instead of independently routing toward the mission destination.
-
 	npc kill
 		government "Raiders"
 		system "B5 Quadrant 14"
@@ -93,4 +91,4 @@ mission "b5 mission 4 raider sweep"
 					accept
 		clear "b5 mission 4 underway"
 		set "b5 mission 4 complete"
-		log "Babylon 5" "Earth Alliance Orders" "Mission 4 complete: Returned to Babylon 5 and reported the Quadrant 14 Raider patrol to Commander Ivanova. The short-range fighters suggest a Raider base or mothership may be operating nearby."
+		log "Mission 4 complete: Returned to Babylon 5 and reported the Quadrant 14 Raider patrol to Commander Ivanova. The short-range fighters suggest a Raider base or mothership may be operating nearby."

@@ -9,13 +9,12 @@
 # not witness the ship entering Epsilon.
 #
 # The next suitable landing on Babylon 5 acknowledges the ambassador's arrival.
-
 mission "b5 story calendar kosh arrival witnessed"
 	entering
 	invisible
 	source
-		system "Epsilon"
-	destination "Babylon 5"
+		system "B5 Epsilon"
+	destination "B5 Babylon 5"
 	to offer
 		has "b5 story start"
 		"year" == 2257
@@ -25,7 +24,7 @@ mission "b5 story calendar kosh arrival witnessed"
 		not "b5 kosh arrived"
 	on accept
 		set "b5 kosh arrival witnessed"
-		message "A jump point forms in Epsilon. An unfamiliar vessel is emerging."
+		log "A Vorlon diplomatic vessel entered the Epsilon system through a jump point and proceeded toward Babylon 5."
 	npc
 		government "Vorlon Empire"
 		personality
@@ -33,11 +32,10 @@ mission "b5 story calendar kosh arrival witnessed"
 			uninterested
 			pacifist
 			fleeing
-		system "Epsilon"
+		system "B5 Epsilon"
 		ship "Vorlon Transport" "Vorlon Diplomatic Vessel"
 	on complete
 		set "b5 kosh arrived"
-
 event "b5 kosh canonical arrival 2257"
 	date 15 1 2257
 	set "b5 kosh arrived"
@@ -45,7 +43,7 @@ event "b5 kosh canonical arrival 2257"
 mission "b5 story calendar kosh arrival acknowledgement"
 	landing
 	invisible
-	source "Babylon 5"
+	source "B5 Babylon 5"
 	to offer
 		has "b5 story start"
 		has "b5 kosh arrived"
@@ -54,19 +52,17 @@ mission "b5 story calendar kosh arrival acknowledgement"
 		conversation
 			branch "witnessed" "not witnessed"
 				has "b5 kosh arrival witnessed"
-
 			label "witnessed"
 			`Babylon 5 traffic control is still unusually busy when you dock. The strange vessel you saw emerge into Epsilon has been granted a secure berth under diplomatic clearance.`
 			`Station personnel speak quietly about its passenger: Ambassador Kosh, the Vorlon representative assigned to Babylon 5. Even among officers accustomed to alien delegations, the arrival has attracted more curiosity than anyone is willing to admit.`
 			action
-				log "Babylon 5" "Calendar Events" "I witnessed a Vorlon diplomatic vessel enter the Epsilon system. On Babylon 5, I learned that its passenger was Ambassador Kosh, the Vorlon representative assigned to the station."
+				log "I witnessed a Vorlon diplomatic vessel enter the Epsilon system. On Babylon 5, I learned that its passenger was Ambassador Kosh, the Vorlon representative assigned to the station."
 				set "b5 kosh arrival acknowledged"
-			decline
-
+			branch decline
 			label "not witnessed"
 			`Babylon 5 traffic control is unusually busy when you dock. A Vorlon vessel has arrived under diplomatic clearance and has been granted a secure berth with minimal station access.`
 			`Its passenger is Ambassador Kosh, the Vorlon representative assigned to Babylon 5. Details are scarce, and station personnel seem to have learned quickly that asking questions about the Vorlons produces very few answers.`
 			action
-				log "Babylon 5" "Calendar Events" "Ambassador Kosh, the Vorlon representative, arrived aboard Babylon 5 under diplomatic clearance."
+				log "Ambassador Kosh, the Vorlon representative, arrived aboard Babylon 5 under diplomatic clearance."
 				set "b5 kosh arrival acknowledged"
-			decline
+			branch decline

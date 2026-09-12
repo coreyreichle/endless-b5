@@ -1,6 +1,5 @@
 # Babylon 5 main storyline - Mission 2.
 # Offered at the Earth spaceport after Mission 1 is complete.
-
 mission "b5 mission 2 dual freight"
 	name "Mission 2: Diplomatic Freight"
 	description "Carry two Earth Alliance consignments: 10 tons for Centauri Prime and 10 tons for Babylon 5."
@@ -16,7 +15,7 @@ mission "b5 mission 2 dual freight"
 	on offer
 		dialog "Your next assignment is a two-stop freight run. Ten tons of Earth Alliance diplomatic cargo are bound for Centauri Prime, and another ten tons are bound for Babylon 5. Both consignments will be loaded aboard your ship. Deliver the Centauri shipment first, then continue to Babylon 5."
 	on accept
-		log "Babylon 5" "Earth Alliance Orders" "Mission 2: Deliver 10 tons of Earth Alliance cargo to Centauri Prime, then deliver the remaining 10 tons to Babylon 5."
+		log "Mission 2: Deliver 10 tons of Earth Alliance cargo to Centauri Prime, then deliver the remaining 10 tons to Babylon 5."
 	on stopover
 		dialog "The Centauri Prime consignment has been delivered. Continue to Babylon 5 with the second Earth Alliance shipment."
 		set "b5 mission 2 centauri stop complete"

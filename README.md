@@ -9,6 +9,7 @@ The project is intended to provide a self-contained Babylon 5 experience using t
 Development is currently focused on the primary story, which establishes the setting and gameplay foundation for a larger campaign intended to progress through the **Shadow War** and, eventually, the **Earth Civil War**.
 
 > **Target Endless Sky version:** 0.11.2
+
 > **Status:** Active development / playable development build
 
 ---
@@ -151,7 +152,7 @@ It may contain:
 * Compatibility issues.
 * Other unfinished content.
 
-If you are playing directly from `main`, expect things to change.  Once the first arc (ie "Season 1") is completed, there will be a tagged release.
+If you are playing directly from `main`, expect things to change, minimally.  Saved games should work across commits to main, however that it not a guarantee until the first arc (ie "Season 1") is completed.  Once season 1 is finished, there will be a tagged release.
 
 Bug reports and testing feedback are welcome.
 
@@ -194,7 +195,7 @@ That means creating a setting where:
 * The galaxy changes as the story progresses.
 * The player can participate in a larger narrative while still having freedom to explore and trade.
 
-The current Part 1 development effort is building the foundation required to support that larger goal.
+The current development effort is building the foundation required to support that larger goal, primarily completion of season 1 events.
 
 ---
 

@@ -3,7 +3,6 @@
 #
 # The three Narn transports are mission NPCs. `save accompany` means all three
 # must survive and be present with the player in the Narn system for completion.
-
 mission "b5 mission 3 narn escort"
 	name "Mission 3: Narn Convoy Escort"
 	description "Escort three Narn transports from Babylon 5 to the Narn homeworld."
@@ -17,7 +16,7 @@ mission "b5 mission 3 narn escort"
 		dialog "Earth Alliance liaison has a new assignment for you. Three Narn transports are preparing to depart Babylon 5 for the Narn homeworld. You are to escort the convoy through hyperspace and see all three ships safely to Narn."
 	on accept
 		set "b5 mission 3 convoy underway"
-		log "Babylon 5" "Earth Alliance Orders" "Mission 3: Escort three Narn transports from Babylon 5 to the Narn homeworld. All three transports must survive and arrive with you."
+		log "Mission 3: Escort three Narn transports from Babylon 5 to the Narn homeworld. All three transports must survive and arrive with you."
 	npc save accompany
 		government "Narn Regime"
 		personality
@@ -52,7 +51,7 @@ mission "b5 mission 3 narn escort"
 		clear "b5 mission 3 convoy underway"
 		set "b5 mission 3 complete"
 		set "b5 met G'Kar"
-		log "Babylon 5" "Earth Alliance Orders" "The Narn convoy arrived safely. On Narn, Ambassador G'Kar personally thanked you for protecting the transports and cautioned that the Raiders may have expected to find something worth taking. Return to Babylon 5 and report the interception to Commander Ivanova."
+		log "The Narn convoy arrived safely. On Narn, Ambassador G'Kar personally thanked you for protecting the transports and cautioned that the Raiders may have expected to find something worth taking. Return to Babylon 5 and report the interception to Commander Ivanova."
 	on fail
 		clear "b5 mission 3 convoy underway"
 		dialog "One of the Narn transports has been lost. The escort assignment has failed."
@@ -74,7 +73,7 @@ mission "b5 mission 3 first jump raider ambush"
 		not "b5 mission 3 raider ambush triggered"
 	on offer
 		set "b5 mission 3 raider ambush triggered"
-		log "Babylon 5" "Earth Alliance Orders" "Raiders have intercepted the Narn convoy immediately after its first hyperspace jump."
+		log "Raiders have intercepted the Narn convoy immediately after its first hyperspace jump."
 	to complete
 		never
 	npc
