@@ -14,7 +14,6 @@
 # draw. Smith nevertheless became the first Human to compete in the Mutai, and
 # his performance resulted in Humans being accepted as Mutari thereafter.
 # ---------------------------------------------------------------------------
-
 event "b5 mutai walker smith result 2258"
 	date 31 8 2258
 	set "b5 mutai walker smith result"
@@ -32,7 +31,7 @@ mission "b5 story calendar mutai result log 2258"
 			action
 				log "Walker Smith became the first Human to compete in the Mutai on Babylon 5. His bout with Sho-Rin Gyor ended in a draw, but Smith's performance earned Human fighters acceptance into the Mutai."
 				set "b5 mutai walker smith result logged"
-			decline
+			branch decline
 # ---------------------------------------------------------------------------
 # 2259 Earth Alliance presidential election result.
 # The existing election announcement remains responsible for the visible
@@ -52,4 +51,4 @@ mission "b5 story calendar ea election result log 2259"
 			action
 				log "Luis Santiago won the 2259 Earth Alliance presidential election. Morgan Clark will serve as Vice President."
 				set "b5 ea election result logged"
-			decline
+			branch decline
