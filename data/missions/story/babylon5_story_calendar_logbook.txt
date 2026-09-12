@@ -17,6 +17,7 @@
 event "b5 mutai walker smith result 2258"
 	date 31 8 2258
 	set "b5 mutai walker smith result"
+
 mission "b5 story calendar mutai result log 2258"
 	landing
 	invisible
@@ -32,23 +33,25 @@ mission "b5 story calendar mutai result log 2258"
 				log "Walker Smith became the first Human to compete in the Mutai on Babylon 5. His bout with Sho-Rin Gyor ended in a draw, but Smith's performance earned Human fighters acceptance into the Mutai."
 				set "b5 mutai walker smith result logged"
 			branch decline
+
 # ---------------------------------------------------------------------------
-# 2259 Earth Alliance presidential election result.
-# The existing election announcement remains responsible for the visible
-# bulletin; this companion mission records the result once in the logbook.
+# 2258 Earth Alliance presidential election result.
+# The exact election day is uncertain. The calendar implementation uses
+# February 28, matching the working chronology placement of "Midnight on the
+# Firing Line," which contains the election material.
 # ---------------------------------------------------------------------------
-mission "b5 story calendar ea election result log 2259"
+mission "b5 story calendar ea election result log 2258"
 	landing
 	invisible
 	to offer
 		has "b5 story start"
-		"year" == 2259
+		"year" == 2258
 		"month" >= 2
 		not "b5 ea election result logged"
 	on offer
 		conversation
 			`Your Earth Alliance information feed records the final presidential election result for your service log.`
 			action
-				log "Luis Santiago won the 2259 Earth Alliance presidential election. Morgan Clark will serve as Vice President."
+				log "Luis Santiago won re-election as President of the Earth Alliance in February 2258. Morgan Clark will serve as Vice President."
 				set "b5 ea election result logged"
 			branch decline
